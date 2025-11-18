@@ -304,6 +304,193 @@ if access_control.can_access_default_db():
     pass
 ```
 
+## 🔬 QC Services Layer (Phase 2)
+
+### QCService
+
+통합 QC 검수 서비스
+
+```python
+from app.qc.services import QCService
+
+# 초기화
+qc_service = QCService(db_schema)
+
+# 검수 실행
+file_data = {
+    'Temperature': 23.5,
+    'Pressure': 150,
+    'Flow_Rate': 15.2
+}
+
+result = qc_service.run_inspection(
+    file_data=file_data,
+    configuration_id=1  # None이면 Type Common
+)
+
+# 결과
+# {
+#     'is_pass': True/False,
+#     'total_count': 10,
+#     'passed_count': 9,
+#     'failed_count': 1,
+#     'matched_count': 10,
+#     'exception_count': 2,
+#     'results': [...]
+# }
+
+# 요약 문자열
+summary = qc_service.get_inspection_summary(result)
+print(summary)
+
+# 통계
+stats = qc_service.get_statistics(result)
+# {
+#     'total': 10,
+#     'passed': 9,
+#     'failed': 1,
+#     'pass_rate': 90.0,
+#     'by_category': {...}
+# }
+```
+
+### SpecService
+
+Spec 관리 서비스
+
+```python
+from app.qc.services import SpecService
+
+spec_service = SpecService(db_schema)
+
+# Checklist 항목 조회
+items = spec_service.get_all_checklist_items(is_active=True)
+
+# 항목 추가
+spec_service.add_checklist_item(
+    item_name='Temperature',
+    module='Chamber',
+    part='Control',
+    spec_min='20.0',
+    spec_max='25.0',
+    category='Environment'
+)
+
+# 예외 관리
+spec_service.add_exception(
+    configuration_id=1,
+    checklist_item_id=5,
+    reason='Not applicable for this configuration'
+)
+
+exceptions = spec_service.get_exceptions(configuration_id=1)
+```
+
+### ReportService
+
+보고서 생성 서비스
+
+```python
+from app.qc.services import ReportService
+
+report_service = ReportService()
+
+# Excel 보고서 생성
+report_service.export_to_excel(
+    inspection_result=result,
+    file_path='qc_report.xlsx',
+    equipment_name='NX-Hybrid WLI',
+    equipment_type='분리형',
+    configuration_name='Double Port 300mm'
+)
+
+# CSV 보고서 생성
+report_service.export_to_csv(
+    inspection_result=result,
+    file_path='qc_report.csv'
+)
+
+# 텍스트 요약
+summary_text = report_service.generate_summary_report(result)
+```
+
+### ConfigService
+
+설정 관리 서비스
+
+```python
+from app.qc.services import ConfigService
+
+config_service = ConfigService('config/custom_qc_specs.json')
+
+# Equipment Type 관리
+equipment_types = config_service.get_equipment_types()
+config_service.add_equipment_type('Custom Type A')
+
+# Spec 관리
+specs = config_service.get_specs('Standard Model')
+config_service.add_spec('Standard Model', {
+    'item_name': 'Voltage',
+    'min_spec': 3.2,
+    'max_spec': 3.4,
+    'unit': 'V',
+    'enabled': True
+})
+```
+
+## 🧩 QC Core Layer (Phase 2)
+
+직접 Core Layer를 사용할 수도 있습니다 (고급 사용자).
+
+```python
+from app.qc.core import InspectionEngine, ChecklistProvider
+
+# 검수 엔진
+engine = InspectionEngine()
+result = engine.inspect(file_data, configuration_id)
+
+# Checklist 제공자
+provider = ChecklistProvider()
+active_items = provider.get_active_items()
+exception_ids = provider.get_exception_item_ids(configuration_id)
+```
+
+## 🛠️ QC Utilities (Phase 2)
+
+```python
+from app.qc.utils import DataProcessor, FileHandler
+
+# 데이터 처리
+df, error = DataProcessor.create_safe_dataframe(data, columns)
+parameters = DataProcessor.extract_parameters(df)
+
+# 파일 처리
+parameters, error = FileHandler.load_and_parse('data.csv')
+success, error = FileHandler.write_dataframe(df, 'output.xlsx')
+```
+
+## 📐 아키텍처 (Phase 2)
+
+```
+app/qc/
+├── core/               # 핵심 비즈니스 로직
+│   ├── inspection_engine.py
+│   ├── spec_matcher.py
+│   ├── checklist_provider.py
+│   └── models.py
+├── services/           # 서비스 레이어 (권장)
+│   ├── qc_service.py
+│   ├── spec_service.py
+│   ├── report_service.py
+│   └── config_service.py
+├── ui/                 # UI 레이어
+│   ├── qc_inspection_tab.py
+│   └── widgets/
+└── utils/              # 유틸리티
+    ├── data_processor.py
+    └── file_handler.py
+```
+
 ---
 
 더 자세한 구현 예제는 소스 코드를 참고하세요.
