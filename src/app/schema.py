@@ -48,7 +48,7 @@ class DBSchema:
             )
             ''')
             
-            # Default DB 값 테이블 (is_performance → is_checklist로 변경)
+            # Default DB 값 테이블 (컬럼명 통일: module_name→module, part_name→part)
             cursor.execute('''
             CREATE TABLE IF NOT EXISTS Default_DB_Values (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -62,8 +62,8 @@ class DBSchema:
                 confidence_score REAL DEFAULT 1.0,
                 source_files TEXT,
                 description TEXT,
-                module_name TEXT,
-                part_name TEXT,
+                module TEXT,
+                part TEXT,
                 item_type TEXT,
                 is_checklist INTEGER DEFAULT 0,
                 created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
@@ -73,18 +73,22 @@ class DBSchema:
             )
             ''')
 
-            # Phase 1: QC Check list 마스터 테이블
+            # Phase 1: QC Check list 마스터 테이블 (module, part, item_type 추가)
             cursor.execute('''
             CREATE TABLE IF NOT EXISTS QC_Checklist_Items (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
-                item_name TEXT NOT NULL UNIQUE,
+                item_name TEXT NOT NULL,
                 parameter_pattern TEXT NOT NULL,
                 is_common INTEGER DEFAULT 1,
                 severity_level TEXT CHECK(severity_level IN ('CRITICAL', 'HIGH', 'MEDIUM', 'LOW')) DEFAULT 'MEDIUM',
                 validation_rule TEXT,
                 description TEXT,
+                module TEXT,
+                part TEXT,
+                item_type TEXT,
                 created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-                updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+                updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                UNIQUE(module, part, item_name)
             )
             ''')
 
@@ -251,23 +255,23 @@ class DBSchema:
 
     # ==================== Default DB 값 관리 ====================
     
-    def add_default_value(self, equipment_type_id, parameter_name, default_value, 
+    def add_default_value(self, equipment_type_id, parameter_name, default_value,
                          min_spec=None, max_spec=None, occurrence_count=1, total_files=1,
-                         confidence_score=1.0, source_files="", description="", 
-                         module_name="", part_name="", item_type="", is_checklist=0, conn_override=None):
+                         confidence_score=1.0, source_files="", description="",
+                         module="", part="", item_type="", is_checklist=0, conn_override=None):
         """새 Default DB 값 추가"""
         with self.get_connection(conn_override) as conn:
             cursor = conn.cursor()
             try:
                 cursor.execute('''
-                INSERT INTO Default_DB_Values 
+                INSERT INTO Default_DB_Values
                 (equipment_type_id, parameter_name, default_value, min_spec, max_spec,
                  occurrence_count, total_files, confidence_score, source_files, description,
-                 module_name, part_name, item_type, is_checklist)
+                 module, part, item_type, is_checklist)
                 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 ''', (equipment_type_id, parameter_name, default_value, min_spec, max_spec,
                       occurrence_count, total_files, confidence_score, source_files, description,
-                      module_name, part_name, item_type, is_checklist))
+                      module, part, item_type, is_checklist))
                 conn.commit()
                 return cursor.lastrowid
             except sqlite3.IntegrityError:
@@ -277,12 +281,12 @@ class DBSchema:
         """장비 유형별 Default DB 값 조회"""
         with self.get_connection(conn_override) as conn:
             cursor = conn.cursor()
-            
+
             if checklist_only:
                 cursor.execute('''
                 SELECT d.id, d.parameter_name, d.default_value, d.min_spec, d.max_spec, e.type_name,
                        d.occurrence_count, d.total_files, d.confidence_score, d.source_files, d.description,
-                       d.module_name, d.part_name, d.item_type, d.is_checklist
+                       d.module, d.part, d.item_type, d.is_checklist
                 FROM Default_DB_Values d
                 JOIN Equipment_Types e ON d.equipment_type_id = e.id
                 WHERE d.equipment_type_id = ? AND d.is_checklist = 1
@@ -292,44 +296,44 @@ class DBSchema:
                 cursor.execute('''
                 SELECT d.id, d.parameter_name, d.default_value, d.min_spec, d.max_spec, e.type_name,
                        d.occurrence_count, d.total_files, d.confidence_score, d.source_files, d.description,
-                       d.module_name, d.part_name, d.item_type, d.is_checklist
+                       d.module, d.part, d.item_type, d.is_checklist
                 FROM Default_DB_Values d
                 JOIN Equipment_Types e ON d.equipment_type_id = e.id
                 WHERE d.equipment_type_id = ?
                 ORDER BY d.parameter_name
                 ''', (equipment_type_id,))
-            
+
             return cursor.fetchall()
 
     def update_default_value(self, value_id, **kwargs):
         """Default DB 값 업데이트"""
         with self.get_connection() as conn:
             cursor = conn.cursor()
-            
-            # 업데이트 가능한 필드들
+
+            # 업데이트 가능한 필드들 (module_name→module, part_name→part)
             allowed_fields = [
                 'parameter_name', 'default_value', 'min_spec', 'max_spec',
                 'occurrence_count', 'total_files', 'confidence_score', 'source_files',
-                'description', 'module_name', 'part_name', 'item_type', 'is_checklist'
+                'description', 'module', 'part', 'item_type', 'is_checklist'
             ]
-            
+
             update_fields = []
             params = []
-            
+
             for field, value in kwargs.items():
                 if field in allowed_fields:
                     update_fields.append(f"{field} = ?")
                     params.append(value)
-            
+
             if update_fields:
                 update_fields.append("updated_at = CURRENT_TIMESTAMP")
                 params.append(value_id)
-                
+
                 query = f"UPDATE Default_DB_Values SET {', '.join(update_fields)} WHERE id = ?"
                 cursor.execute(query, params)
                 conn.commit()
                 return cursor.rowcount > 0
-            
+
             return False
 
     def delete_default_value(self, value_id, conn_override=None):
@@ -346,15 +350,15 @@ class DBSchema:
         with self.get_connection(conn_override) as conn:
             cursor = conn.cursor()
             cursor.execute('''
-            SELECT d.id, d.equipment_type_id, d.parameter_name, d.default_value, 
+            SELECT d.id, d.equipment_type_id, d.parameter_name, d.default_value,
                    d.min_spec, d.max_spec, e.type_name, d.description,
-                   d.module_name, d.part_name, d.item_type, d.is_checklist,
+                   d.module, d.part, d.item_type, d.is_checklist,
                    d.occurrence_count, d.total_files, d.confidence_score, d.source_files
             FROM Default_DB_Values d
             JOIN Equipment_Types e ON d.equipment_type_id = e.id
             WHERE d.id = ?
             ''', (parameter_id,))
-            
+
             result = cursor.fetchone()
             if result:
                 return {
@@ -366,8 +370,8 @@ class DBSchema:
                     'max_spec': result[5],
                     'equipment_type': result[6],
                     'description': result[7],
-                    'module_name': result[8],
-                    'part_name': result[9],
+                    'module': result[8],
+                    'part': result[9],
                     'item_type': result[10],
                     'is_performance': result[11],  # is_checklist을 is_performance로 매핑 (호환성)
                     'occurrence_count': result[12],

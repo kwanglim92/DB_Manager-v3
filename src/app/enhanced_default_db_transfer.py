@@ -495,8 +495,8 @@ class EnhancedDefaultDBTransfer:
             confidence_score=1.0,  # 기본값 사용
             source_files=','.join(manager_instance.file_names),
             description="",
-            module_name=new_item['module'],
-            part_name=new_item['part'],
+            module=new_item['module'],
+            part=new_item['part'],
             item_type='double',
             is_checklist=0
         )
@@ -583,8 +583,8 @@ class EnhancedDefaultDBTransfer:
                     confidence_score=1.0,  # 기본값 사용
                     source_files=','.join(manager_instance.file_names),
                     description="",
-                    module_name=module,
-                    part_name=part,
+                    module=module,
+                    part=part,
                     item_type='double',
                     is_checklist=0
                 )
