@@ -24,7 +24,10 @@ DB Manager 개발에 필요한 정보를 제공합니다.
 #### 1. GUI Layer (`src/app/`)
 - **manager.py**: 메인 윈도우 및 UI 관리
 - **dialogs/**: 각종 다이얼로그 (Check list, Configuration 등)
-- **simplified_qc_system.py**: QC 검수 UI
+- **simplified_qc_system.py**: QC 검수 UI (레거시)
+- **qc/ui/**: QC UI 레이어 (Phase 2)
+  - `qc_inspection_tab.py`: 통합 QC 검수 탭
+  - `widgets/`: 재사용 가능한 UI 위젯
 
 #### 2. Service Layer (`src/app/services/`)
 - **ServiceFactory**: 서비스 생성 및 관리
@@ -33,7 +36,23 @@ DB Manager 개발에 필요한 정보를 제공합니다.
 - **CategoryService**: Model/Type 계층 관리
 - **ConfigurationService**: Configuration 관리
 
-#### 3. Data Layer
+**QC Services Layer (Phase 2)** - `src/app/qc/services/`
+- **QCService**: 통합 QC 검수 서비스
+- **SpecService**: Checklist Spec 관리
+- **ReportService**: 검수 보고서 생성
+- **ConfigService**: 사용자 정의 설정 관리
+
+#### 3. Core Layer (Phase 2) - `src/app/qc/core/`
+- **InspectionEngine**: QC 검수 엔진
+- **ChecklistProvider**: Checklist 항목 제공자
+- **SpecMatcher**: Module.Part.ItemName 복합 키 매칭
+- **Models**: 데이터 모델 (ChecklistItem, InspectionResult)
+
+#### 4. Utils Layer (Phase 2) - `src/app/qc/utils/`
+- **DataProcessor**: 데이터 처리 유틸리티
+- **FileHandler**: 파일 I/O 유틸리티
+
+#### 5. Data Layer
 - **schema.py**: 데이터베이스 스키마 정의
 - **db_schema.py**: 레거시 호환 스키마
 - **SQLite Database**: 로컬 데이터 저장
