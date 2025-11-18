@@ -60,70 +60,104 @@ class CustomQCInspection:
         """제어 패널 생성"""
         control_frame = ttk.Frame(self.frame)
         control_frame.pack(fill=tk.X, padx=10, pady=(10, 5))
-        
+
         # Equipment Type 선택
-        ttk.Label(control_frame, text="Equipment Type:", 
+        ttk.Label(control_frame, text="Equipment Type:",
                  font=("Segoe UI", 10)).pack(side=tk.LEFT, padx=(0, 5))
-        
+
         self.equipment_var = tk.StringVar()
         self.equipment_combo = ttk.Combobox(control_frame,
                                            textvariable=self.equipment_var,
                                            width=25, state="readonly")
         self.equipment_combo.pack(side=tk.LEFT, padx=(0, 10))
         self.equipment_combo.bind("<<ComboboxSelected>>", self.on_equipment_selected)
-        
+
         # 설정 편집 버튼
         self.config_btn = ttk.Button(control_frame, text="⚙️ 설정",
                                     command=self.open_config_editor,
                                     width=8)
         self.config_btn.pack(side=tk.LEFT, padx=(0, 15))
-        
+
         # 파일 선택 버튼
         self.select_btn = ttk.Button(control_frame, text="📁 파일 선택",
                                     command=self.select_files)
         self.select_btn.pack(side=tk.LEFT, padx=(0, 10))
-        
+
         # 새로고침 버튼
         self.refresh_btn = ttk.Button(control_frame, text="🔄 새로고침",
                                      command=self.refresh_results,
                                      state='disabled')
         self.refresh_btn.pack(side=tk.LEFT)
-        
+
         # 파일 정보
         self.file_label = ttk.Label(control_frame, text="파일 미선택",
                                    font=("Segoe UI", 9), foreground="gray")
         self.file_label.pack(side=tk.LEFT, padx=(20, 0))
+
+        # 필터 프레임 (Module/Part 필터)
+        filter_frame = ttk.Frame(self.frame)
+        filter_frame.pack(fill=tk.X, padx=10, pady=(0, 5))
+
+        ttk.Label(filter_frame, text="Filter:").pack(side=tk.LEFT, padx=(0, 5))
+
+        ttk.Label(filter_frame, text="Module:").pack(side=tk.LEFT, padx=(10, 2))
+        self.filter_module_var = tk.StringVar(value="All")
+        self.filter_module_combo = ttk.Combobox(
+            filter_frame,
+            textvariable=self.filter_module_var,
+            width=15,
+            state="readonly"
+        )
+        self.filter_module_combo['values'] = ["All"]
+        self.filter_module_combo.pack(side=tk.LEFT, padx=2)
+        self.filter_module_combo.bind("<<ComboboxSelected>>", lambda e: self.filter_results())
+
+        ttk.Label(filter_frame, text="Part:").pack(side=tk.LEFT, padx=(10, 2))
+        self.filter_part_var = tk.StringVar(value="All")
+        self.filter_part_combo = ttk.Combobox(
+            filter_frame,
+            textvariable=self.filter_part_var,
+            width=15,
+            state="readonly"
+        )
+        self.filter_part_combo['values'] = ["All"]
+        self.filter_part_combo.pack(side=tk.LEFT, padx=2)
+        self.filter_part_combo.bind("<<ComboboxSelected>>", lambda e: self.filter_results())
         
     def create_results_table(self):
         """결과 테이블 생성"""
         # 프레임
         result_frame = ttk.LabelFrame(self.frame, text="📊 검수 결과", padding=10)
         result_frame.pack(fill=tk.BOTH, expand=True, padx=10, pady=5)
-        
+
         # 트리뷰
-        columns = ('no', 'item_name', 'measured', 'min_spec', 'max_spec', 'result')
+        columns = ('no', 'module', 'part', 'item_name', 'measured', 'min_spec', 'max_spec', 'result')
         self.result_tree = ttk.Treeview(result_frame, columns=columns,
                                        show='headings', height=15)
-        
+
         # 컬럼 설정
         headers = {
             'no': 'No.',
+            'module': 'Module',
+            'part': 'Part',
             'item_name': 'Item Name',
             'measured': '측정값',
             'min_spec': 'Min Spec',
             'max_spec': 'Max Spec',
             'result': '결과'
         }
-        
+
         widths = {
             'no': 40,
-            'item_name': 200,
+            'module': 100,
+            'part': 100,
+            'item_name': 180,
             'measured': 100,
             'min_spec': 80,
             'max_spec': 80,
             'result': 80
         }
-        
+
         for col in columns:
             self.result_tree.heading(col, text=headers[col])
             self.result_tree.column(col, width=widths[col], minwidth=50)
@@ -267,8 +301,10 @@ class CustomQCInspection:
                     if measured_value is not None:
                         # Pass/Fail 판정
                         result = self.check_pass_fail(measured_value, spec)
-                        
+
                         self.qc_results.append({
+                            'module': spec.get('module', '-'),
+                            'part': spec.get('part', '-'),
                             'item_name': item_name,
                             'measured': measured_value,
                             'min_spec': spec.get('min_spec', 'N/A'),
@@ -279,6 +315,8 @@ class CustomQCInspection:
                     else:
                         # 데이터 없음
                         self.qc_results.append({
+                            'module': spec.get('module', '-'),
+                            'part': spec.get('part', '-'),
                             'item_name': item_name,
                             'measured': 'N/A',
                             'min_spec': spec.get('min_spec', 'N/A'),
@@ -412,25 +450,45 @@ class CustomQCInspection:
         # 트리뷰 초기화
         for item in self.result_tree.get_children():
             self.result_tree.delete(item)
-            
-        # 필터 적용
+
+        # 필터 값 가져오기
         show_fail = self.show_fail_only.get()
-        
+        filter_module = self.filter_module_var.get()
+        filter_part = self.filter_part_var.get()
+
+        # 필터 옵션 업데이트 (고유한 Module/Part 추출)
+        modules = set()
+        parts = set()
+        for result in self.qc_results:
+            modules.add(result.get('module', '-'))
+            parts.add(result.get('part', '-'))
+
+        self.filter_module_combo['values'] = ["All"] + sorted(list(modules))
+        self.filter_part_combo['values'] = ["All"] + sorted(list(parts))
+
         # 카운터
         total_count = 0
         pass_count = 0
         fail_count = 0
         no_data_count = 0
-        
+
         # 결과 추가
         display_index = 0
         for result in self.qc_results:
-            # 필터링
+            # Fail 필터링
             if show_fail and "Pass" in result['result']:
                 continue
-                
+
+            # Module 필터링
+            if filter_module != "All" and result.get('module', '-') != filter_module:
+                continue
+
+            # Part 필터링
+            if filter_part != "All" and result.get('part', '-') != filter_part:
+                continue
+
             display_index += 1
-            
+
             # 카운트
             if "Pass" in result['result']:
                 pass_count += 1
@@ -441,24 +499,26 @@ class CustomQCInspection:
             else:
                 no_data_count += 1
                 tag = 'warning'
-                
+
             # 트리뷰에 추가
             self.result_tree.insert('', 'end',
                                    values=(display_index,
+                                          result.get('module', '-'),
+                                          result.get('part', '-'),
                                           result['item_name'],
                                           result['measured'],
                                           result['min_spec'],
                                           result['max_spec'],
                                           result['result']),
                                    tags=(tag,))
-            
+
         total_count = pass_count + fail_count + no_data_count
-        
+
         # 태그 색상
         self.result_tree.tag_configure('pass', foreground='green')
         self.result_tree.tag_configure('fail', foreground='red', background='#ffeeee')
         self.result_tree.tag_configure('warning', foreground='orange')
-        
+
         # 요약 업데이트
         if total_count > 0:
             pass_rate = (pass_count / total_count) * 100
@@ -468,9 +528,9 @@ class CustomQCInspection:
                 summary += f" | No Data: {no_data_count}"
         else:
             summary = "검수 결과 없음"
-            
+
         self.summary_label.config(text=summary)
-        
+
         # 내보내기 버튼 활성화
         self.export_btn.config(state='normal' if self.qc_results else 'disabled')
         

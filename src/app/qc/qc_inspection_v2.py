@@ -1,13 +1,18 @@
 """
-QC Inspection v2 - ItemName 기반 자동 매칭 검수 시스템
+QC Inspection v2 - Module.Part.ItemName 복합 키 기반 자동 매칭 검수 시스템
+
+Phase 2 구현:
+- Module.Part.ItemName 복합 키 기반 자동 매칭
+- Equipment_Checklist_Exceptions 적용
+- Pass/Fail 판정 (심각도 없음, 모든 항목 동일 중요도)
 
 Phase 1.5 Week 3 구현:
 - ItemName 기반 자동 매칭 (Configuration별 매핑 제거)
 - Equipment_Checklist_Exceptions 적용
 - Pass/Fail 판정 (심각도 없음, 모든 항목 동일 중요도)
 
-Author: Phase 1.5 Week 3
-Date: 2025-11-13
+Author: Phase 2
+Date: 2025-11-18
 """
 
 import json
@@ -20,6 +25,8 @@ class ChecklistItem:
     """Check list 항목 데이터 클래스"""
     id: int
     item_name: str
+    module: Optional[str]
+    part: Optional[str]
     spec_min: Optional[str]
     spec_max: Optional[str]
     expected_value: Optional[str]
@@ -42,11 +49,11 @@ def get_active_checklist_items() -> List[ChecklistItem]:
     with db_schema.get_connection() as conn:
         cursor = conn.cursor()
         cursor.execute("""
-            SELECT id, item_name, spec_min, spec_max, expected_value,
+            SELECT id, item_name, module, part, spec_min, spec_max, expected_value,
                    category, description, is_active
             FROM QC_Checklist_Items
             WHERE is_active = 1
-            ORDER BY item_name
+            ORDER BY module, part, item_name
         """)
 
         rows = cursor.fetchall()
@@ -55,12 +62,14 @@ def get_active_checklist_items() -> List[ChecklistItem]:
             ChecklistItem(
                 id=row[0],
                 item_name=row[1],
-                spec_min=row[2],
-                spec_max=row[3],
-                expected_value=row[4],
-                category=row[5],
-                description=row[6],
-                is_active=bool(row[7])
+                module=row[2],
+                part=row[3],
+                spec_min=row[4],
+                spec_max=row[5],
+                expected_value=row[6],
+                category=row[7],
+                description=row[8],
+                is_active=bool(row[9])
             )
             for row in rows
         ]
@@ -159,15 +168,18 @@ def get_spec_display(item: ChecklistItem) -> str:
 
 def qc_inspection_v2(file_data: Dict[str, Any], configuration_id: Optional[int] = None) -> Dict[str, Any]:
     """
-    ItemName 기반 자동 매칭 QC 검수 (Phase 1.5 신규 시스템)
+    Module.Part.ItemName 복합 키 기반 자동 매칭 QC 검수 (Phase 2)
 
     특징:
-    - ItemName 기반 자동 매칭 (Configuration별 매핑 제거)
+    - Module.Part.ItemName 복합 키 기반 자동 매칭
+    - 레거시 호환성: ItemName만으로도 매칭 가능 (module, part가 NULL인 Type Common 항목)
     - Equipment_Checklist_Exceptions 적용
     - Pass/Fail 판정 (심각도 없음, 모든 항목 동일 중요도)
 
     Args:
-        file_data: 파일 데이터 (ItemName → Value 매핑)
+        file_data: 파일 데이터
+            - 옵션 1: ItemName → Value 매핑 (레거시)
+            - 옵션 2: (Module, Part, ItemName) → Value 매핑 (신규)
         configuration_id: Configuration ID (None이면 Type Common)
 
     Returns:
@@ -179,33 +191,69 @@ def qc_inspection_v2(file_data: Dict[str, Any], configuration_id: Optional[int] 
                 'results': List[Dict]      # 각 항목 검증 결과
             }
     """
-    # 1. 파일에서 ItemName 추출
-    file_item_names = set(file_data.keys())
+    # 1. 파일 데이터 파싱 (복합 키 또는 단순 키)
+    file_keys = set()
+    file_values_map = {}
+
+    for key, value in file_data.items():
+        if isinstance(key, tuple) and len(key) == 3:
+            # (Module, Part, ItemName) 복합 키
+            file_keys.add(key)
+            file_values_map[key] = value
+        else:
+            # ItemName 단순 키 (레거시)
+            simple_key = (None, None, str(key))
+            file_keys.add(simple_key)
+            file_values_map[simple_key] = value
 
     # 2. QC_Checklist_Items 마스터에서 활성 항목 조회
     all_checklist_items = get_active_checklist_items()
 
-    # 3. ItemName 매칭 (파일에 있는 항목만)
-    matched_items = [
-        item for item in all_checklist_items
-        if item.item_name in file_item_names
-    ]
+    # 3. 복합 키 매칭 (우선순위: Module.Part.ItemName > ItemName)
+    matched_items = []
+    for item in all_checklist_items:
+        item_key = (item.module, item.part, item.item_name)
+
+        # 우선순위 1: 정확한 복합 키 매칭
+        if item_key in file_keys:
+            matched_items.append((item, item_key))
+            continue
+
+        # 우선순위 2: module, part가 NULL이면 ItemName만 매칭 (Type Common)
+        if item.module is None and item.part is None:
+            for fkey in file_keys:
+                if fkey[2] == item.item_name:  # ItemName만 비교
+                    matched_items.append((item, fkey))
+                    break
 
     # 4. Configuration 예외 제거
     exception_item_ids = get_exception_item_ids(configuration_id)
     checklist_items = [
-        item for item in matched_items
+        (item, fkey) for item, fkey in matched_items
         if item.id not in exception_item_ids
     ]
 
     # 5. 각 항목 검증 (Pass/Fail만)
     results = []
-    for item in checklist_items:
-        file_value = file_data[item.item_name]
+    for item, fkey in checklist_items:
+        file_value = file_values_map[fkey]
         is_valid = validate_item(item, file_value)
+
+        # Module/Part 표시 (있으면)
+        display_name = item.item_name
+        if item.module or item.part:
+            parts = []
+            if item.module:
+                parts.append(item.module)
+            if item.part:
+                parts.append(item.part)
+            display_name = f"{'.'.join(parts)}.{item.item_name}"
 
         results.append({
             'item_name': item.item_name,
+            'module': item.module,
+            'part': item.part,
+            'display_name': display_name,
             'file_value': file_value,
             'is_valid': is_valid,
             'spec': get_spec_display(item),
