@@ -204,8 +204,8 @@ class TextFileHandler:
                         total_files=1,
                         source_files=source_file,
                         description=data_row['item_description'],
-                        module_name=data_row['module'],
-                        part_name=data_row['part'],
+                        module=data_row['module'],
+                        part=data_row['part'],
                         item_type=data_row['item_type']
                     )
                     
@@ -255,15 +255,15 @@ class TextFileHandler:
 
                 # 데이터 작성
                 for row in db_values:
-                    # 15개 값 unpacking (is_performance 포함)
+                    # 15개 값 unpacking (is_checklist 포함)
                     (id, parameter_name, default_value, min_spec, max_spec, type_name,
                      occurrence_count, total_files, confidence_score, source_files, description,
-                     module_name, part_name, item_type, is_performance) = row
+                     module, part, item_type, is_checklist) = row
 
                     # 기본 6컬럼
                     text_row = [
-                        module_name or "DSP",  # 기본값 설정
-                        part_name or "General",  # 기본값 설정
+                        module or "DSP",  # 기본값 설정
+                        part or "General",  # 기본값 설정
                         parameter_name,
                         item_type or "string",  # 기본값 설정
                         str(default_value),

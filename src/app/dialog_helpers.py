@@ -73,8 +73,8 @@ def create_parameter_dialog(parent, title, mode="add", param_data=None):
             'min_spec': param_data.get('min_spec', ''),
             'max_spec': param_data.get('max_spec', ''),
             'description': param_data.get('description', ''),
-            'module': param_data.get('module_name', ''),
-            'part': param_data.get('part_name', ''),
+            'module': param_data.get('module', ''),
+            'part': param_data.get('part', ''),
             'item_type': param_data.get('item_type', 'double')
         }
     else:
