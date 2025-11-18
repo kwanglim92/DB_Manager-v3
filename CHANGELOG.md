@@ -2,6 +2,36 @@
 
 DB Manager 프로젝트의 모든 주요 변경사항을 기록합니다.
 
+## [1.6.0] - 2025-11-18
+
+### QC 시스템 리팩토링 Phase 1 완료
+
+#### 추가됨
+- **QC Core Layer 아키텍처**
+  - `qc/core/` 디렉토리 생성
+  - `InspectionEngine`: 검수 엔진 클래스 기반 구현
+  - `ChecklistProvider`: Checklist 항목 제공자
+  - `SpecMatcher`: Module.Part.ItemName 복합 키 매칭
+  - `ChecklistItem`, `InspectionResult`: 데이터 모델
+
+#### 변경됨
+- **qc_inspection_v2.py 리팩토링**
+  - 함수 기반 → 클래스 기반 아키텍처
+  - Core Layer로 로직 위임
+  - 하위 호환성 유지 (레거시 함수 wrapper로 유지)
+
+#### 문서화
+- `docs/PROJECT_STATUS.md`: 프로젝트 현황 보고서 작성
+- `docs/REFACTORING_PLAN.md`: 리팩토링 계획서 작성
+- 코드 중복 및 분산 문제 식별
+- 새로운 아키텍처 설계 문서
+
+#### 개선 효과
+- 명확한 책임 분리 (Provider, Matcher, Engine)
+- 테스트 가능성 향상 (의존성 주입)
+- 코드 재사용성 증가
+- 하위 호환성 100% 유지
+
 ## [1.5.0] - 2025-11-17
 
 ### Phase 1.5: Equipment Hierarchy System (진행중)
