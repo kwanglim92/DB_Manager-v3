@@ -130,12 +130,42 @@ class ChecklistManagerDialog:
             width=12
         ).pack(side=tk.LEFT, padx=2)
 
+        # 필터 프레임
+        filter_frame = ttk.Frame(tab)
+        filter_frame.pack(fill=tk.X, padx=5, pady=(0, 5))
+
+        ttk.Label(filter_frame, text="Filter:").pack(side=tk.LEFT, padx=(0, 5))
+
+        ttk.Label(filter_frame, text="Module:").pack(side=tk.LEFT, padx=(10, 2))
+        self.filter_module_var = tk.StringVar(value="All")
+        self.filter_module_combo = ttk.Combobox(
+            filter_frame,
+            textvariable=self.filter_module_var,
+            width=15,
+            state="readonly"
+        )
+        self.filter_module_combo['values'] = ["All"]
+        self.filter_module_combo.pack(side=tk.LEFT, padx=2)
+        self.filter_module_combo.bind("<<ComboboxSelected>>", lambda e: self._refresh_checklist())
+
+        ttk.Label(filter_frame, text="Part:").pack(side=tk.LEFT, padx=(10, 2))
+        self.filter_part_var = tk.StringVar(value="All")
+        self.filter_part_combo = ttk.Combobox(
+            filter_frame,
+            textvariable=self.filter_part_var,
+            width=15,
+            state="readonly"
+        )
+        self.filter_part_combo['values'] = ["All"]
+        self.filter_part_combo.pack(side=tk.LEFT, padx=2)
+        self.filter_part_combo.bind("<<ComboboxSelected>>", lambda e: self._refresh_checklist())
+
         # 트리뷰 프레임
         tree_frame = ttk.Frame(tab)
         tree_frame.pack(fill=tk.BOTH, expand=True, padx=5, pady=5)
 
         # 트리뷰
-        columns = ("ID", "ItemName", "Spec (Min~Max)", "Expected Value", "Category", "Active", "Description")
+        columns = ("ID", "Module", "Part", "ItemName", "Spec (Min~Max)", "Expected Value", "Category", "Active", "Description")
         self.checklist_tree = ttk.Treeview(
             tree_frame,
             columns=columns,
@@ -146,12 +176,14 @@ class ChecklistManagerDialog:
         # 컬럼 설정
         self.checklist_tree.column("#0", width=0, stretch=False)
         self.checklist_tree.column("ID", width=50, anchor="center")
-        self.checklist_tree.column("ItemName", width=250)
-        self.checklist_tree.column("Spec (Min~Max)", width=150, anchor="center")
-        self.checklist_tree.column("Expected Value", width=150, anchor="center")
-        self.checklist_tree.column("Category", width=120, anchor="center")
-        self.checklist_tree.column("Active", width=70, anchor="center")
-        self.checklist_tree.column("Description", width=300)
+        self.checklist_tree.column("Module", width=100, anchor="center")
+        self.checklist_tree.column("Part", width=100, anchor="center")
+        self.checklist_tree.column("ItemName", width=200)
+        self.checklist_tree.column("Spec (Min~Max)", width=120, anchor="center")
+        self.checklist_tree.column("Expected Value", width=120, anchor="center")
+        self.checklist_tree.column("Category", width=100, anchor="center")
+        self.checklist_tree.column("Active", width=60, anchor="center")
+        self.checklist_tree.column("Description", width=250)
 
         # 헤더 설정
         for col in columns:
@@ -244,23 +276,63 @@ class ChecklistManagerDialog:
         try:
             with self.db_schema.get_connection() as conn:
                 cursor = conn.cursor()
-                cursor.execute("""
-                    SELECT id, item_name, spec_min, spec_max, expected_value,
+
+                # 필터 값 가져오기
+                filter_module = self.filter_module_var.get()
+                filter_part = self.filter_part_var.get()
+
+                # SQL 쿼리 구성
+                query = """
+                    SELECT id, item_name, module, part, spec_min, spec_max, expected_value,
                            category, description, is_active
                     FROM QC_Checklist_Items
-                    ORDER BY item_name
-                """)
+                """
+                params = []
+
+                # 필터 조건 추가
+                where_clauses = []
+                if filter_module != "All":
+                    if filter_module == "(None)":
+                        where_clauses.append("module IS NULL")
+                    else:
+                        where_clauses.append("module = ?")
+                        params.append(filter_module)
+
+                if filter_part != "All":
+                    if filter_part == "(None)":
+                        where_clauses.append("part IS NULL")
+                    else:
+                        where_clauses.append("part = ?")
+                        params.append(filter_part)
+
+                if where_clauses:
+                    query += " WHERE " + " AND ".join(where_clauses)
+
+                query += " ORDER BY module, part, item_name"
+
+                cursor.execute(query, params)
                 items = cursor.fetchall()
+
+                # 필터 옵션 업데이트
+                cursor.execute("SELECT DISTINCT module FROM QC_Checklist_Items ORDER BY module")
+                modules = ["All"] + [row[0] if row[0] else "(None)" for row in cursor.fetchall()]
+                self.filter_module_combo['values'] = modules
+
+                cursor.execute("SELECT DISTINCT part FROM QC_Checklist_Items ORDER BY part")
+                parts = ["All"] + [row[0] if row[0] else "(None)" for row in cursor.fetchall()]
+                self.filter_part_combo['values'] = parts
 
                 for item in items:
                     item_id = item[0]
                     item_name = item[1]
-                    spec_min = item[2]
-                    spec_max = item[3]
-                    expected_value = item[4]
-                    category = item[5] or "Uncategorized"
-                    description = item[6] or ""
-                    is_active = item[7]
+                    module = item[2] or "-"
+                    part = item[3] or "-"
+                    spec_min = item[4]
+                    spec_max = item[5]
+                    expected_value = item[6]
+                    category = item[7] or "Uncategorized"
+                    description = item[8] or ""
+                    is_active = item[9]
 
                     # Spec 표시
                     if spec_min and spec_max:
@@ -291,7 +363,7 @@ class ChecklistManagerDialog:
                     self.checklist_tree.insert(
                         "",
                         tk.END,
-                        values=(item_id, item_name, spec_display, expected_display,
+                        values=(item_id, module, part, item_name, spec_display, expected_display,
                                category, active_display, description),
                         tags=(tag,)
                     )
@@ -364,7 +436,7 @@ class ChecklistManagerDialog:
             with self.db_schema.get_connection() as conn:
                 cursor = conn.cursor()
                 cursor.execute("""
-                    SELECT id, item_name, spec_min, spec_max, expected_value,
+                    SELECT id, item_name, module, part, spec_min, spec_max, expected_value,
                            category, description, is_active
                     FROM QC_Checklist_Items
                     WHERE id = ?
@@ -506,6 +578,8 @@ class ChecklistManagerDialog:
                             if not item_name:
                                 continue
 
+                            module = row.get('module', '').strip() or None
+                            part = row.get('part', '').strip() or None
                             spec_min = row.get('spec_min', '').strip() or None
                             spec_max = row.get('spec_max', '').strip() or None
                             expected_value = row.get('expected_value', '').strip() or None
@@ -516,8 +590,13 @@ class ChecklistManagerDialog:
                             # is_active 변환
                             is_active = 1 if is_active in ['1', 'true', 'True', 'TRUE', 'yes'] else 0
 
-                            # 중복 체크
-                            cursor.execute("SELECT id FROM QC_Checklist_Items WHERE item_name = ?", (item_name,))
+                            # 중복 체크 (module, part, item_name 복합 키)
+                            cursor.execute("""
+                                SELECT id FROM QC_Checklist_Items
+                                WHERE (module IS ? OR (module IS NULL AND ? IS NULL))
+                                  AND (part IS ? OR (part IS NULL AND ? IS NULL))
+                                  AND item_name = ?
+                            """, (module, module, part, part, item_name))
                             existing = cursor.fetchone()
 
                             if existing:
@@ -526,15 +605,15 @@ class ChecklistManagerDialog:
                                     UPDATE QC_Checklist_Items
                                     SET spec_min = ?, spec_max = ?, expected_value = ?,
                                         category = ?, description = ?, is_active = ?
-                                    WHERE item_name = ?
-                                """, (spec_min, spec_max, expected_value, category, description, is_active, item_name))
+                                    WHERE id = ?
+                                """, (spec_min, spec_max, expected_value, category, description, is_active, existing[0]))
                             else:
                                 # 삽입
                                 cursor.execute("""
                                     INSERT INTO QC_Checklist_Items
-                                    (item_name, spec_min, spec_max, expected_value, category, description, is_active)
-                                    VALUES (?, ?, ?, ?, ?, ?, ?)
-                                """, (item_name, spec_min, spec_max, expected_value, category, description, is_active))
+                                    (item_name, module, part, spec_min, spec_max, expected_value, category, description, is_active)
+                                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+                                """, (item_name, module, part, spec_min, spec_max, expected_value, category, description, is_active))
 
                             imported_count += 1
 
@@ -600,25 +679,47 @@ class ChecklistItemDialog:
         main_frame = ttk.Frame(self.dialog, padding="20")
         main_frame.pack(fill=tk.BOTH, expand=True)
 
+        # Module
+        ttk.Label(main_frame, text="Module:").grid(row=0, column=0, sticky="w", pady=5)
+        self.module_entry = ttk.Entry(main_frame, width=50)
+        self.module_entry.grid(row=0, column=1, sticky="ew", pady=5, padx=(10, 0))
+        ttk.Label(
+            main_frame,
+            text="(선택사항, 비워두면 Type Common)",
+            font=("Helvetica", 8),
+            foreground="gray"
+        ).grid(row=0, column=2, sticky="w", padx=(5, 0))
+
+        # Part
+        ttk.Label(main_frame, text="Part:").grid(row=1, column=0, sticky="w", pady=5)
+        self.part_entry = ttk.Entry(main_frame, width=50)
+        self.part_entry.grid(row=1, column=1, sticky="ew", pady=5, padx=(10, 0))
+        ttk.Label(
+            main_frame,
+            text="(선택사항, 비워두면 Type Common)",
+            font=("Helvetica", 8),
+            foreground="gray"
+        ).grid(row=1, column=2, sticky="w", padx=(5, 0))
+
         # ItemName
-        ttk.Label(main_frame, text="ItemName:").grid(row=0, column=0, sticky="w", pady=5)
+        ttk.Label(main_frame, text="ItemName:").grid(row=2, column=0, sticky="w", pady=5)
         self.name_entry = ttk.Entry(main_frame, width=50)
-        self.name_entry.grid(row=0, column=1, sticky="ew", pady=5, padx=(10, 0))
+        self.name_entry.grid(row=2, column=1, sticky="ew", pady=5, padx=(10, 0))
 
         # Spec Min
-        ttk.Label(main_frame, text="Spec Min:").grid(row=1, column=0, sticky="w", pady=5)
+        ttk.Label(main_frame, text="Spec Min:").grid(row=3, column=0, sticky="w", pady=5)
         self.spec_min_entry = ttk.Entry(main_frame, width=50)
-        self.spec_min_entry.grid(row=1, column=1, sticky="ew", pady=5, padx=(10, 0))
+        self.spec_min_entry.grid(row=3, column=1, sticky="ew", pady=5, padx=(10, 0))
 
         # Spec Max
-        ttk.Label(main_frame, text="Spec Max:").grid(row=2, column=0, sticky="w", pady=5)
+        ttk.Label(main_frame, text="Spec Max:").grid(row=4, column=0, sticky="w", pady=5)
         self.spec_max_entry = ttk.Entry(main_frame, width=50)
-        self.spec_max_entry.grid(row=2, column=1, sticky="ew", pady=5, padx=(10, 0))
+        self.spec_max_entry.grid(row=4, column=1, sticky="ew", pady=5, padx=(10, 0))
 
         # Expected Value
-        ttk.Label(main_frame, text="Expected Value:").grid(row=3, column=0, sticky="w", pady=5)
+        ttk.Label(main_frame, text="Expected Value:").grid(row=5, column=0, sticky="w", pady=5)
         self.expected_entry = ttk.Entry(main_frame, width=50)
-        self.expected_entry.grid(row=3, column=1, sticky="ew", pady=5, padx=(10, 0))
+        self.expected_entry.grid(row=5, column=1, sticky="ew", pady=5, padx=(10, 0))
 
         # Expected Value 힌트
         hint_label = ttk.Label(
@@ -627,22 +728,22 @@ class ChecklistItemDialog:
             font=("Helvetica", 8),
             foreground="gray"
         )
-        hint_label.grid(row=4, column=1, sticky="w", padx=(10, 0))
+        hint_label.grid(row=6, column=1, sticky="w", padx=(10, 0))
 
         # Category
-        ttk.Label(main_frame, text="Category:").grid(row=5, column=0, sticky="w", pady=5)
+        ttk.Label(main_frame, text="Category:").grid(row=7, column=0, sticky="w", pady=5)
         self.category_combo = ttk.Combobox(
             main_frame,
             values=["Performance", "Safety", "Configuration", "Communication", "Information", "Uncategorized"],
             width=47
         )
         self.category_combo.current(0)  # Performance 기본값
-        self.category_combo.grid(row=5, column=1, sticky="ew", pady=5, padx=(10, 0))
+        self.category_combo.grid(row=7, column=1, sticky="ew", pady=5, padx=(10, 0))
 
         # Description
-        ttk.Label(main_frame, text="Description:").grid(row=6, column=0, sticky="nw", pady=5)
+        ttk.Label(main_frame, text="Description:").grid(row=8, column=0, sticky="nw", pady=5)
         self.desc_text = tk.Text(main_frame, width=50, height=5)
-        self.desc_text.grid(row=6, column=1, sticky="ew", pady=5, padx=(10, 0))
+        self.desc_text.grid(row=8, column=1, sticky="ew", pady=5, padx=(10, 0))
 
         # Active 체크박스
         self.active_var = tk.BooleanVar(value=True)
@@ -651,11 +752,11 @@ class ChecklistItemDialog:
             text="Active (활성화)",
             variable=self.active_var
         )
-        self.active_check.grid(row=7, column=1, sticky="w", pady=5, padx=(10, 0))
+        self.active_check.grid(row=9, column=1, sticky="w", pady=5, padx=(10, 0))
 
         # 버튼 프레임
         btn_frame = ttk.Frame(main_frame)
-        btn_frame.grid(row=8, column=0, columnspan=2, pady=(20, 0))
+        btn_frame.grid(row=10, column=0, columnspan=2, pady=(20, 0))
 
         ttk.Button(
             btn_frame,
@@ -678,28 +779,34 @@ class ChecklistItemDialog:
         if not self.item_data:
             return
 
-        # item_data: (id, item_name, spec_min, spec_max, expected_value, category, description, is_active)
+        # item_data: (id, item_name, module, part, spec_min, spec_max, expected_value, category, description, is_active)
         self.name_entry.insert(0, self.item_data[1] or "")
-        self.spec_min_entry.insert(0, self.item_data[2] or "")
-        self.spec_max_entry.insert(0, self.item_data[3] or "")
-        self.expected_entry.insert(0, self.item_data[4] or "")
+        self.module_entry.insert(0, self.item_data[2] or "")
+        self.part_entry.insert(0, self.item_data[3] or "")
+        self.spec_min_entry.insert(0, self.item_data[4] or "")
+        self.spec_max_entry.insert(0, self.item_data[5] or "")
+        self.expected_entry.insert(0, self.item_data[6] or "")
 
-        category = self.item_data[5] or "Uncategorized"
+        category = self.item_data[7] or "Uncategorized"
         self.category_combo.set(category)
 
-        description = self.item_data[6] or ""
+        description = self.item_data[8] or ""
         self.desc_text.insert("1.0", description)
 
-        is_active = self.item_data[7]
+        is_active = self.item_data[9]
         self.active_var.set(bool(is_active))
 
-        # 수정 모드에서는 ItemName 변경 불가
+        # 수정 모드에서는 Module, Part, ItemName 변경 불가
+        self.module_entry.config(state="readonly")
+        self.part_entry.config(state="readonly")
         self.name_entry.config(state="readonly")
 
     def _save(self):
         """저장"""
         # 입력 값 가져오기
         item_name = self.name_entry.get().strip()
+        module = self.module_entry.get().strip() or None
+        part = self.part_entry.get().strip() or None
         spec_min = self.spec_min_entry.get().strip() or None
         spec_max = self.spec_max_entry.get().strip() or None
         expected_value = self.expected_entry.get().strip() or None
@@ -732,32 +839,39 @@ class ChecklistItemDialog:
                 cursor = conn.cursor()
 
                 if self.mode == "add":
-                    # 중복 체크
-                    cursor.execute("SELECT id FROM QC_Checklist_Items WHERE item_name = ?", (item_name,))
+                    # 중복 체크 (module, part, item_name 복합 키)
+                    cursor.execute("""
+                        SELECT id FROM QC_Checklist_Items
+                        WHERE (module IS ? OR (module IS NULL AND ? IS NULL))
+                          AND (part IS ? OR (part IS NULL AND ? IS NULL))
+                          AND item_name = ?
+                    """, (module, module, part, part, item_name))
                     if cursor.fetchone():
-                        messagebox.showerror("오류", f"'{item_name}' 항목이 이미 존재합니다.")
+                        key_str = f"{module or '(None)'}.{part or '(None)'}.{item_name}"
+                        messagebox.showerror("오류", f"'{key_str}' 항목이 이미 존재합니다.")
                         return
 
                     # 삽입
                     cursor.execute("""
                         INSERT INTO QC_Checklist_Items
-                        (item_name, spec_min, spec_max, expected_value, category, description, is_active)
-                        VALUES (?, ?, ?, ?, ?, ?, ?)
-                    """, (item_name, spec_min, spec_max, expected_value, category, description, is_active))
+                        (item_name, module, part, spec_min, spec_max, expected_value, category, description, is_active)
+                        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+                    """, (item_name, module, part, spec_min, spec_max, expected_value, category, description, is_active))
 
                     new_id = cursor.lastrowid
 
                     # Audit Log 기록
+                    key_str = f"{module or '(None)'}.{part or '(None)'}.{item_name}"
                     cursor.execute("""
                         INSERT INTO Checklist_Audit_Log
                         (action, target_table, target_id, new_value, reason, user, timestamp)
                         VALUES (?, ?, ?, ?, ?, ?, datetime('now'))
-                    """, ("ADD", "QC_Checklist_Items", new_id, item_name, "신규 항목 추가", "Admin"))
+                    """, ("ADD", "QC_Checklist_Items", new_id, key_str, "신규 항목 추가", "Admin"))
 
                 else:  # edit
                     item_id = self.item_data[0]
 
-                    # 업데이트
+                    # 업데이트 (module, part, item_name은 변경 불가)
                     cursor.execute("""
                         UPDATE QC_Checklist_Items
                         SET spec_min = ?, spec_max = ?, expected_value = ?,
