@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Instrument>
+	<Name>nx</Name>
+	<Description>This is a nx instrument.</Description>
+	<ModuleList>
+		<Module>
+			<Type>System</Type>
+		</Module>
+		<Module>
+			<Type>XYStage</Type>
+		</Module>
+		<Module>
+			<Type>FacilityController</Type>
+		</Module>
+		<Module>
+			<Type>Vision</Type>
+		</Module>
+		<Module>
+			<Type>Dsp</Type>
+		</Module>
+		<Module>
+			<Type>Profiler</Type>
+		</Module>
+		<Module>
+			<Type>Indexer</Type>
+		</Module>
+		<Module>
+			<Type>VCR</Type>
+		</Module>
+		<Module>
+			<Type>SecsGem</Type>
+		</Module>
+	</ModuleList>
+</Instrument>

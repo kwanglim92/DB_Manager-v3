@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>Dtector</Type>
+	<Name>General</Name>
+	<Description>This is a General FrontDoor part.</Description>
+	<ItemList>
+		<Item>
+			<Name>bUse</Name>
+			<Description>This is a bUse Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>SmokeDetectorPort</Name>
+			<Description>This is a SmokeDetectorPort Description</Description>
+			<ValueType>string</ValueType>
+			<Value>R:3:1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>FireAlarmPort</Name>
+			<Description>This is a FireAlarmPort Description</Description>
+			<ValueType>string</ValueType>
+			<Value>R:2:0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseSmokeDetector</Name>
+			<Description>This is a bUseSmokeDetector Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseTemperature</Name>
+			<Description>This is a bUseTemperature Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseStaticElectricity</Name>
+			<Description>This is a bUseStaticElectricity Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseAETemperature</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseAEHumidity</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseWaterLeak</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseLoadingPositionYSensor</Name>
+			<Description></Description>
+			<ValueType>list</ValueType>
+			<Value>0:Don't Use|Use</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseLoadingPositionX1Sensor</Name>
+			<Description></Description>
+			<ValueType>list</ValueType>
+			<Value>0:Don't Use|Use</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseLoadingPositionX2Sensor</Name>
+			<Description></Description>
+			<ValueType>list</ValueType>
+			<Value>0:Don't Use|Use</Value>
+			<Access>33</Access>
+		</Item>
+	</ItemList>
+</Part>

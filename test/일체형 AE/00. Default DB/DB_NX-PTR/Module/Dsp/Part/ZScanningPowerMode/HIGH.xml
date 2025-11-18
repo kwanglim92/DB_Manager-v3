@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>ZScanningPowerMode</Type>
+	<Name>HIGH</Name>
+	<Description>High power mode</Description>
+	<ItemList/>
+</Part>

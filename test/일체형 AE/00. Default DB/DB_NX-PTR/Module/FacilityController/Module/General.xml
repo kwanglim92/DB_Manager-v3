@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Module>
+	<Name>FacilityController</Name>
+	<Description>This is a General FacilityController Module</Description>
+	<PartList>
+		<Part>
+			<Type>Error</Type>
+			<Name>General</Name>
+		</Part>
+		<Part>
+			<Type>Info</Type>
+			<Name>General</Name>
+		</Part>
+		<Part>
+			<Type>SideDoor</Type>
+			<Name>General</Name>
+		</Part>
+		<Part>
+			<Type>SignTower</Type>
+			<Name>General</Name>
+		</Part>
+		<Part>
+			<Type>Emergency</Type>
+			<Name>General</Name>
+		</Part>
+		<Part>
+			<Type>Vacuum</Type>
+			<Name>General</Name>
+		</Part>
+		<Part>
+			<Type>SerialPort</Type>
+			<Name>General</Name>
+		</Part>
+		<Part>
+			<Type>TipExchanger</Type>
+			<Name>General</Name>
+		</Part>
+	</PartList>
+</Module>

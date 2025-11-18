@@ -1,0 +1,784 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>Error</Type>
+	<Name>RND</Name>
+	<Description>This is a RND XYStage Error Part.</Description>
+	<ItemList>
+		<Item>
+			<Name>0</Name>
+			<Description>[XYStage] : No Response</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>1</Name>
+			<Description>[XYStage] : Unexpected Response</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>2</Name>
+			<Description>[XYStage] : Lift Pin is not in the Down Position</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>3</Name>
+			<Description>[XYStage] : Clamp Unit is not Unclamped</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>4</Name>
+			<Description>[XYStage] : Read Driver Status error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>5</Name>
+			<Description>[XYStage] : Cannot turn on the Driver Power</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>6</Name>
+			<Description>[XYStage] : Read LiftPin Status error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>7</Name>
+			<Description>[XYStage] : Read ClampUnit Status error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>8</Name>
+			<Description>[XYStage] : ClampUnit Control error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>9</Name>
+			<Description>[XYStage] : SEPUnit is Not OFF</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>10</Name>
+			<Description>[XYStage] : Read SEPUnit Status error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>11</Name>
+			<Description>[XYStage] : SEPUnit Control error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>12</Name>
+			<Description>[XYStage] : Clamp Only Avaiable Near The Origin</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>13</Name>
+			<Description>[XYStage] : SEPUnit Only Avaiable Near The Origin</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>14</Name>
+			<Description>[XYStage] : Base Cylinder of Clamp is Not Defined</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>15</Name>
+			<Description>[XYStage] : Base Cylinder of Clamp  is Unclamped</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>16</Name>
+			<Description>[XYStage] : Base Cylinder of Clamp  is Clamped</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>17</Name>
+			<Description>[XYStage] : Push Cylinder of Clamp is Not Defined</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>18</Name>
+			<Description>[XYStage] : Push Cylinder of Clamp  is Unclamped</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>19</Name>
+			<Description>[XYStage] : Push Cylinder of Clamp  is Clamped</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>20</Name>
+			<Description>[XYStage] : InitZ Failed</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>21</Name>
+			<Description>[XYStage] : Stage Execution TimeOut</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>22</Name>
+			<Description>[XYStage] : Another Command is processing</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>23</Name>
+			<Description>[XYStage] : Command is not processed</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>24</Name>
+			<Description>[XYStage] : Send Command Failed</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>101</Name>
+			<Description>[XYStage] 1:Non-Specified step number</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>102</Name>
+			<Description>[XYStage] 2:Origin-Return incompletes</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>103</Name>
+			<Description>[XYStage] 3:Unready at specified time by IF order</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>104</Name>
+			<Description>[XYStage] 4:Emergency stop input</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>105</Name>
+			<Description>[XYStage] 5:Error occurs at program area</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>106</Name>
+			<Description>[XYStage] 6:Bug on system</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>107</Name>
+			<Description>[XYStage] 7:PGM step number overflows 2000</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>108</Name>
+			<Description>[XYStage] 8:Over-run state</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>109</Name>
+			<Description>[XYStage] 9:Not passing barrier check</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>110</Name>
+			<Description>[XYStage] 10:Motor axis extension board is not connected</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>111</Name>
+			<Description>[XYStage] 11:Driver state is not ready</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>112</Name>
+			<Description>[XYStage] 12:Driver state is alarming(code No.:99)</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>113</Name>
+			<Description>[XYStage] 13:Variable or flag number is not '1~96'</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>114</Name>
+			<Description>[XYStage] 14:Ram area is short</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>115</Name>
+			<Description>[XYStage] 15:Communication error of turbo parameter</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>116</Name>
+			<Description>[XYStage] 16:Matter of parameter area is wrong</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>117</Name>
+			<Description>[XYStage] 17:Communication error with host computer occurs</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>118</Name>
+			<Description>[XYStage] 18:GOTO step number error</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>119</Name>
+			<Description>[XYStage] 19:Variable value as coordinate value overflows 3byte</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>120</Name>
+			<Description>[XYStage] 20:Nest of CALL overflows 10</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>121</Name>
+			<Description>[XYStage] 21:Return of CALL is wrong.(Bug on system.)</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>122</Name>
+			<Description>[XYStage] 22:Calling own program</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>123</Name>
+			<Description>[XYStage] 23:Non-Specified program number by CALL order</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>124</Name>
+			<Description>[XYStage] 24:Command except for PTP and MATRIX exists on PALLET program</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>125</Name>
+			<Description>[XYStage] 25:Non-Specified program number by PALLET order</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>126</Name>
+			<Description>[XYStage] 26:Non-Origin-Return program (PGM=999)</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>127</Name>
+			<Description>[XYStage] 27:Channel number is wrong.( OUT order etc.)</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>128</Name>
+			<Description>[XYStage] 28:Non-Execution order on specified program</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>129</Name>
+			<Description>[XYStage] 29:'Breaking zero' occurs during calculation of variable</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>130</Name>
+			<Description>[XYStage] 30:Illegal command (option command)is found</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>131</Name>
+			<Description>[XYStage] 31:Floating-point calculation error</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>132</Name>
+			<Description>[XYStage] 32:Not display to receive &lt;START&gt;</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>133</Name>
+			<Description>[XYStage] 33:Command is not received by Atom. (**:command name)</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>134</Name>
+			<Description>[XYStage] 34:Non-Specified table number</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>135</Name>
+			<Description>[XYStage] 35:Program to execute is sub program</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>136</Name>
+			<Description>[XYStage] 36:Origin-Return program is stopped halfway</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>137</Name>
+			<Description>[XYStage] 37:BCD code is wrong during DI input and DO output of variable</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>138</Name>
+			<Description>[XYStage] 38:Check sum at program area is wrong</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>139</Name>
+			<Description>[XYStage] 39:Check sum at parameter area is wrong</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>140</Name>
+			<Description>[XYStage] 40:Encoder value of Atom is wrong</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>141</Name>
+			<Description>[XYStage] 41:Communication error occurs (**:address)</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>142</Name>
+			<Description>[XYStage] 42:Program to execute is main program</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>143</Name>
+			<Description>[XYStage] 43:Command is not received byAtom. (**:command name) Reading error of INIT.PAR file</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>144</Name>
+			<Description>[XYStage] 44:Atom does not correspond to new command. Reading error of INIT.PAR file</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>145</Name>
+			<Description>[XYStage] 45:Internal error occurs.Application and BIOS do not match</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>146</Name>
+			<Description>[XYStage] 46:Unknown order exists at emergency stop execution program</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>147</Name>
+			<Description>[XYStage] 47:Motor number error</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>148</Name>
+			<Description>[XYStage] 48:Battery capacity for memory back-up is short.(Only warning expression)</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>149</Name>
+			<Description>[XYStage] 49:Error of writing to EEPROM occurs</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>150</Name>
+			<Description>[XYStage] 50:ROM and hardware do not match</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>151</Name>
+			<Description>[XYStage] 51:Non- Fics-BIOS</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>152</Name>
+			<Description>[XYStage] 52:Inside error</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>153</Name>
+			<Description>[XYStage] 53:Reading error of FICS.PGM file</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>154</Name>
+			<Description>[XYStage] 54:Reading error of FICS.PGM file</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>155</Name>
+			<Description>[XYStage] 100:The number of matrix table overflows 5</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>156</Name>
+			<Description>[XYStage] 140: Position err&lt;X&gt;</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>201</Name>
+			<Description>[XYStage] Communication Error 1: Check Sum error</Description>
+			<ValueType>int</ValueType>
+			<Value>4</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>202</Name>
+			<Description>[XYStage] Communication Error 2: Command Sequence Error</Description>
+			<ValueType>int</ValueType>
+			<Value>4</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>203</Name>
+			<Description>[XYStage] Communication Error 3: Command Data Error</Description>
+			<ValueType>int</ValueType>
+			<Value>4</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>204</Name>
+			<Description>[XYStage] Communication Error 4: Out of Range Error</Description>
+			<ValueType>int</ValueType>
+			<Value>4</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>205</Name>
+			<Description>[XYStage] Communication Error 6: Error at -HOST- mode starting</Description>
+			<ValueType>int</ValueType>
+			<Value>4</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>206</Name>
+			<Description>Communication Error 7: Simultaneous sending error</Description>
+			<ValueType>int</ValueType>
+			<Value>4</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>207</Name>
+			<Description>[XYStage] Execution Error 94:Parameter Number Error(At Parameter Uploading)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>208</Name>
+			<Description>[XYStage] Execution Error 95:Parameter Representation Error(At Parameter Uploading)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>209</Name>
+			<Description>[XYStage] Execution Error 96:Parameter Out of Range Error(At Parameter Uploading)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>210</Name>
+			<Description>[XYStage] Execution Error 97:Program No. Error(At Program Down-loading)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>211</Name>
+			<Description>[XYStage] Execution Error 98:Step No. Error(At Program Down-loading)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>212</Name>
+			<Description>[XYStage] Execution Error 99:Program Area FULL(At Program Down-loading)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>500</Name>
+			<Description>[XYStage] : Unknown Command</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>501</Name>
+			<Description>[XYStage] : Stop failed</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>502</Name>
+			<Description>[XYStage] : Emergency Stop failed</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>503</Name>
+			<Description>[XYStage] : Coordinate Transform failed</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+	</ItemList>
+</Part>

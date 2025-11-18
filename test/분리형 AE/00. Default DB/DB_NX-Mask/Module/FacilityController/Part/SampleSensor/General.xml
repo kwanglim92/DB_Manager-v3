@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>Bypass</Type>
+	<Name>General</Name>
+	<Description>This is a General FrontDoor part.</Description>
+	<ItemList>
+		<Item>
+			<Name>bUse</Name>
+			<Description>This is a bUse Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseBrokenSensor</Name>
+			<Description>This is a bUseBrokenSensor Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseDisplay</Name>
+			<Description>This is a bUseDisplay Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseSensorPowerAlwaysOn</Name>
+			<Description>This is a bUseSensorPowerAlwaysOn Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseBrokenSensorPowerAlwaysOn</Name>
+			<Description>This is a bUseBrokenSensorPowerAlwaysOn Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Model</Name>
+			<Description>This is a Model Description</Description>
+			<ValueType>string</ValueType>
+			<Value>NX-Mask</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>SensorPort</Name>
+			<Description>This is a SensorPort Description</Description>
+			<ValueType>string</ValueType>
+			<Value>R:6:0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUsePowerControl</Name>
+			<Description>This is a bUsePowerControl Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>SensorPowerPort</Name>
+			<Description>This is a SensorPowerPort Description</Description>
+			<ValueType>string</ValueType>
+			<Value>R:6:1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>SenorPowerOnDelayMilliSec</Name>
+			<Description>This is a SenorPowerOnDelayMilliSec Description</Description>
+			<ValueType>int</ValueType>
+			<Value>3000</Value>
+			<Access>33</Access>
+		</Item></ItemList>
+</Part>

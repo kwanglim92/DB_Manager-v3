@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>SideDoor</Type>
+	<Name>General</Name>
+	<Description>This is a General SideDoor part.</Description>
+	<ItemList>
+		<Item>
+			<Name>bUse</Name>
+			<Description>This is a bUse description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>SensorPort</Name>
+			<Description>This is a SensorPort description.</Description>
+			<ValueType>string</ValueType>
+			<Value>R:1:0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bUseEvent</Name>
+			<Description>This is a bUseEvent description.</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>EventPort</Name>
+			<Description>This is a EventPort description.</Description>
+			<ValueType>string</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bUseCabinetDoorSensor</Name>
+			<Description>This is a bUseCabinetDoorSensor Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseInterlockBypass</Name>
+			<Description>This is a bUseInterlockBypass Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseAEDoorLock</Name>
+			<Description>This is a bUseAEDoorLock Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>InterlockBypassPort</Name>
+			<Description>This is a InterlockBypassPort Description</Description>
+			<ValueType>string</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseAELampControl</Name>
+			<Description>This is a bUseAELampControl Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseCabinetInterlockDoorSensor</Name>
+			<Description>This is a bUseCabinetInterlockDoorSensor Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>CabinetDoorSensorPort</Name>
+			<Description>This is a CabinetDoorSensorPort Description</Description>
+			<ValueType>string</ValueType>
+			<Value>R:3:3/R:3:4/R:3:5</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>CabinetDoorLabel</Name>
+			<Description>This is a CabinetDoorLabel Description</Description>
+			<ValueType>string</ValueType>
+			<Value>Front Door/SubBox Door/Rear Door</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>CabinetInterlockDoorSensorPort</Name>
+			<Description>This is a CabinetInterlockDoorSensorPort Description</Description>
+			<ValueType>string</ValueType>
+			<Value>R:3:6/R:3:7</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>CabinetInterlockDoorLabel</Name>
+			<Description>This is a CabinetInterlockDoorLabel Description</Description>
+			<ValueType>string</ValueType>
+			<Value>Power Box/Pneumatic Box</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseSideDoorActiveLow</Name>
+			<Description>This is a bUseSideDoorActiveLow Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+	</ItemList>
+</Part>

@@ -1,0 +1,308 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>TiltingStage</Type>
+	<Name>General</Name>
+	<Description>This is a General TiltingStage part.</Description>
+	<ItemList>
+		<Item>
+			<Name>bUseX</Name>
+			<Description>This is a bUseX Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseY</Name>
+			<Description>This is a bUseY Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>XAxis</Name>
+			<Description>This is a XAxis Description</Description>
+			<ValueType>list</ValueType>
+			<Value>2:X|Y|Z|U|V|D</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>YAxis</Name>
+			<Description>This is a YAxis Description</Description>
+			<ValueType>list</ValueType>
+			<Value>3:X|Y|Z|U|V|D</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bXDirectionReverse</Name>
+			<Description>This is a bXDirectionReverse Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bYDirectionReverse</Name>
+			<Description>This is a bYDirectionReverse Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>XMaxSpeed</Name>
+			<Description>This is a XMaxSpeed description.</Description>
+			<ValueType>double</ValueType>
+			<Value>800</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>YMaxSpeed</Name>
+			<Description>This is a YMaxSpeed description.</Description>
+			<ValueType>double</ValueType>
+			<Value>800</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>XStrokeMargin</Name>
+			<Description>This is a XStrokeMargin description.</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>YStrokeMargin</Name>
+			<Description>This is a YStrokeMargin description.</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>XStrokeMin</Name>
+			<Description>This is a XStrokeMin description.</Description>
+			<ValueType>double</ValueType>
+			<Value>-1000000</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>YStrokeMin</Name>
+			<Description>This is a YStrokeMin description.</Description>
+			<ValueType>double</ValueType>
+			<Value>-1000000</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>XStrokeMax</Name>
+			<Description>This is a XStrokeMax description.</Description>
+			<ValueType>double</ValueType>
+			<Value>1000000</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>YStrokeMax</Name>
+			<Description>This is a YStrokeMax description.</Description>
+			<ValueType>double</ValueType>
+			<Value>1000000</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>XPivotPositionX</Name>
+			<Description>This is a XPivotPositionX Description</Description>
+			<ValueType>double</ValueType>
+			<Value>23361.2</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>YPivotPositionY</Name>
+			<Description>This is a YPivotPositionY Description</Description>
+			<ValueType>double</ValueType>
+			<Value>16063.8</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseXLinearEncoder</Name>
+			<Description>This is a bUseXLinearEncoder Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseYLinearEncoder</Name>
+			<Description>This is a bUseYLinearEncoder Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>XStageSize</Name>
+			<Description>This is a XStageSize Description</Description>
+			<ValueType>double</ValueType>
+			<Value>46000</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>YStageSize</Name>
+			<Description>This is a YStageSize Description</Description>
+			<ValueType>double</ValueType>
+			<Value>46000</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>XInput</Name>
+			<Description>This is a XInput Description</Description>
+			<ValueType>string</ValueType>
+			<Value>Height</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>YInput</Name>
+			<Description>This is a YInput Description</Description>
+			<ValueType>string</ValueType>
+			<Value>Height</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>XScanRate</Name>
+			<Description>This is a XScanRate Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.5</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>YScanRate</Name>
+			<Description>This is a YScanRate Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.5</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>XPixel</Name>
+			<Description>This is a XPixel Description</Description>
+			<ValueType>int</ValueType>
+			<Value>512</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>YPixel</Name>
+			<Description>This is a YPixel Description</Description>
+			<ValueType>int</ValueType>
+			<Value>512</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>XScanLine</Name>
+			<Description>This is a XScanLine Description</Description>
+			<ValueType>int</ValueType>
+			<Value>2</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>YScanLine</Name>
+			<Description>This is a YScanLine Description</Description>
+			<ValueType>int</ValueType>
+			<Value>2</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>XScanSize</Name>
+			<Description>This is a XScanSize Description</Description>
+			<ValueType>double</ValueType>
+			<Value>40</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>YScanSize</Name>
+			<Description>This is a YScanSize Description</Description>
+			<ValueType>double</ValueType>
+			<Value>40</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>XRetryCount</Name>
+			<Description>This is a XRetryCount Description</Description>
+			<ValueType>double</ValueType>
+			<Value>3</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>YRetryCount</Name>
+			<Description>This is a YRetryCount Description</Description>
+			<ValueType>double</ValueType>
+			<Value>3</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>XErrorBound</Name>
+			<Description>This is a XErrorBound Description</Description>
+			<ValueType>double</ValueType>
+			<Value>3</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>YErrorBound</Name>
+			<Description>This is a YErrorBound Description</Description>
+			<ValueType>double</ValueType>
+			<Value>3</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bUseInterLock</Name>
+			<Description>This is a bUseInterLock Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bPPL</Name>
+			<Description>This is a bPPL Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>DriverPowerControlPort</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>4</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bDriverPowerControlReverse</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>XStageScaleFactor</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>XScanOffset</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>YStageScaleFactor</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>YScanOffset</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>StageThickness</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>15000</Value>
+			<Access>33</Access>
+		</Item></ItemList>
+</Part>

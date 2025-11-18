@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>Fan</Type>
+	<Name>General</Name>
+	<Description>This is a General Fan part.</Description>
+	<ItemList>
+		<Item>
+			<Name>bUse</Name>
+			<Description>This is a bUse description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>Port</Name>
+			<Description>This is a Port description.</Description>
+			<ValueType>string</ValueType>
+			<Value>Y:2:0</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>FanLowerOffset</Name>
+			<Description>This is a FanLowerOffset Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>FanUpperOffset</Name>
+			<Description>This is a FanUpperOffset Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1850</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Level</Name>
+			<Description>This is a Level Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.6</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bIgnoreZeroLevel</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>RPMPort</Name>
+			<Description>This is a RPMPort Description</Description>
+			<ValueType>string</ValueType>
+			<Value>D:6:0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseRPM</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>RPMThreshold</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>RPMUpdateThreshold</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item></ItemList>
+</Part>

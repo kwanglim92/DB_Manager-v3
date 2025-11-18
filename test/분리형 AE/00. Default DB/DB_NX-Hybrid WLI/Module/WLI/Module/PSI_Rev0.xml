@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<Module>
+	<Name>InHouse_Rev00</Name>
+	<Description>WLI control module</Description>
+	<PartList>
+		<Part>
+			<Type>Controller</Type>
+			<Name>LTIS_Rev00</Name>
+		</Part>
+		<Part>
+			<Type>Camera</Type>
+			<Name>XIMEA</Name>
+		</Part>
+		<Part>
+			<Type>Info</Type>
+			<Name>General</Name>
+		</Part>
+		<Part>
+			<Type>FocusStage</Type>
+			<Name>InHouse_Rev00</Name>
+		</Part>
+		<Part>
+			<Type>ZScanner</Type>
+			<Name>InHouse_Rev00</Name>
+		</Part>
+		<Part>
+			<Type>TurretStage</Type>
+			<Name>InHouse_Rev00</Name>
+		</Part>
+		<Part>
+			<Type>ObjectiveLens</Type>
+			<Name>General</Name>
+		</Part>
+	</PartList>
+</Module>

@@ -1,0 +1,3353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Part>
+	<Type>TipExchange</Type>
+	<Name>General</Name>
+	<Description>This is a General TipExchange part.</Description>
+	<ItemList>
+		<Item>
+			<Name>TipTrayXSize</Name>
+			<Description>This is a bApproachInterlock description.</Description>
+			<ValueType>int</ValueType>
+			<Value>4</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>TipTrayYSize</Name>
+			<Description>This is a bApproachInterlock description.</Description>
+			<ValueType>int</ValueType>
+			<Value>6</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>CurrentTipIndex</Name>
+			<Description>This is a bApproachInterlock description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip1</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip1PosX</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>-143422</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip1PosY</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>45937</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip1PosZ</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>5314</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip2</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip2PosX</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>-160422</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip2PosY</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>46007</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip2PosZ</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>5342</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip3</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip3PosX</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>-177434</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip3PosY</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>46076</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip3PosZ</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>5372</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip4</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip4PosX</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>-194436</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip4PosY</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>46148</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip4PosZ</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>5401</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip5</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip5PosX</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>-143502</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip5PosY</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>27944</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip5PosZ</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>5309</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip6</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip6PosX</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>-160513</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip6PosY</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>28011</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip6PosZ</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>5339</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip7</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip7PosX</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>-177524</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip7PosY</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>28078</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip7PosZ</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>5370</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip8</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip8PosX</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>-194535</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip8PosY</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>28146</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip8PosZ</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>5400</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip9</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip9PosX</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>-143583</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip9PosY</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>9951</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip9PosZ</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>5305</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip10</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip10PosX</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>-160603</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip10PosY</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>10013</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip10PosZ</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>5337</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip11</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip11PosX</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>-177613</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip11PosY</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>10081</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip11PosZ</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>5367</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip12</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip12PosX</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>-194634</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip12PosY</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>10144</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip12PosZ</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>5400</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip13</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip13PosX</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>-143640</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip13PosY</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>-16117</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip13PosZ</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>5280</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip14</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip14PosX</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>-160121</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip14PosY</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>-15937</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip14PosZ</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>5305</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip15</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip15PosX</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>-177111</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip15PosY</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>-15858</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip15PosZ</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>5342</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip16</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip16PosX</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>-194128</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip16PosY</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>-15816</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip16PosZ</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>5348</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip17</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip17PosX</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>-143219</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip17PosY</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>-33995</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip17PosZ</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>5255</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip18</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip18PosX</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>-160210</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip18PosY</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>-33915</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip18PosZ</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>5305</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip19</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip19PosX</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>-177199</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip19PosY</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>-33838</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip19PosZ</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>5342</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip20</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip20PosX</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>-194193</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip20PosY</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>-33790</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip20PosZ</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>5348</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip21</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip21PosX</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>-143276</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip21PosY</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>-51959</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip21PosZ</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>5256</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip22</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip22PosX</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>-160283</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip22PosY</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>-51941</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip22PosZ</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>5287</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip23</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip23PosX</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>-177279</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip23PosY</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>-51825</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip23PosZ</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>5320</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip24</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip24PosX</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>-194267</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip24PosY</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>-51750</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip24PosZ</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>5361</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>NumberOfCassettes</Name>
+			<Description>This is a NumberOfCassettes Description</Description>
+			<ValueType>int</ValueType>
+			<Value>2</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>SlotXInterval</Name>
+			<Description>This is a SlotXInterval Description</Description>
+			<ValueType>double</ValueType>
+			<Value>17000</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>SlotYInterval</Name>
+			<Description>This is a SlotYInterval Description</Description>
+			<ValueType>double</ValueType>
+			<Value>18000</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>CassetteYInterval</Name>
+			<Description>This is a CassetteYInterval Description</Description>
+			<ValueType>double</ValueType>
+			<Value>8000</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>BallInterval</Name>
+			<Description>This is a BallInterval Description</Description>
+			<ValueType>double</ValueType>
+			<Value>6210</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>BlockInterval</Name>
+			<Description>This is a BlockInterval Description</Description>
+			<ValueType>double</ValueType>
+			<Value>7500</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>BlockToMagnetInterval</Name>
+			<Description>This is a BlockToMagnetInterval Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1560</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>InitZ</Name>
+			<Description>This is a InitZ Description</Description>
+			<ValueType>double</ValueType>
+			<Value>15000</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>TipAutoFocusID1</Name>
+			<Description>This is a TipAutoFocusID1 Description</Description>
+			<ValueType>string</ValueType>
+			<Value>Tip</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>TipPatternID1</Name>
+			<Description>This is a TipPatternID1 Description</Description>
+			<ValueType>string</ValueType>
+			<Value>ATX_Tip</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip2Mileage</Name>
+			<Description>This is a Tip2Mileage Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip2ApproachCount</Name>
+			<Description>This is a Tip2ApproachCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip2PickUpCount</Name>
+			<Description>This is a Tip2PickUpCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip2PickUpTime</Name>
+			<Description>This is a Tip2PickUpTime Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip2DiscardTime</Name>
+			<Description>This is a Tip2DiscardTime Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip4Mileage</Name>
+			<Description>This is a Tip4Mileage Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip4ApproachCount</Name>
+			<Description>This is a Tip4ApproachCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip4PickUpCount</Name>
+			<Description>This is a Tip4PickUpCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip4PickUpTime</Name>
+			<Description>This is a Tip4PickUpTime Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip4DiscardTime</Name>
+			<Description>This is a Tip4DiscardTime Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip12Mileage</Name>
+			<Description>This is a Tip12Mileage Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip12ApproachCount</Name>
+			<Description>This is a Tip12ApproachCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip12PickUpCount</Name>
+			<Description>This is a Tip12PickUpCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip12PickUpTime</Name>
+			<Description>This is a Tip12PickUpTime Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip12DiscardTime</Name>
+			<Description>This is a Tip12DiscardTime Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>TipAutoFocusID2</Name>
+			<Description>This is a TipAutoFocusID2 Description</Description>
+			<ValueType>string</ValueType>
+			<Value>Tip</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>TipPatternID2</Name>
+			<Description>This is a TipPatternID2 Description</Description>
+			<ValueType>string</ValueType>
+			<Value>Tip_P</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip1Mileage</Name>
+			<Description>This is a Tip1Mileage Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip1ApproachCount</Name>
+			<Description>This is a Tip1ApproachCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip1PickUpCount</Name>
+			<Description>This is a Tip1PickUpCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip1PickUpTime</Name>
+			<Description>This is a Tip1PickUpTime Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip1DiscardTime</Name>
+			<Description>This is a Tip1DiscardTime Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip3Mileage</Name>
+			<Description>This is a Tip3Mileage Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip3ApproachCount</Name>
+			<Description>This is a Tip3ApproachCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip3PickUpCount</Name>
+			<Description>This is a Tip3PickUpCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip3PickUpTime</Name>
+			<Description>This is a Tip3PickUpTime Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip3DiscardTime</Name>
+			<Description>This is a Tip3DiscardTime Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip5Mileage</Name>
+			<Description>This is a Tip5Mileage Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip5ApproachCount</Name>
+			<Description>This is a Tip5ApproachCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip5PickUpCount</Name>
+			<Description>This is a Tip5PickUpCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip5PickUpTime</Name>
+			<Description>This is a Tip5PickUpTime Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip5DiscardTime</Name>
+			<Description>This is a Tip5DiscardTime Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip6Mileage</Name>
+			<Description>This is a Tip6Mileage Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip6ApproachCount</Name>
+			<Description>This is a Tip6ApproachCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip6PickUpCount</Name>
+			<Description>This is a Tip6PickUpCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip6PickUpTime</Name>
+			<Description>This is a Tip6PickUpTime Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip6DiscardTime</Name>
+			<Description>This is a Tip6DiscardTime Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip7Mileage</Name>
+			<Description>This is a Tip7Mileage Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip7ApproachCount</Name>
+			<Description>This is a Tip7ApproachCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip7PickUpCount</Name>
+			<Description>This is a Tip7PickUpCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip7PickUpTime</Name>
+			<Description>This is a Tip7PickUpTime Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip7DiscardTime</Name>
+			<Description>This is a Tip7DiscardTime Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip8Mileage</Name>
+			<Description>This is a Tip8Mileage Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip8ApproachCount</Name>
+			<Description>This is a Tip8ApproachCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip8PickUpCount</Name>
+			<Description>This is a Tip8PickUpCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip8PickUpTime</Name>
+			<Description>This is a Tip8PickUpTime Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip8DiscardTime</Name>
+			<Description>This is a Tip8DiscardTime Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip9Mileage</Name>
+			<Description>This is a Tip9Mileage Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip9ApproachCount</Name>
+			<Description>This is a Tip9ApproachCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip9PickUpCount</Name>
+			<Description>This is a Tip9PickUpCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip9PickUpTime</Name>
+			<Description>This is a Tip9PickUpTime Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip9DiscardTime</Name>
+			<Description>This is a Tip9DiscardTime Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip10Mileage</Name>
+			<Description>This is a Tip10Mileage Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip10ApproachCount</Name>
+			<Description>This is a Tip10ApproachCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip10PickUpCount</Name>
+			<Description>This is a Tip10PickUpCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip10PickUpTime</Name>
+			<Description>This is a Tip10PickUpTime Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip10DiscardTime</Name>
+			<Description>This is a Tip10DiscardTime Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip11Mileage</Name>
+			<Description>This is a Tip11Mileage Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip11ApproachCount</Name>
+			<Description>This is a Tip11ApproachCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip11PickUpCount</Name>
+			<Description>This is a Tip11PickUpCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip11PickUpTime</Name>
+			<Description>This is a Tip11PickUpTime Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip11DiscardTime</Name>
+			<Description>This is a Tip11DiscardTime Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip13Mileage</Name>
+			<Description>This is a Tip13Mileage Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip13ApproachCount</Name>
+			<Description>This is a Tip13ApproachCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip13PickUpCount</Name>
+			<Description>This is a Tip13PickUpCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip13PickUpTime</Name>
+			<Description>This is a Tip13PickUpTime Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip13DiscardTime</Name>
+			<Description>This is a Tip13DiscardTime Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip14Mileage</Name>
+			<Description>This is a Tip14Mileage Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip14ApproachCount</Name>
+			<Description>This is a Tip14ApproachCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip14PickUpCount</Name>
+			<Description>This is a Tip14PickUpCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip14PickUpTime</Name>
+			<Description>This is a Tip14PickUpTime Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip14DiscardTime</Name>
+			<Description>This is a Tip14DiscardTime Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip15Mileage</Name>
+			<Description>This is a Tip15Mileage Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip15ApproachCount</Name>
+			<Description>This is a Tip15ApproachCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip15PickUpCount</Name>
+			<Description>This is a Tip15PickUpCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip15PickUpTime</Name>
+			<Description>This is a Tip15PickUpTime Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip15DiscardTime</Name>
+			<Description>This is a Tip15DiscardTime Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip16Mileage</Name>
+			<Description>This is a Tip16Mileage Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip16ApproachCount</Name>
+			<Description>This is a Tip16ApproachCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip16PickUpCount</Name>
+			<Description>This is a Tip16PickUpCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip16PickUpTime</Name>
+			<Description>This is a Tip16PickUpTime Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip16DiscardTime</Name>
+			<Description>This is a Tip16DiscardTime Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip17Mileage</Name>
+			<Description>This is a Tip17Mileage Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip17ApproachCount</Name>
+			<Description>This is a Tip17ApproachCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip17PickUpCount</Name>
+			<Description>This is a Tip17PickUpCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip17PickUpTime</Name>
+			<Description>This is a Tip17PickUpTime Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip17DiscardTime</Name>
+			<Description>This is a Tip17DiscardTime Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip18Mileage</Name>
+			<Description>This is a Tip18Mileage Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip18ApproachCount</Name>
+			<Description>This is a Tip18ApproachCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip18PickUpCount</Name>
+			<Description>This is a Tip18PickUpCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip18PickUpTime</Name>
+			<Description>This is a Tip18PickUpTime Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip18DiscardTime</Name>
+			<Description>This is a Tip18DiscardTime Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip19Mileage</Name>
+			<Description>This is a Tip19Mileage Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip19ApproachCount</Name>
+			<Description>This is a Tip19ApproachCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip19PickUpCount</Name>
+			<Description>This is a Tip19PickUpCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip19PickUpTime</Name>
+			<Description>This is a Tip19PickUpTime Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip19DiscardTime</Name>
+			<Description>This is a Tip19DiscardTime Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip20Mileage</Name>
+			<Description>This is a Tip20Mileage Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip20ApproachCount</Name>
+			<Description>This is a Tip20ApproachCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip20PickUpCount</Name>
+			<Description>This is a Tip20PickUpCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip20PickUpTime</Name>
+			<Description>This is a Tip20PickUpTime Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip20DiscardTime</Name>
+			<Description>This is a Tip20DiscardTime Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip21Mileage</Name>
+			<Description>This is a Tip21Mileage Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip21ApproachCount</Name>
+			<Description>This is a Tip21ApproachCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip21PickUpCount</Name>
+			<Description>This is a Tip21PickUpCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip21PickUpTime</Name>
+			<Description>This is a Tip21PickUpTime Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip21DiscardTime</Name>
+			<Description>This is a Tip21DiscardTime Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip22Mileage</Name>
+			<Description>This is a Tip22Mileage Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip22ApproachCount</Name>
+			<Description>This is a Tip22ApproachCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip22PickUpCount</Name>
+			<Description>This is a Tip22PickUpCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip22PickUpTime</Name>
+			<Description>This is a Tip22PickUpTime Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip22DiscardTime</Name>
+			<Description>This is a Tip22DiscardTime Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip23Mileage</Name>
+			<Description>This is a Tip23Mileage Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip23ApproachCount</Name>
+			<Description>This is a Tip23ApproachCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip23PickUpCount</Name>
+			<Description>This is a Tip23PickUpCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip23PickUpTime</Name>
+			<Description>This is a Tip23PickUpTime Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip23DiscardTime</Name>
+			<Description>This is a Tip23DiscardTime Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip24Mileage</Name>
+			<Description>This is a Tip24Mileage Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip24ApproachCount</Name>
+			<Description>This is a Tip24ApproachCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip24PickUpCount</Name>
+			<Description>This is a Tip24PickUpCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip24PickUpTime</Name>
+			<Description>This is a Tip24PickUpTime Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip24DiscardTime</Name>
+			<Description>This is a Tip24DiscardTime Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>HeadATXDistance</Name>
+			<Description>This is a HeadATXDistance Description</Description>
+			<ValueType>double</ValueType>
+			<Value>150</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>HeadATXDistanceMargin</Name>
+			<Description>This is a HeadATXDistanceMargin Description</Description>
+			<ValueType>double</ValueType>
+			<Value>150</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>AdjustZ</Name>
+			<Description>This is a AdjustZ Description</Description>
+			<ValueType>int</ValueType>
+			<Value>5280</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>TipExchanged</Name>
+			<Description>This is a TipExchanged Description</Description>
+			<ValueType>string</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip1Cantilever</Name>
+			<Description>This is a Tip1Cantilever Description</Description>
+			<ValueType>string</ValueType>
+			<Value>AC160TS</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip13Cantilever</Name>
+			<Description>This is a Tip13Cantilever Description</Description>
+			<ValueType>string</ValueType>
+			<Value>AC160TS</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>TipCassetteID2</Name>
+			<Description>This is a TipCassetteID2 Description</Description>
+			<ValueType>string</ValueType>
+			<Value>Cassette2</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>TipCassetteID1</Name>
+			<Description>This is a TipCassetteID1 Description</Description>
+			<ValueType>string</ValueType>
+			<Value>Cassette1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip2Cantilever</Name>
+			<Description>This is a Tip2Cantilever Description</Description>
+			<ValueType>string</ValueType>
+			<Value>AC160TS</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip3Cantilever</Name>
+			<Description>This is a Tip3Cantilever Description</Description>
+			<ValueType>string</ValueType>
+			<Value>AC160TS</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip4Cantilever</Name>
+			<Description>This is a Tip4Cantilever Description</Description>
+			<ValueType>string</ValueType>
+			<Value>AC160TS</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip5Cantilever</Name>
+			<Description>This is a Tip5Cantilever Description</Description>
+			<ValueType>string</ValueType>
+			<Value>AC160TS</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip6Cantilever</Name>
+			<Description>This is a Tip6Cantilever Description</Description>
+			<ValueType>string</ValueType>
+			<Value>AC160TS</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip7Cantilever</Name>
+			<Description>This is a Tip7Cantilever Description</Description>
+			<ValueType>string</ValueType>
+			<Value>AC160TS</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip8Cantilever</Name>
+			<Description>This is a Tip8Cantilever Description</Description>
+			<ValueType>string</ValueType>
+			<Value>AC160TS</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip9Cantilever</Name>
+			<Description>This is a Tip9Cantilever Description</Description>
+			<ValueType>string</ValueType>
+			<Value>AC160TS</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip10Cantilever</Name>
+			<Description>This is a Tip10Cantilever Description</Description>
+			<ValueType>string</ValueType>
+			<Value>AC160TS</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip11Cantilever</Name>
+			<Description>This is a Tip11Cantilever Description</Description>
+			<ValueType>string</ValueType>
+			<Value>AC160TS</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip12Cantilever</Name>
+			<Description>This is a Tip12Cantilever Description</Description>
+			<ValueType>string</ValueType>
+			<Value>AC160TS</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip14Cantilever</Name>
+			<Description>This is a Tip14Cantilever Description</Description>
+			<ValueType>string</ValueType>
+			<Value>AC160TS</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip15Cantilever</Name>
+			<Description>This is a Tip15Cantilever Description</Description>
+			<ValueType>string</ValueType>
+			<Value>AC160TS</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip16Cantilever</Name>
+			<Description>This is a Tip16Cantilever Description</Description>
+			<ValueType>string</ValueType>
+			<Value>AC160TS</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip17Cantilever</Name>
+			<Description>This is a Tip17Cantilever Description</Description>
+			<ValueType>string</ValueType>
+			<Value>AC160TS</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip18Cantilever</Name>
+			<Description>This is a Tip18Cantilever Description</Description>
+			<ValueType>string</ValueType>
+			<Value>AC160TS</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip19Cantilever</Name>
+			<Description>This is a Tip19Cantilever Description</Description>
+			<ValueType>string</ValueType>
+			<Value>AC160TS</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip20Cantilever</Name>
+			<Description>This is a Tip20Cantilever Description</Description>
+			<ValueType>string</ValueType>
+			<Value>AC160TS</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip21Cantilever</Name>
+			<Description>This is a Tip21Cantilever Description</Description>
+			<ValueType>string</ValueType>
+			<Value>AC160TS</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip22Cantilever</Name>
+			<Description>This is a Tip22Cantilever Description</Description>
+			<ValueType>string</ValueType>
+			<Value>AC160TS</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip23Cantilever</Name>
+			<Description>This is a Tip23Cantilever Description</Description>
+			<ValueType>string</ValueType>
+			<Value>AC160TS</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Tip24Cantilever</Name>
+			<Description>This is a Tip24Cantilever Description</Description>
+			<ValueType>string</ValueType>
+			<Value>AC160TS</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>TipAlignerSupport</Name>
+			<Description>This is a TipAlignerSupport Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ProbeHandCheckerSupport</Name>
+			<Description>This is a ProbeHandCheckerSupport Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>SlotCheckSupport</Name>
+			<Description>This is a SlotCheckSupport Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>PreviousTipIndex</Name>
+			<Description>This is a PreviousTipIndex Description</Description>
+			<ValueType>int</ValueType>
+			<Value>13</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>SlotCheckThreshold</Name>
+			<Description>This is a SlotCheckThreshold Description</Description>
+			<ValueType>int</ValueType>
+			<Value>128</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>SlotCheckRelativeX</Name>
+			<Description>This is a SlotCheckRelativeX Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>SlotCheckRelativeY</Name>
+			<Description>This is a SlotCheckRelativeY Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1500</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>SlotCheckRelativeZ</Name>
+			<Description>This is a SlotCheckRelativeZ Description</Description>
+			<ValueType>double</ValueType>
+			<Value>2000</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>SlotCheckRelativeF</Name>
+			<Description>This is a SlotCheckRelativeF Description</Description>
+			<ValueType>double</ValueType>
+			<Value>-1500</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>SlotCheckBrightness</Name>
+			<Description>This is a SlotCheckBrightness Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.8</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>SlotCheckContrast</Name>
+			<Description>This is a SlotCheckContrast Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>SlotCheckLightStrength</Name>
+			<Description>This is a SlotCheckLightStrength Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.8</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip1Width</Name>
+			<Description>This is a Tip1Width Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip1SampleCount</Name>
+			<Description>This is a Tip1SampleCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip1Comment</Name>
+			<Description>This is a Tip1Comment Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip2Width</Name>
+			<Description>This is a Tip2Width Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip2SampleCount</Name>
+			<Description>This is a Tip2SampleCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip2Comment</Name>
+			<Description>This is a Tip2Comment Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip3Width</Name>
+			<Description>This is a Tip3Width Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip3SampleCount</Name>
+			<Description>This is a Tip3SampleCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip3Comment</Name>
+			<Description>This is a Tip3Comment Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip4Width</Name>
+			<Description>This is a Tip4Width Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip4SampleCount</Name>
+			<Description>This is a Tip4SampleCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip4Comment</Name>
+			<Description>This is a Tip4Comment Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip5Width</Name>
+			<Description>This is a Tip5Width Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip5SampleCount</Name>
+			<Description>This is a Tip5SampleCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip5Comment</Name>
+			<Description>This is a Tip5Comment Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip6Width</Name>
+			<Description>This is a Tip6Width Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip6SampleCount</Name>
+			<Description>This is a Tip6SampleCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip6Comment</Name>
+			<Description>This is a Tip6Comment Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip7Width</Name>
+			<Description>This is a Tip7Width Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip7SampleCount</Name>
+			<Description>This is a Tip7SampleCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip7Comment</Name>
+			<Description>This is a Tip7Comment Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip8Width</Name>
+			<Description>This is a Tip8Width Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip8SampleCount</Name>
+			<Description>This is a Tip8SampleCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip8Comment</Name>
+			<Description>This is a Tip8Comment Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip9Width</Name>
+			<Description>This is a Tip9Width Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip9SampleCount</Name>
+			<Description>This is a Tip9SampleCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip9Comment</Name>
+			<Description>This is a Tip9Comment Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip10Width</Name>
+			<Description>This is a Tip10Width Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip10SampleCount</Name>
+			<Description>This is a Tip10SampleCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip10Comment</Name>
+			<Description>This is a Tip10Comment Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip11Width</Name>
+			<Description>This is a Tip11Width Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip11SampleCount</Name>
+			<Description>This is a Tip11SampleCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip11Comment</Name>
+			<Description>This is a Tip11Comment Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip12Width</Name>
+			<Description>This is a Tip12Width Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip12SampleCount</Name>
+			<Description>This is a Tip12SampleCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip12Comment</Name>
+			<Description>This is a Tip12Comment Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip13Width</Name>
+			<Description>This is a Tip13Width Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip13SampleCount</Name>
+			<Description>This is a Tip13SampleCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip13Comment</Name>
+			<Description>This is a Tip13Comment Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip14Width</Name>
+			<Description>This is a Tip14Width Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip14SampleCount</Name>
+			<Description>This is a Tip14SampleCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip14Comment</Name>
+			<Description>This is a Tip14Comment Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip15Width</Name>
+			<Description>This is a Tip15Width Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip15SampleCount</Name>
+			<Description>This is a Tip15SampleCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip15Comment</Name>
+			<Description>This is a Tip15Comment Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip16Width</Name>
+			<Description>This is a Tip16Width Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip16SampleCount</Name>
+			<Description>This is a Tip16SampleCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip16Comment</Name>
+			<Description>This is a Tip16Comment Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip17Width</Name>
+			<Description>This is a Tip17Width Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip17SampleCount</Name>
+			<Description>This is a Tip17SampleCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip17Comment</Name>
+			<Description>This is a Tip17Comment Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip18Width</Name>
+			<Description>This is a Tip18Width Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip18SampleCount</Name>
+			<Description>This is a Tip18SampleCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip18Comment</Name>
+			<Description>This is a Tip18Comment Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip19Width</Name>
+			<Description>This is a Tip19Width Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip19SampleCount</Name>
+			<Description>This is a Tip19SampleCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip19Comment</Name>
+			<Description>This is a Tip19Comment Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip20Width</Name>
+			<Description>This is a Tip20Width Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip20SampleCount</Name>
+			<Description>This is a Tip20SampleCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip20Comment</Name>
+			<Description>This is a Tip20Comment Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip21Width</Name>
+			<Description>This is a Tip21Width Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip21SampleCount</Name>
+			<Description>This is a Tip21SampleCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip21Comment</Name>
+			<Description>This is a Tip21Comment Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip22Width</Name>
+			<Description>This is a Tip22Width Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip22SampleCount</Name>
+			<Description>This is a Tip22SampleCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip22Comment</Name>
+			<Description>This is a Tip22Comment Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip23Width</Name>
+			<Description>This is a Tip23Width Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip23SampleCount</Name>
+			<Description>This is a Tip23SampleCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip23Comment</Name>
+			<Description>This is a Tip23Comment Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip24Width</Name>
+			<Description>This is a Tip24Width Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip24SampleCount</Name>
+			<Description>This is a Tip24SampleCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip24Comment</Name>
+			<Description>This is a Tip24Comment Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>LoadingPositionX</Name>
+			<Description>This is a LoadingPositionX Description</Description>
+			<ValueType>double</ValueType>
+			<Value>-113690</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>LoadingPositionY</Name>
+			<Description>This is a LoadingPositionY Description</Description>
+			<ValueType>double</ValueType>
+			<Value>-150673</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ProbeHandCheckerThreshold</Name>
+			<Description>This is a ProbeHandCheckerThreshold Description</Description>
+			<ValueType>int</ValueType>
+			<Value>128</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ProbeHandCheckerBrightness</Name>
+			<Description>This is a ProbeHandCheckerBrightness Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ProbeHandCheckerContrast</Name>
+			<Description>This is a ProbeHandCheckerContrast Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ProbeHandCheckerLightStrength</Name>
+			<Description>This is a ProbeHandCheckerLightStrength Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.9</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ProbeHandCheckerPosX</Name>
+			<Description>This is a ProbeHandCheckerPosX Description</Description>
+			<ValueType>double</ValueType>
+			<Value>-163155</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ProbeHandCheckerPosY</Name>
+			<Description>This is a ProbeHandCheckerPosY Description</Description>
+			<ValueType>double</ValueType>
+			<Value>86690.9</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ProbeHandCheckerPosZ</Name>
+			<Description>This is a ProbeHandCheckerPosZ Description</Description>
+			<ValueType>double</ValueType>
+			<Value>7059.76</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ProbeHandCheckerPosF</Name>
+			<Description>This is a ProbeHandCheckerPosF Description</Description>
+			<ValueType>double</ValueType>
+			<Value>5358.88</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip18Q</Name>
+			<Description>This is a Tip18Q Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip1Q</Name>
+			<Description>This is a Tip1Q Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip2Q</Name>
+			<Description>This is a Tip2Q Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip3Q</Name>
+			<Description>This is a Tip3Q Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip4Q</Name>
+			<Description>This is a Tip4Q Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip5Q</Name>
+			<Description>This is a Tip5Q Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip6Q</Name>
+			<Description>This is a Tip6Q Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip7Q</Name>
+			<Description>This is a Tip7Q Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip8Q</Name>
+			<Description>This is a Tip8Q Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip9Q</Name>
+			<Description>This is a Tip9Q Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip10Q</Name>
+			<Description>This is a Tip10Q Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip11Q</Name>
+			<Description>This is a Tip11Q Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip12Q</Name>
+			<Description>This is a Tip12Q Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip13Q</Name>
+			<Description>This is a Tip13Q Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip14Q</Name>
+			<Description>This is a Tip14Q Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip15Q</Name>
+			<Description>This is a Tip15Q Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip16Q</Name>
+			<Description>This is a Tip16Q Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip17Q</Name>
+			<Description>This is a Tip17Q Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip19Q</Name>
+			<Description>This is a Tip19Q Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip20Q</Name>
+			<Description>This is a Tip20Q Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip21Q</Name>
+			<Description>This is a Tip21Q Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip22Q</Name>
+			<Description>This is a Tip22Q Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip23Q</Name>
+			<Description>This is a Tip23Q Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip24Q</Name>
+			<Description>This is a Tip24Q Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>TipAlignerPosX</Name>
+			<Description>This is a TipAlignerPosX Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>TipAlignerPosY</Name>
+			<Description>This is a TipAlignerPosY Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>TipAlignerPosZ</Name>
+			<Description>This is a TipAlignerPosZ Description</Description>
+			<ValueType>double</ValueType>
+			<Value>14999.9</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip1RepairMileage</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip1RepairCount</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip2RepairMileage</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip2RepairCount</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip3RepairMileage</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip3RepairCount</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip4RepairMileage</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip4RepairCount</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip5RepairMileage</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip5RepairCount</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip6RepairMileage</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip6RepairCount</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip7RepairMileage</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip7RepairCount</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip8RepairMileage</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip8RepairCount</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip9RepairMileage</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip9RepairCount</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip10RepairMileage</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip10RepairCount</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip11RepairMileage</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip11RepairCount</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip12RepairMileage</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip12RepairCount</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip13RepairMileage</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip13RepairCount</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip14RepairMileage</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip14RepairCount</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip15RepairMileage</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip15RepairCount</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip16RepairMileage</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip16RepairCount</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip17RepairMileage</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip17RepairCount</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip18RepairMileage</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip18RepairCount</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip19RepairMileage</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip19RepairCount</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip20RepairMileage</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip20RepairCount</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip21RepairMileage</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip21RepairCount</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip22RepairMileage</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip22RepairCount</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip23RepairMileage</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip23RepairCount</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip24RepairMileage</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip24RepairCount</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip1PinPointPixel</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip2PinPointPixel</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip3PinPointPixel</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip4PinPointPixel</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip5PinPointPixel</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip6PinPointPixel</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip7PinPointPixel</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip8PinPointPixel</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip9PinPointPixel</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip10PinPointPixel</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip11PinPointPixel</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip12PinPointPixel</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip13PinPointPixel</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip14PinPointPixel</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip15PinPointPixel</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip16PinPointPixel</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip17PinPointPixel</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip18PinPointPixel</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip19PinPointPixel</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip20PinPointPixel</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip21PinPointPixel</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip22PinPointPixel</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip23PinPointPixel</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip24PinPointPixel</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip1StandardFreq</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip2StandardFreq</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip3StandardFreq</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip4StandardFreq</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip5StandardFreq</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip6StandardFreq</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip7StandardFreq</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip8StandardFreq</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip9StandardFreq</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip10StandardFreq</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip11StandardFreq</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip12StandardFreq</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip13StandardFreq</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip14StandardFreq</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip15StandardFreq</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip16StandardFreq</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip17StandardFreq</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip18StandardFreq</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip19StandardFreq</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip20StandardFreq</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip21StandardFreq</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip22StandardFreq</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip23StandardFreq</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Tip24StandardFreq</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item></ItemList>
+</Part>

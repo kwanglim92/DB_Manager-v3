@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>Info</Type>
+	<Name>General</Name>
+	<Description>WLI module info.</Description>
+	<ItemList>
+		<Item>
+			<Name>SerialPortNo</Name>
+			<Description>Serial port number.</Description>
+			<ValueType>int</ValueType>
+			<Value>7</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>BaudRate</Name>
+			<Description>Serial port baud rate.</Description>
+			<ValueType>int</ValueType>
+			<Value>14400</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Maker</Name>
+			<Description>This is a Maker Description</Description>
+			<ValueType>string</ValueType>
+			<Value>Unknown</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Model</Name>
+			<Description>This is a Model Description</Description>
+			<ValueType>string</ValueType>
+			<Value>Unknown</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>FirmwareVersion</Name>
+			<Description>This is a FirmwareVersion Description</Description>
+			<ValueType>string</ValueType>
+			<Value>0x6F1A0206</Value>
+			<Access>33</Access>
+		</Item>
+	</ItemList>
+</Part>

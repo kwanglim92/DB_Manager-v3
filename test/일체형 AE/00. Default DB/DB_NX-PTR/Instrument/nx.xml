@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Instrument>
+	<Name>nx</Name>
+	<Description>This is a nx instrument.</Description>
+	<ModuleList>
+		<Module>
+			<Type>DSP</Type>
+		</Module>
+		<Module>
+			<Type>System</Type>
+		</Module>
+		<Module>
+			<Type>Vision</Type>
+		</Module>
+		<Module>
+			<Type>XYStage</Type>
+		</Module>
+		<Module>
+			<Type>FacilityController</Type>
+		</Module>
+	</ModuleList>
+</Instrument>

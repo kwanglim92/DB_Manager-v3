@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>System</Type>
+	<Name>General</Name>
+	<Description>This is a General System part.</Description>
+	<ItemList>
+		<Item>
+			<Name>Customer</Name>
+			<Description>This is a Customer description.</Description>
+			<ValueType>string</ValueType>
+			<Value>User</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Model</Name>
+			<Description>This is a Model description.</Description>
+			<ValueType>string</ValueType>
+			<Value>NX-IND</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>EquipID</Name>
+			<Description>This is a EquipID description.</Description>
+			<ValueType>string</ValueType>
+			<Value>4</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>AFM</Name>
+			<Description>This is a AFM description.</Description>
+			<ValueType>string</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bAutomation</Name>
+			<Description>This is a Automation description.</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bSimulation</Name>
+			<Description>This is a bSimulation description.</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bIndustrialSupport</Name>
+			<Description>This is a bIndustrialSupport description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bWriteErrorFile</Name>
+			<Description>This is a bWriteErrorFile Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>JoystickSupport</Name>
+			<Description>This is a bJoystickSupport description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>JoystickSpeed</Name>
+			<Description>This is a JoystickSpeed description</Description>
+			<ValueType>string</ValueType>
+			<Value>0.005,0.005,0.02,0.02</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>PolarScan</Name>
+			<Description>This is a PolarScan Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bSupportRecipes</Name>
+			<Description>This is a bSupportRecipes Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>TipPositioningSupport</Name>
+			<Description>This is a TipPositioningSupport Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>TipCharacterizerSupport</Name>
+			<Description>This is a TipCharacterizerSupport Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>TipQualificationSupport</Name>
+			<Description>This is a TipQualificationSupport Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseEmergencyBypass</Name>
+			<Description>This is a bUseEmergencyBypass Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseInterlockBypass</Name>
+			<Description>This is a bUseInterlockBypass Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>NumberOfTipExchanger</Name>
+			<Description>This is a NumberOfTipExchanger Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>PSPDAlignRetryCount</Name>
+			<Description>This is a PSPDAlignRetryCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ProbeHandAttachCount</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>2413</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>TipInitializerSupport</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>XeaLiveCheck</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>CMinusDAlignRetryCount</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item></ItemList>
+</Part>

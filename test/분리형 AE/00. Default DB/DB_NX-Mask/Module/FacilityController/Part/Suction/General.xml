@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>Suction</Type>
+	<Name>General</Name>
+	<Description>This is a General Suction part.</Description>
+	<ItemList>
+		<Item>
+			<Name>bUse</Name>
+			<Description>This is a bUse description.</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Port</Name>
+			<Description>This is a Port description.</Description>
+			<ValueType>string</ValueType>
+			<Value>R:3:0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bUseSensor</Name>
+			<Description>This is a bUseSensor Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>SensorPort</Name>
+			<Description>This is a SensorPort description.</Description>
+			<ValueType>string</ValueType>
+			<Value>X:25:14</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>SuctionOnDelayMilliSec</Name>
+			<Description>This is a SuctionOnDelayMilliSec Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1000</Value>
+			<Access>33</Access>
+		</Item></ItemList>
+</Part>

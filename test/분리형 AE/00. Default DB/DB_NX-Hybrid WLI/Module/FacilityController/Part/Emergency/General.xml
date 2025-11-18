@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>Emergency</Type>
+	<Name>General</Name>
+	<Description>This is a General Emergency part.</Description>
+	<ItemList>
+		<Item>
+			<Name>bUse</Name>
+			<Description>This is a bUse description.</Description>
+			<Value>1</Value>
+			<ValueType>int</ValueType>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>EmergencyLabel</Name>
+			<Description>This is a EmergencyLabel description.</Description>
+			<Value>Enable Grip EMO/Cabinet Rear EMO/Cabinet Front Sub Box EMO/Cabinet Plate EMO/Cabinet Right EMO/EFEM EMO-1/EFEM EMO-2/EFEM EMO-3</Value>
+			<ValueType>string</ValueType>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Port</Name>
+			<Description>This is a Port description.</Description>
+			<ValueType>string</ValueType>
+			<Value>R:2:7/R:2:8/R:2:9/R:2:10/R:2:11/R:2:12/R:2:13/R:2:14</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>ActiveLow</Name>
+			<Description>This is a ActiveLow Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bUseXYStageServoPower</Name>
+			<Description>This is a bUseXYStageServoPower Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseXYStageDriverPowerSensor</Name>
+			<Description>This is a bUseXYStageDriverPowerSensor Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseXYStageDriverOverCurrentSensor</Name>
+			<Description>This is a bUseXYStageDriverOverCurrentSensor Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseELCBSensor</Name>
+			<Description>This is a bUseELCBSensor Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseEnableGrip</Name>
+			<Description>This is a bUseEnableGrip Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseLightCurtainSensor</Name>
+			<Description>This is a bUseLightCurtainSensor Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseResetAlarm</Name>
+			<Description>This is a bUseResetAlarm Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>EnableGripSensorPort</Name>
+			<Description>This is a EnableGripSensorPort Description</Description>
+			<ValueType>int</ValueType>
+			<Value>R:1:13</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseSystemReset</Name>
+			<Description>This is a bUseSystemReset Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseLoaderDoorInterLock</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseWarningMessage</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ResetAlarmSensorPort</Name>
+			<Description></Description>
+			<ValueType>string</ValueType>
+			<Value>R:2:12</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>SystemResetPort</Name>
+			<Description></Description>
+			<ValueType>string</ValueType>
+			<Value>R:2:4</Value>
+			<Access>33</Access>
+		</Item></ItemList>
+</Part>

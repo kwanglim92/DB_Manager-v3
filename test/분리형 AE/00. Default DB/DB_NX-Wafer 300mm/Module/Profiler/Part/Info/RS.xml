@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>Info</Type>
+	<Name>RS</Name>
+	<Description>This is a RS Profiler Info part.</Description>
+	<ItemList>
+		<Item>
+			<Name>Simulation</Name>
+			<Description>This is a bSimulation description.</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Maker</Name>
+			<Description>This is a Maker description.</Description>
+			<ValueType>string</ValueType>
+			<Value>Invenios</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Model</Name>
+			<Description>This is a Model description.</Description>
+			<ValueType>string</ValueType>
+			<Value>RS</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>MaxLength</Name>
+			<Description>This is a MaxLength description.</Description>
+			<ValueType>double</ValueType>
+			<Value>10</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Origin</Name>
+			<Description>This is a Origin description.</Description>
+			<ValueType>double</ValueType>
+			<Value>-5</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>MaxSpeed</Name>
+			<Description>This is a MaxSpeed description.</Description>
+			<ValueType>double</ValueType>
+			<Value>0.48</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>MaxAccel</Name>
+			<Description>This is a MaxAccel description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1.9</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>MaxDecel</Name>
+			<Description>This is a MaxDecel description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1.9</Value>
+			<Access>0</Access>
+		</Item>
+	</ItemList>
+</Part>

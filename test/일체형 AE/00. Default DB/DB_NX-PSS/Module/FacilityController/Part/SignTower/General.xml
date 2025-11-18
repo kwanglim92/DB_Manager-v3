@@ -1,0 +1,274 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>SignTower</Type>
+	<Name>General</Name>
+	<Description>This is a General SignTower part.</Description>
+	<ItemList>
+		<Item>
+			<Name>bUse</Name>
+			<Description>This is a bUse description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>RedOnPort</Name>
+			<Description>This is a RedOnPort description.</Description>
+			<ValueType>string</ValueType>
+			<Value>R:0:0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>RedBlinkPort</Name>
+			<Description>This is a RedBlinkPort description.</Description>
+			<ValueType>string</ValueType>
+			<Value>R:0:1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>YellowOnPort</Name>
+			<Description>This is a YellowOnPort description.</Description>
+			<ValueType>string</ValueType>
+			<Value>R:0:2</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>YellowBlinkPort</Name>
+			<Description>This is a YellowBlinkPort description.</Description>
+			<ValueType>string</ValueType>
+			<Value>R:0:3</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>GreenOnPort</Name>
+			<Description>This is a GreenOnPort description.</Description>
+			<ValueType>string</ValueType>
+			<Value>R:0:4</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>GreenBlinkPort</Name>
+			<Description>This is a GreenBlinkPort description.</Description>
+			<ValueType>string</ValueType>
+			<Value>R:0:5</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>PieeePort</Name>
+			<Description>This is a PieeePort description.</Description>
+			<ValueType>string</ValueType>
+			<Value>R:0:6</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>PiPiPiPort</Name>
+			<Description>This is a PiPiPiPort description.</Description>
+			<ValueType>string</ValueType>
+			<Value>R:0:7</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>OperationMethod</Name>
+			<Description>This is a OperationMethod description.</Description>
+			<ValueType>list</ValueType>
+			<Value>0:SS_AMLCD|LGP</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>WhiteOnPort</Name>
+			<Description>This is a WhiteOnPort Description</Description>
+			<ValueType>string</ValueType>
+			<Value>R:0:8</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>WhiteBlinkPort</Name>
+			<Description>This is a WhiteBlinkPort Description</Description>
+			<ValueType>string</ValueType>
+			<Value>R:0:9</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bUseBuzzer</Name>
+			<Description>This is a bUseBuzzer Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>SignOnManual</Name>
+			<Description>This is a SignOnManual Description</Description>
+			<ValueType>string</ValueType>
+			<Value>00200</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>SignOnIdle</Name>
+			<Description>This is a SignOnIdle Description</Description>
+			<ValueType>string</ValueType>
+			<Value>02000</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>SignOnRunOnLine</Name>
+			<Description>This is a SignOnRunOnLine Description</Description>
+			<ValueType>string</ValueType>
+			<Value>01000</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>SignOnRunOffLine</Name>
+			<Description>This is a SignOnRunOffLine Description</Description>
+			<ValueType>string</ValueType>
+			<Value>01000</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>SignOnPaused</Name>
+			<Description>This is a SignOnPaused Description</Description>
+			<ValueType>string</ValueType>
+			<Value>20001</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>SignOnDone</Name>
+			<Description>This is a SignOnDone Description</Description>
+			<ValueType>string</ValueType>
+			<Value>00202</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bUseWhiteSignal</Name>
+			<Description>This is a bUseWhiteSignal Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>RedLabel</Name>
+			<Description>This is a RedLabel Description</Description>
+			<ValueType>string</ValueType>
+			<Value>Red</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>YellowLabel</Name>
+			<Description>This is a YellowLabel Description</Description>
+			<ValueType>string</ValueType>
+			<Value>Yellow</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>GreenLabel</Name>
+			<Description>This is a GreenLabel Description</Description>
+			<ValueType>string</ValueType>
+			<Value>Green</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>WhiteLabel</Name>
+			<Description>This is a WhiteLabel Description</Description>
+			<ValueType>string</ValueType>
+			<Value>White</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>RedColorCode</Name>
+			<Description>This is a RedColorCode Description</Description>
+			<ValueType>string</ValueType>
+			<Value>#FF3B30</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>YelloColorCode</Name>
+			<Description>This is a YelloColorCode Description</Description>
+			<ValueType>string</ValueType>
+			<Value>#FFA100</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>WhiteColorCode</Name>
+			<Description>This is a WhiteColorCode Description</Description>
+			<ValueType>string</ValueType>
+			<Value>#FFFFFF</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseEquipmentState</Name>
+			<Description/>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseOperatorCall</Name>
+			<Description/>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUsePortState</Name>
+			<Description/>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bReportEmergency</Name>
+			<Description/>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bReportDoorOpen</Name>
+			<Description/>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>GreenColorCode</Name>
+			<Description/>
+			<ValueType>string</ValueType>
+			<Value>#00AE9E</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseBlueSignal</Name>
+			<Description/>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>BlueLabel</Name>
+			<Description/>
+			<ValueType>string</ValueType>
+			<Value>White</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>BlueColorCode</Name>
+			<Description/>
+			<ValueType>string</ValueType>
+			<Value>#FFFFFF</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>BlueOnPort</Name>
+			<Description/>
+			<ValueType>string</ValueType>
+			<Value>R:0:8</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>BlueBlinkPort</Name>
+			<Description/>
+			<ValueType>string</ValueType>
+			<Value>R:0:9</Value>
+			<Access>33</Access>
+		</Item>
+	</ItemList>
+</Part>

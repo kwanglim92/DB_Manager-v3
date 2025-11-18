@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>Info</Type>
+	<Name>General</Name>
+	<Description>This is a Info part.</Description>
+	<ItemList>
+		<Item>
+			<Name>Maker</Name>
+			<Description>This is a Maker Description</Description>
+			<ValueType>string</ValueType>
+			<Value>Sunje</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bSimulation</Name>
+			<Description>This is a bSimulation Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseLog</Name>
+			<Description>This is a bUseLog Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>NumberOfControls</Name>
+			<Description>This is a NumberOfControls Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Type</Name>
+			<Description>This is a Type Description</Description>
+			<ValueType>list</ValueType>
+			<Value>0:104N|104S</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ControllerName</Name>
+			<Description>This is a ControllerName Description</Description>
+			<ValueType>string</ValueType>
+			<Value>104N</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>BaudRate</Name>
+			<Description></Description>
+			<ValueType>list</ValueType>
+			<Value>0:104N|104S</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Address</Name>
+			<Description></Description>
+			<ValueType>list</ValueType>
+			<Value>1:16|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15</Value>
+			<Access>33</Access>
+		</Item>
+	</ItemList>
+</Part>

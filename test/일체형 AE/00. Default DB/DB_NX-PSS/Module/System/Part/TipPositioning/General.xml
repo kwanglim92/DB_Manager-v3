@@ -1,0 +1,162 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>TipPositioning</Type>
+	<Name>General</Name>
+	<Description>This is a General TipPositioning part.</Description>
+	<ItemList>
+		<Item>
+			<Name>bUse</Name>
+			<Description>This is a bUse description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>PositionX</Name>
+			<Description>This is a positionX description.</Description>
+			<ValueType>double</ValueType>
+			<Value>66201</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>PositionY</Name>
+			<Description>This is a positionY description.</Description>
+			<ValueType>double</ValueType>
+			<Value>15461</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>TipAutoFocus</Name>
+			<Description>This is a TipAutoFocus Description</Description>
+			<ValueType>string</ValueType>
+			<Value>VLSI_T_C</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>SampleAutoFocus</Name>
+			<Description>This is a SampleAutoFocus Description</Description>
+			<ValueType>string</ValueType>
+			<Value>OSC_Sample</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>TipPattern</Name>
+			<Description>This is a TipPattern description.</Description>
+			<ValueType>string</ValueType>
+			<Value/>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>SamplePattern</Name>
+			<Description>This is a SamplePattern description.</Description>
+			<ValueType>string</ValueType>
+			<Value/>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>ScanRate</Name>
+			<Description>This is a ScanRate description.</Description>
+			<ValueType>double</ValueType>
+			<Value>0.3</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>ZServoGain</Name>
+			<Description>This is a ZServoGain description.</Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>ZServoNCGain</Name>
+			<Description>This is a ZServoNCGain Description</Description>
+			<ValueType>double</ValueType>
+			<Value>10</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>SetPoint</Name>
+			<Description>This is a SetPoint description.</Description>
+			<ValueType>double</ValueType>
+			<Value>0.0061</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Amplitude</Name>
+			<Description>This is a Amplitude description.</Description>
+			<ValueType>double</ValueType>
+			<Value>0.0067</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>PixelX</Name>
+			<Description>This is a PixelX description.</Description>
+			<ValueType>int</ValueType>
+			<Value>2048</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>PixelY</Name>
+			<Description>This is a PixelY description.</Description>
+			<ValueType>int</ValueType>
+			<Value>32</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>SizeX</Name>
+			<Description>This is a SizeX description.</Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>SizeY</Name>
+			<Description>This is a SizeY description.</Description>
+			<ValueType>double</ValueType>
+			<Value>0.2</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>OffsetX</Name>
+			<Description>This is a OffsetX description.</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>OffsetY</Name>
+			<Description>This is a OffsetY description.</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>FineSweepFreq</Name>
+			<Description>This is a FineSweepFreq Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>OptimalSetPoint</Name>
+			<Description>This is a OptimalSetPoint Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>AmplitudeFeedback</Name>
+			<Description>This is a AmplitudeFeedback Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Intermittent</Name>
+			<Description>This is a Intermittent Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+	</ItemList>
+</Part>

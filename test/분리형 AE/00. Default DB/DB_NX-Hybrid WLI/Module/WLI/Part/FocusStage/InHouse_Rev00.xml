@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>FocusStage</Type>
+	<Name>InHouse_Rev00</Name>
+	<Description>This is a focus stage.</Description>
+	<ItemList>
+		<Item>
+			<Name>MicronPerPulse</Name>
+			<Description>Moving distance with one motor pulse, in um.</Description>
+			<ValueType>double</ValueType>
+			<Value>0.08</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>MicronPerEncoderPulse</Name>
+			<Description>Encoder pulse to pulse width in um.</Description>
+			<ValueType>double</ValueType>
+			<Value>0.05</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>MaxSpeed</Name>
+			<Description>Max speed(um/s)</Description>
+			<ValueType>double</ValueType>
+			<Value>1000</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Accel</Name>
+			<Description>Motor acceleration in um/sec^2.</Description>
+			<ValueType>double</ValueType>
+			<Value>5000</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Decel</Name>
+			<Description>Motor deceleration in um/sec^2.</Description>
+			<ValueType>double</ValueType>
+			<Value>5000</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>HomeSpeed</Name>
+			<Description>Speed used during homing in um/sec.</Description>
+			<ValueType>double</ValueType>
+			<Value>1000</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>PositionMin</Name>
+			<Description>Minimum stage position for move, in um.</Description>
+			<ValueType>double</ValueType>
+			<Value>-12500</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>PositionMax</Name>
+			<Description>Maximum stage position for move, in um.</Description>
+			<ValueType>double</ValueType>
+			<Value>-500</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>InitPosition</Name>
+			<Description>Position in micrometer after tool initialization.</Description>
+			<ValueType>double</ValueType>
+			<Value>-1000</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>UseEncoder</Name>
+			<Description>1 if encoder feedback position need to be used. Else 0.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Maker</Name>
+			<Description>This is a Maker Description</Description>
+			<ValueType>string</ValueType>
+			<Value>Unknown</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Model</Name>
+			<Description>This is a Model Description</Description>
+			<ValueType>string</ValueType>
+			<Value>Unknown</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Simulation</Name>
+			<Description>This is a Simulation Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>StartingSpeed</Name>
+			<Description>This is a StartingSpeed Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>StoppingSpeed</Name>
+			<Description>This is a StoppingSpeed Description</Description>
+			<ValueType>double</ValueType>
+			<Value>200</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>MotorOnDelayTime</Name>
+			<Description>This is a MotorOnDelayTime Description</Description>
+			<ValueType>double</ValueType>
+			<Value>50</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>UseEncoderErrorCheck</Name>
+			<Description>This is a UseEncoderErrorCheck Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>UseHighResolutionControl</Name>
+			<Description>This is a UseHighResolutionControl Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>EncoderErrorCheckTime</Name>
+			<Description>This is a EncoderErrorCheckTime Description</Description>
+			<ValueType>double</ValueType>
+			<Value>500</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>EncoderSettlingTime</Name>
+			<Description>This is a EncoderSettlingTime Description</Description>
+			<ValueType>double</ValueType>
+			<Value>500</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>FeedbackErrorMicron</Name>
+			<Description>This is a FeedbackErrorMicron Description</Description>
+			<ValueType>double</ValueType>
+			<Value>2</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Position</Name>
+			<Description>This is a Position Description</Description>
+			<ValueType>double</ValueType>
+			<Value>17000</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>MaxFocusOffset</Name>
+			<Description>This is a MaxFocusOffset Description</Description>
+			<ValueType>double</ValueType>
+			<Value>10</Value>
+			<Access>33</Access>
+		</Item>
+	</ItemList>
+</Part>

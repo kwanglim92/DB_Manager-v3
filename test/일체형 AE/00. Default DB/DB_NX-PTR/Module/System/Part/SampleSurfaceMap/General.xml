@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>SampleSurfaceMap</Type>
+	<Name>General</Name>
+	<Description>This is a General SampleSurfaceMap part.</Description>
+	<ItemList>
+		<Item>
+			<Name>bUse</Name>
+			<Description>This is a bUse description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>NoMapData</Name>
+			<Description>This is a NoMapDatadescription.</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>SurfaceMapData1</Name>
+			<Description>This is a SurfaceMapData1 description.</Description>
+			<ValueType>string</ValueType>
+			<Value>59046.5#-112193#15318.8#4090.19#</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>SurfaceMapData2</Name>
+			<Description>This is a SurfaceMapData2 description.</Description>
+			<ValueType>string</ValueType>
+			<Value>-51413.5#108744#15318.7#4141.19#</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>SurfaceMapData3</Name>
+			<Description>This is a SurfaceMapData3 description.</Description>
+			<ValueType>string</ValueType>
+			<Value>167380#108741#15318.8#4164.69#</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>FocusRange</Name>
+			<Description>This is a FocusRange Description</Description>
+			<ValueType>double</ValueType>
+			<Value>120</Value>
+			<Access>0</Access>
+		</Item>
+	</ItemList>
+</Part>

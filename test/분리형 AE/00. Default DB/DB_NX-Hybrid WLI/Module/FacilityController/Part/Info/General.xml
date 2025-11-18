@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>Info</Type>
+	<Name>General</Name>
+	<Description>This is a General FacillityController Info part.</Description>
+	<ItemList>
+		<Item>
+			<Name>bUse</Name>
+			<Description>This is a bUse description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>bSimulation</Name>
+			<Description>This is a bSimulation description.</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Maker</Name>
+			<Description>This is a Maker description.</Description>
+			<ValueType>string</ValueType>
+			<Value>OEMAX</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Model</Name>
+			<Description>This is a Model description.</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bDisplayWarning</Name>
+			<Description>This is a bDisplayWarning Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>UseLog</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ReadDataAreaRetry</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>10</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>CommendDelayMilliSec</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>50</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>UseTCP</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>TCPAddress</Name>
+			<Description></Description>
+			<ValueType>string</ValueType>
+			<Value>177.133.60.15</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>TCPPortNo</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>32769</Value>
+			<Access>33</Access>
+		</Item></ItemList>
+</Part>

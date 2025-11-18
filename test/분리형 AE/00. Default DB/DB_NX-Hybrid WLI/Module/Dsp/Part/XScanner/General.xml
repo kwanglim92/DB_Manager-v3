@@ -1,0 +1,294 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>XScanner</Type>
+	<Name>General</Name>
+	<Description>This is a General XScanner part.</Description>
+	<ItemList>
+		<Item>
+			<Name>bReverse</Name>
+			<Description>This is a bReverse Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>MicrometerPerDacHigh</Name>
+			<Description>Moving distance in high power mode(um)</Description>
+			<ValueType>double</ValueType>
+			<Value>176.463</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>MicrometerPerDacMedium</Name>
+			<Description>Moving distance in high power mode(um)</Description>
+			<ValueType>double</ValueType>
+			<Value>120.000</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>MicrometerPerDacLow</Name>
+			<Description>Moving distance in low power mode(um)</Description>
+			<ValueType>double</ValueType>
+			<Value>100.000</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ResonanceFrequencyHz</Name>
+			<Description>Resonance frequency(Hz)</Description>
+			<ValueType>double</ValueType>
+			<Value>160</Value>
+			<Access>32</Access>
+		</Item>
+		<Item>
+			<Name>ServoScanRangeMicrometer</Name>
+			<Description>Closed loop scanning range(um)</Description>
+			<ValueType>double</ValueType>
+			<Value>101.01</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Scale1</Name>
+			<Description>This is a Scale1 Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Scale2</Name>
+			<Description>This is a Scale2 Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>MaximalServoDacPerSec</Name>
+			<Description>Safe servo speed(DAC/s)</Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>MaxScanSpeedMicrometerPerSec</Name>
+			<Description>Maximum safe scan speed(um/s)</Description>
+			<ValueType>double</ValueType>
+			<Value>1000</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>IntegralGainHigh</Name>
+			<Description>This is a IntegralGainHigh Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.2</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>IntegralRatioHigh</Name>
+			<Description>This is a IntegralRatioHigh Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>IntegralGainMedium</Name>
+			<Description>This is a IntegralGainMedium Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.2</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>IntegralRatioMedium</Name>
+			<Description>This is a IntegralRatioMedium Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>IntegralGainLow</Name>
+			<Description>This is a IntegralGainLow Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.2</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>IntegralRatioLow</Name>
+			<Description>This is a IntegralRatioLow Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ScanningRange</Name>
+			<Description>This is a ScanningRange Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>MaximalServoDacPerSecHigh</Name>
+			<Description>This is a MaximalServoDacPerSecHigh Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>MaximalServoDacPerSecLow</Name>
+			<Description>This is a MaximalServoDacPerSecLow Description</Description>
+			<ValueType>double</ValueType>
+			<Value>10</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>SafeRangeFactorHigh</Name>
+			<Description>This is a SafeRangeFactorHigh Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>SafeRangeFactorLow</Name>
+			<Description>This is a SafeRangeFactorLow Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ScanningRangeDefaultHigh</Name>
+			<Description>This is a ScanningRangeDefaultHigh Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ScanningRangeDefaultLow</Name>
+			<Description>This is a ScanningRangeDefaultLow Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.2</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>LUTItem0UseHigh</Name>
+			<Description>This is a LUTItem0UseHigh Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>LUTItem1UseHigh</Name>
+			<Description>This is a LUTItem1UseHigh Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>LUTItem2UseHigh</Name>
+			<Description>This is a LUTItem2UseHigh Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>HPF0</Name>
+			<Description>This is a HPF0 Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>HPF1</Name>
+			<Description>This is a HPF1 Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>HPF2</Name>
+			<Description>This is a HPF2 Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>LUTItem0UseLow</Name>
+			<Description>This is a LUTItem0UseLow Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>LUTItem1UseLow</Name>
+			<Description>This is a LUTItem1UseLow Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>LUTItem2UseLow</Name>
+			<Description>This is a LUTItem2UseLow Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>LPF0</Name>
+			<Description>This is a LPF0 Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>LPF1</Name>
+			<Description>This is a LPF1 Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>LPF2</Name>
+			<Description>This is a LPF2 Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>LUTItem0RangeFactorHigh</Name>
+			<Description>This is a LUTItem0RangeFactorHigh Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>LUTItem1RangeFactorHigh</Name>
+			<Description>This is a LUTItem1RangeFactorHigh Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>LUTItem2RangeFactorHigh</Name>
+			<Description>This is a LUTItem2RangeFactorHigh Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ServoCutoffFrequencyHz</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>50</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ScannerDefaultRotation</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ScanningRangeDefaultMedium</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item></ItemList>
+</Part>

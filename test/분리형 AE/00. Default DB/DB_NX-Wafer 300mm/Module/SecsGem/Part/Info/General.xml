@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>Info</Type>
+	<Name>General</Name>
+	<Description>This is a General Info part.</Description>
+	<ItemList>
+		<Item>
+			<Name>Simulation</Name>
+			<Description>This is a bSimulation description.</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Maker</Name>
+			<Description>This is a Maker description.</Description>
+			<ValueType>string</ValueType>
+			<Value>ItInnovation</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Model</Name>
+			<Description>This is a Model description.</Description>
+			<ValueType>string</ValueType>
+			<Value>XGem300</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>OpMode</Name>
+			<Description>This is a OpMode description.</Description>
+			<ValueType>list</ValueType>
+			<Value>1:200mm|300mm</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>UseSlashForPathSeparator</Name>
+			<Description>This is a UseSlashForPathSeparator Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>UseLog</Name>
+			<Description>This is a UseLog Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>CleanBoot</Name>
+			<Description>This is a CleanBoot Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>UseSiteIndexForSiteName</Name>
+			<Description>This is a UseSiteIndexForSiteName Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>UseNullStringForNaN</Name>
+			<Description>This is a UseNullStringForNaN Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>StringForNaN</Name>
+			<Description>This is a StringForNaN Description</Description>
+			<ValueType>string</ValueType>
+			<Value>NaN</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>MultiJobSupportFor200mm</Name>
+			<Description>This is a MultiJobSupportFor200mm Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>UseCarrierReleaseEventLast</Name>
+			<Description>This is a UseCarrierReleaseEventLast Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>UseCMSSlotMapString</Name>
+			<Description>This is a UseCMSSlotMapString Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ImageExportPath</Name>
+			<Description>This is a ImageExportPath Description</Description>
+			<ValueType>string</ValueType>
+			<Value>C:\Temp\ImageExport</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ModelName</Name>
+			<Description>This is a ModelName Description</Description>
+			<ValueType>string</ValueType>
+			<Value>NX-IND</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Version</Name>
+			<Description>This is a Version Description</Description>
+			<ValueType>string</ValueType>
+			<Value>5.2.4.Build201</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>VidUpdateTime</Name>
+			<Description>This is a VidUpdateTime Description</Description>
+			<ValueType>int</ValueType>
+			<Value>5000</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>SendImageType</Name>
+			<Description>This is a SendImageType Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>MeasurementExportPath</Name>
+			<Description>This is a MeasurementExportPath Description</Description>
+			<ValueType>string</ValueType>
+			<Value>C:\Temp\MeasurementExport</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>SendMeasurementType</Name>
+			<Description>This is a SendMeasurementType Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item></ItemList>
+</Part>

@@ -1,0 +1,274 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>ZStage</Type>
+	<Name>General</Name>
+	<Description>This is a General ZStage part.</Description>
+	<ItemList>
+		<Item>
+			<Name>UseEncoder</Name>
+			<Description>This is a UseEncoder Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>MaxStepPerSec</Name>
+			<Description>Max speed(step/s)</Description>
+			<ValueType>double</ValueType>
+			<Value>25000</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>AccelStepPerSecSquare</Name>
+			<Description>Acceleration when starting(step/s^2)</Description>
+			<ValueType>double</ValueType>
+			<Value>50000</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>DecelStepPerSecSquare</Name>
+			<Description>Deceleration when stopping(step/s^2)</Description>
+			<ValueType>double</ValueType>
+			<Value>125000</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>StartingStepPerSec</Name>
+			<Description>Start at this speed before accelerating(step/s)</Description>
+			<ValueType>double</ValueType>
+			<Value>100</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>StoppingStepPerSec</Name>
+			<Description>Approach at this speed(step/s)</Description>
+			<ValueType>double</ValueType>
+			<Value>200</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>MicrometerPerStep</Name>
+			<Description>Stage moves this distance per step(um)</Description>
+			<ValueType>double</ValueType>
+			<Value>0.08</Value>
+			<Access>32</Access>
+		</Item>
+		<Item>
+			<Name>MicronMax</Name>
+			<Description/>
+			<ValueType>double</ValueType>
+			<Value>30000</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>MicronMin</Name>
+			<Description/>
+			<ValueType>double</ValueType>
+			<Value>-20000</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>MicronUpperLimit</Name>
+			<Description/>
+			<ValueType>double</ValueType>
+			<Value>29000</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>MicronLowerLimit</Name>
+			<Description/>
+			<ValueType>double</ValueType>
+			<Value>4199.9</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>ApproachStepPerSec</Name>
+			<Description>This is a ApproachStepPerSec Description</Description>
+			<ValueType>double</ValueType>
+			<Value>10</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>LimitActiveHigh</Name>
+			<Description>This is a LimitActiveHigh Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Interlock</Name>
+			<Description>This is a Interlock Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>MicrometerPerEncoder</Name>
+			<Description>This is a MicrometerPerEncoder Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.05</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>FocusFollow</Name>
+			<Description>This is a FocusFollow Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>PermissibleErrorRatio</Name>
+			<Description>This is a PermissibleErrorRatio Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.05</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Position</Name>
+			<Description>This is a Position Description</Description>
+			<ValueType>double</ValueType>
+			<Value>364078</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>ErrorThreshold</Name>
+			<Description>This is a ErrorThreshold Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.8</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>FastQuickStepPerSec</Name>
+			<Description>This is a FastQuickStepPerSec Description</Description>
+			<ValueType>double</ValueType>
+			<Value>600</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>FastSlowStepPerSec</Name>
+			<Description>This is a FastSlowStepPerSec Description</Description>
+			<ValueType>double</ValueType>
+			<Value>60</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>FastErrorThreshold</Name>
+			<Description>This is a FastErrorThreshold Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.9</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>HeadCrashThreshold</Name>
+			<Description>This is a HeadCrashThreshold Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.15</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>AmplitudeThreshold</Name>
+			<Description>This is a AmplitudeThreshold Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.92</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>LimitCurrent</Name>
+			<Description>This is a LimitCurrent Description</Description>
+			<ValueType>int</ValueType>
+			<Value>8</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>FeedbackErrorMircometer</Name>
+			<Description>This is a FeedbackErrorMircometer Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>HomeStepPerSec</Name>
+			<Description>This is a HomeStepPerSec Description</Description>
+			<ValueType>double</ValueType>
+			<Value>10000</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>HomeSearchStepPerSec</Name>
+			<Description>This is a HomeSearchStepPerSec Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1000</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>UnstickCount</Name>
+			<Description>This is a UnstickCount Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>MotorOnDelayMiliSec</Name>
+			<Description>This is a MotorOnDelayMiliSec Description</Description>
+			<ValueType>double</ValueType>
+			<Value>150</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>FeedbackErrorMicrometer</Name>
+			<Description>This is a FeedbackErrorMicrometer Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>EncoderSettlingMiliSec</Name>
+			<Description>This is a EncoderSettlingMiliSec Description</Description>
+			<ValueType>double</ValueType>
+			<Value>100</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>QuickDecelStepPerSecSquare</Name>
+			<Description>This is a QuickDecelStepPerSecSquare Description</Description>
+			<ValueType>double</ValueType>
+			<Value>312500</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>OvershootMicrometer</Name>
+			<Description>This is a OvershootMicrometer Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.5</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>LiftZBeforeQuickApproach</Name>
+			<Description>This is a LiftZBeforeQuickApproach Description</Description>
+			<ValueType>double</ValueType>
+			<Value>100</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>UseEncoderErrorCheck</Name>
+			<Description/>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>EncoderErrorCheckMiliSec</Name>
+			<Description/>
+			<ValueType>double</ValueType>
+			<Value>500</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>MotorOffDelayMiliSec</Name>
+			<Description/>
+			<ValueType>double</ValueType>
+			<Value>150</Value>
+			<Access>33</Access>
+		</Item>
+	</ItemList>
+</Part>

@@ -1,0 +1,294 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>SerialPort</Type>
+	<Name>General</Name>
+	<Description>This is a General SerialPort part.</Description>
+	<ItemList>
+		<Item>
+			<Name>SerialPortNo</Name>
+			<Description>This is a SerialPortNo description.</Description>
+			<ValueType>int</ValueType>
+			<Value>7</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>BaudRate</Name>
+			<Description>This is a BaudRate description.</Description>
+			<ValueType>int</ValueType>
+			<Value>9600</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>0</Name>
+			<Description>[SerialPort] : Serial Port Open Fail</Description>
+			<ValueType>int</ValueType>
+			<Value>4</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>1</Name>
+			<Description>[SerialPort] : Create CloseEvent Faill</Description>
+			<ValueType>int</ValueType>
+			<Value>4</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>2</Name>
+			<Description>[SerialPort] : Create ReadThread Faill</Description>
+			<ValueType>int</ValueType>
+			<Value>4</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>3</Name>
+			<Description>[SerialPort] : Create WriteThread Faill</Description>
+			<ValueType>int</ValueType>
+			<Value>4</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>4</Name>
+			<Description>[SerialPort] : Unable To Create Event</Description>
+			<ValueType>int</ValueType>
+			<Value>4</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>5</Name>
+			<Description>[SerialPort] : Failed To Post To Write Thread</Description>
+			<ValueType>int</ValueType>
+			<Value>4</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>6</Name>
+			<Description>[SerialPort] : Write thread not Created or Closed</Description>
+			<ValueType>int</ValueType>
+			<Value>4</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>7</Name>
+			<Description>[SerialPort] : Write WAIT_FAILED</Description>
+			<ValueType>int</ValueType>
+			<Value>4</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>8</Name>
+			<Description>[SerialPort] : Write WAIT_TIMEOUT</Description>
+			<ValueType>int</ValueType>
+			<Value>4</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>9</Name>
+			<Description>[SerialPort] : Unexpected Wait return value</Description>
+			<ValueType>int</ValueType>
+			<Value>4</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>10</Name>
+			<Description>[SerialPort] : Port is Closed</Description>
+			<ValueType>int</ValueType>
+			<Value>4</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>11</Name>
+			<Description>[SerialPort] : Error to Writing CommFile</Description>
+			<ValueType>int</ValueType>
+			<Value>4</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>12</Name>
+			<Description>[SerialPort] : Error Writing to ComFile while Waiting</Description>
+			<ValueType>int</ValueType>
+			<Value>4</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>13</Name>
+			<Description>[SerialPort] : Unable To SetCommMask</Description>
+			<ValueType>int</ValueType>
+			<Value>4</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>14</Name>
+			<Description>[SerialPort] : Read WAIT_FAILED</Description>
+			<ValueType>int</ValueType>
+			<Value>4</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>15</Name>
+			<Description>[SerialPort] : Unexpected ReadFile Error</Description>
+			<ValueType>int</ValueType>
+			<Value>4</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>16</Name>
+			<Description>[SerialPort] : Unexpected GetoverlappedResult</Description>
+			<ValueType>int</ValueType>
+			<Value>4</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>17</Name>
+			<Description>[SerialPort] : Unexpected WaitCommEvent Error</Description>
+			<ValueType>int</ValueType>
+			<Value>4</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>18</Name>
+			<Description>[SerialPort] : ClearCommError</Description>
+			<ValueType>int</ValueType>
+			<Value>4</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>19</Name>
+			<Description>[SerialPort] : Comm Event: CE_FRAME</Description>
+			<ValueType>int</ValueType>
+			<Value>4</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>20</Name>
+			<Description>[SerialPort] : Comm Event: CE_OVERRUN</Description>
+			<ValueType>int</ValueType>
+			<Value>4</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>21</Name>
+			<Description>[SerialPort] : Comm Event: CE_RXPARITY</Description>
+			<ValueType>int</ValueType>
+			<Value>4</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>22</Name>
+			<Description>[SerialPort] : Comm Event: EV_ERR Unknown EvtMask</Description>
+			<ValueType>int</ValueType>
+			<Value>4</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>23</Name>
+			<Description>[SerialPort] : Comm Event: Undexpected Comm Event</Description>
+			<ValueType>int</ValueType>
+			<Value>4</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>24</Name>
+			<Description>[SerialPort] : Comm Event: Operation Aborted</Description>
+			<ValueType>int</ValueType>
+			<Value>4</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>25</Name>
+			<Description>[SerialPort] : Comm Event: Access Denied</Description>
+			<ValueType>int</ValueType>
+			<Value>4</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>31</Name>
+			<Description>[SerialPort] : Comport 1 Error</Description>
+			<ValueType>int</ValueType>
+			<Value>4</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>32</Name>
+			<Description>[SerialPort] : Comport 2 Error</Description>
+			<ValueType>int</ValueType>
+			<Value>4</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>33</Name>
+			<Description>[SerialPort] : Comport 3 Error</Description>
+			<ValueType>int</ValueType>
+			<Value>4</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>34</Name>
+			<Description>[SerialPort] : Comport 4 Error</Description>
+			<ValueType>int</ValueType>
+			<Value>4</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>35</Name>
+			<Description>[SerialPort] : Comport 5 Error</Description>
+			<ValueType>int</ValueType>
+			<Value>4</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>36</Name>
+			<Description>[SerialPort] : Comport 6 Error</Description>
+			<ValueType>int</ValueType>
+			<Value>4</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>37</Name>
+			<Description>[SerialPort] : Comport 7 Error</Description>
+			<ValueType>int</ValueType>
+			<Value>4</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>38</Name>
+			<Description>[SerialPort] : Comport 8 Error</Description>
+			<ValueType>int</ValueType>
+			<Value>4</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>0</Access>
+		</Item>
+	</ItemList>
+</Part>

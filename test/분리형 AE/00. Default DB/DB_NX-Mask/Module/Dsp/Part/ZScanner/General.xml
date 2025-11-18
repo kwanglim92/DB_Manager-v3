@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>ZScanner</Type>
+	<Name>General</Name>
+	<Description>This is a General ZScanner part.</Description>
+	<ItemList>
+		<Item>
+			<Name>MicrometerPerDacHigh</Name>
+			<Description>Moving distance in high power mode(um)</Description>
+			<ValueType>double</ValueType>
+			<Value>12.2383</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>MicrometerPerDacLow</Name>
+			<Description>Moving distance in low power mode(um)</Description>
+			<ValueType>double</ValueType>
+			<Value>12.4402</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ResonanceFrequencyHz</Name>
+			<Description>Resonance frequency(Hz)</Description>
+			<ValueType>double</ValueType>
+			<Value>2100</Value>
+			<Access>32</Access>
+		</Item>
+		<Item>
+			<Name>ScanningRange</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0.2</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>IntegralRatio</Name>
+			<Description>Integral feedback coefficient</Description>
+			<ValueType>double</ValueType>
+			<Value>0.8</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>MaxScanSpeedMicrometerPerSec</Name>
+			<Description>This is a MaxScanSpeedMicrometerPerSec Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1000</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ScanningRangeDefaultHigh</Name>
+			<Description>This is a ScanningRangeDefaultHigh Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.7</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ScanningRangeDefaultLow</Name>
+			<Description>This is a ScanningRangeDefaultLow Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.2</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>ScanningRangeDefaultMedium</Name>
+			<Description>This is a ScanningRangeDefaultMedium Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.7</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>MotorOnDelayMiliSec</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>500</Value>
+			<Access>33</Access>
+		</Item></ItemList>
+</Part>

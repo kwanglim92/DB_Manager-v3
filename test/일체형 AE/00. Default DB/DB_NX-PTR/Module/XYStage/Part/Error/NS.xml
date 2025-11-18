@@ -1,0 +1,320 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>Error</Type>
+	<Name>NS</Name>
+	<Description>This is a RND XYStage Error Part.</Description>
+	<ItemList>
+		<Item>
+			<Name>0</Name>
+			<Description>[XYStage] : No Response</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>1</Name>
+			<Description>[XYStage] : Stage Execution TimeOut</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>2</Name>
+			<Description>[XYStage] : Read Driver Status error</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>3</Name>
+			<Description>[XYStage] : Cannot turn on the Driver Power</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>4</Name>
+			<Description>[XYStage] : InitZ Failed</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>5</Name>
+			<Description>[XYStage] : Another Command is processing</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>6</Name>
+			<Description>[XYStage] : Command is not processed</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>7</Name>
+			<Description>[XYStage] : Send Command Failed</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>100</Name>
+			<Description>[XYStage] : X-AXIS LEFT  END</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>101</Name>
+			<Description>[XYStage] : X-AXIS RIGHT END</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>102</Name>
+			<Description>[XYStage] : Y-AXIS LEFT  END</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>103</Name>
+			<Description>[XYStage] : Y-AXIS RIGHT END</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>104</Name>
+			<Description>[XYStage] : Z-AXIS LEFT  END</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>105</Name>
+			<Description>[XYStage] : Z-AXIS RIGHT END</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>106</Name>
+			<Description>[XYStage] : E-AXIS LEFT  END</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>107</Name>
+			<Description>[XYStage] : E-AXIS RIGHT END</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>108</Name>
+			<Description>[XYStage] : X-AXIS DRIVER</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>109</Name>
+			<Description>[XYStage] : Y-AXIS DRIVER</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>110</Name>
+			<Description>[XYStage] : Z-AXIS DRIVER</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>111</Name>
+			<Description>[XYStage] : E-AXIS DRIVER</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>112</Name>
+			<Description>[XYStage] : HOME TIME OVER</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>113</Name>
+			<Description>[XYStage] : STEP NO. OVER</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>114</Name>
+			<Description>[XYStage] : SPEED TOO LOW</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>115</Name>
+			<Description>[XYStage] : DIV. DATA OVER</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>116</Name>
+			<Description>[XYStage] : MUL. DATA OVER</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>117</Name>
+			<Description>[XYStage] : SCAN NO. OVER</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>118</Name>
+			<Description>[XYStage] : CHECK MDI KEY</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>119</Name>
+			<Description>[XYStage] : CHECK HOME S/W</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>120</Name>
+			<Description>[XYStage] : CHECK READY S/W</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>121</Name>
+			<Description>[XYStage] : CHECK RESET S/W</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>122</Name>
+			<Description>[XYStage] : CHECK MAN + S/W</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>123</Name>
+			<Description>[XYStage] : CHECK MAN - S/W</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>124</Name>
+			<Description>[XYStage] : EMERGENCY STOP</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>125</Name>
+			<Description>[XYStage] : X -  SOFT LIMIT</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>126</Name>
+			<Description>[XYStage] : X +  SOFT LIMIT</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>500</Name>
+			<Description>[XYStage] : Unknown Command</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>501</Name>
+			<Description>[XYStage] : Stop failed</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>502</Name>
+			<Description>[XYStage] : Emergency Stop failed</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>503</Name>
+			<Description>[XYStage] : Coordinate Transform failed</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+	</ItemList>
+</Part>

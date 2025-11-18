@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>Vacuum</Type>
+	<Name>General</Name>
+	<Description>This is a General Vacuum part.</Description>
+	<ItemList>
+		<Item>
+			<Name>bUse</Name>
+			<Description>This is a bUse description.</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>OnPort</Name>
+			<Description>This is a OnPort description.</Description>
+			<ValueType>string</ValueType>
+			<Value>R:4:0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>BreakPort</Name>
+			<Description>This is a BreakPort description.</Description>
+			<ValueType>string</ValueType>
+			<Value>R:4:14</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bUseSensor</Name>
+			<Description>This is a bUseSensor description.</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>SensorPort</Name>
+			<Description>This is a SensorPort description.</Description>
+			<ValueType>string</ValueType>
+			<Value>R:4:1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bUseBreak</Name>
+			<Description>This is a bUseBreak Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>VacuumOnDelayMilliSec</Name>
+			<Description>This is a VacuumOnDelayMilliSec Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1000</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>VacuumOffDelayMilliSec</Name>
+			<Description>This is a VacuumOffDelayMilliSec Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1000</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseBreakSensor</Name>
+			<Description>This is a bUseBreakSensor Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>BreakSensorPort</Name>
+			<Description>This is a BreakSensorPort Description</Description>
+			<ValueType>string</ValueType>
+			<Value>R:4:15</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseBreakPressureSensor</Name>
+			<Description>This is a bUseBreakPressureSensor Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>BreakPressureSensorPort</Name>
+			<Description>This is a BreakPressureSensorPort Description</Description>
+			<ValueType>string</ValueType>
+			<Value>X:39:7</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>PortLabel</Name>
+			<Description></Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>33</Access>
+		</Item></ItemList>
+</Part>

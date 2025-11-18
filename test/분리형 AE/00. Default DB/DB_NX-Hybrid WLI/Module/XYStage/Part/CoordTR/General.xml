@@ -1,0 +1,315 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>CoordTR</Type>
+	<Name>General</Name>
+	<Description>This is a General CoordTR part.</Description>
+	<ItemList>
+		<Item>
+			<Name>bUse</Name>
+			<Description>This is a bUseCoordTR description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>SampleTilt</Name>
+			<Description>This is a bUse description.</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>SampleOffsetX</Name>
+			<Description>This is a bSimulation description.</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>SampleOffsetY</Name>
+			<Description>This is a Maker description.</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>LeftEdgeCoordX</Name>
+			<Description>This is a LeftEdgeCoordX description.</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>LeftEdgeCoordY</Name>
+			<Description>This is a LeftEdgeCoordY description.</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>RightEdgeCoordX</Name>
+			<Description>This is a RightEdgeCoordX description.</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>RightEdgeCoordY</Name>
+			<Description>This is a RightEdgeCoordY description.</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>UpperEdgeCoordX</Name>
+			<Description>This is a UpperEdgeCoordX description.</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>UpperEdgeCoordY</Name>
+			<Description>This is a UpperEdgeCoordY description.</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>LowerEdgeCoordX</Name>
+			<Description>This is a LowerEdgeCoordX description.</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>LowerEdgeCoordY</Name>
+			<Description>This is a LeftEdgeCoordY description.</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>R1EdgeCoordX</Name>
+			<Description>This is a R1EdgeCoordX description.</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>R1EdgeCoordY</Name>
+			<Description>This is a R1EdgeCoordY description.</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>R2EdgeCoordX</Name>
+			<Description>This is a R2EdgeCoordX description.</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>R3EdgeCoordY</Name>
+			<Description>This is a R3EdgeCoordY description.</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Flat1EdgeCoordX</Name>
+			<Description>This is a Flat1EdgeCoordX description.</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Flat1EdgeCoordY</Name>
+			<Description>This is a Flat1EdgeCoordY description.</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Flat2EdgeCoordX</Name>
+			<Description>This is a Flat2EdgeCoordX description.</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Flat2EdgeCoordY</Name>
+			<Description>This is a Flat2EdgeCoordY description.</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Notch1EdgeCoordX</Name>
+			<Description>This is a Notch1EdgeCoordX description.</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Notch1EdgeCoordY</Name>
+			<Description>This is a Notch1EdgeCoordY description.</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Notch2EdgeCoordX</Name>
+			<Description>This is a Notch2EdgeCoordX description.</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Notch2EdgeCoordY</Name>
+			<Description>This is a Notch2EdgeCoordY description.</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Pattern1SampleX</Name>
+			<Description>This is a Pattern1SampleX description.</Description>
+			<ValueType>double</ValueType>
+			<Value>28304.9</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Pattern1SampleY</Name>
+			<Description>This is a Pattern1SampleY description.</Description>
+			<ValueType>double</ValueType>
+			<Value>3529.3</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Pattern1StageX</Name>
+			<Description>This is a Pattern1SampleX description.</Description>
+			<ValueType>double</ValueType>
+			<Value>-28402</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Pattern1StageY</Name>
+			<Description>This is a Pattern1StageX description.</Description>
+			<ValueType>double</ValueType>
+			<Value>2636</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Pattern1Pattern</Name>
+			<Description>This is a Pattern1Pattern description.</Description>
+			<ValueType>string</ValueType>
+			<Value/>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Pattern2SampleX</Name>
+			<Description>This is a Pattern2SampleX description.</Description>
+			<ValueType>double</ValueType>
+			<Value>-85164.3</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Pattern2SampleY</Name>
+			<Description>This is a Pattern2SampleY description.</Description>
+			<ValueType>double</ValueType>
+			<Value>3529.3</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Pattern2StageX</Name>
+			<Description>This is a Pattern2StageX description.</Description>
+			<ValueType>double</ValueType>
+			<Value>82416</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Pattern2StageY</Name>
+			<Description>This is a Pattern2StageY description.</Description>
+			<ValueType>double</ValueType>
+			<Value>-21749</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Pattern2Pattern</Name>
+			<Description>This is a Pattern2Pattern description.</Description>
+			<ValueType>string</ValueType>
+			<Value/>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>OriginStageX</Name>
+			<Description>This is a OriginStageX description.</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>OriginStageY</Name>
+			<Description>This is a OriginStageY description.</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Pattern1Autofocus</Name>
+			<Description>This is a Pattern1Autofocus Description</Description>
+			<ValueType>string</ValueType>
+			<Value/>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Pattern2Autofocus</Name>
+			<Description>This is a Pattern2Autofocus Description</Description>
+			<ValueType>string</ValueType>
+			<Value/>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>AngleDegree</Name>
+			<Description>This is a AngleDegree Description</Description>
+			<ValueType>string</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>PatternSampleX</Name>
+			<Description>This is a PatternSampleX Description</Description>
+			<ValueType>string</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>PatternSampleY</Name>
+			<Description>This is a PatternSampleY Description</Description>
+			<ValueType>string</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>PatternPattern</Name>
+			<Description>This is a PatternPattern Description</Description>
+			<ValueType>string</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>CirclePoint1StageX</Name>
+			<Description>This is a CirclePoint1StageX Description</Description>
+			<ValueType>string</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>CirclePoint1StageY</Name>
+			<Description>This is a CirclePoint1StageY Description</Description>
+			<ValueType>string</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item></ItemList>
+</Part>

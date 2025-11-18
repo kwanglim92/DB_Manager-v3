@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>PSPDStage</Type>
+	<Name>General</Name>
+	<Description>This is a General PSPDStage part.</Description>
+	<ItemList>
+		<Item>
+			<Name>bUse</Name>
+			<Description>Use this part or not</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>MaxStepPerSec</Name>
+			<Description>Max speed(step/s)</Description>
+			<ValueType>double</ValueType>
+			<Value>100</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>AccelStepPerSecSquare</Name>
+			<Description>Acceleration when starting(step/s^2)</Description>
+			<ValueType>double</ValueType>
+			<Value>100</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>DecelStepPerSecSquare</Name>
+			<Description>Deceleration when stopping(step/s^2)</Description>
+			<ValueType>double</ValueType>
+			<Value>100</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>StartingStepPerSec</Name>
+			<Description>Start at this speed before accelerating(step/s)</Description>
+			<ValueType>double</ValueType>
+			<Value>10</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>StoppingStepPerSec</Name>
+			<Description>Stop after decelerating to this speed(step/s)</Description>
+			<ValueType>double</ValueType>
+			<Value>10</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>UpperLimit</Name>
+			<Description/>
+			<ValueType>double</ValueType>
+			<Value>100000</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>LowerLimit</Name>
+			<Description/>
+			<ValueType>double</ValueType>
+			<Value>-100000</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>AMinusBErrorBound</Name>
+			<Description>This is a AMinusBErrorBound Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.3</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>APlusBErrorBound</Name>
+			<Description>This is a APlusBErrorBound Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.5</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>PosUpGain</Name>
+			<Description>This is a PosUpGain Description</Description>
+			<ValueType>double</ValueType>
+			<Value>10</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>PosDownGain</Name>
+			<Description>This is a PosDownGain Description</Description>
+			<ValueType>double</ValueType>
+			<Value>10</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>LimitCurrent</Name>
+			<Description>This is a LimitCurrent Description</Description>
+			<ValueType>int</ValueType>
+			<Value>4</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>StepMode</Name>
+			<Description>This is a StepMode Description</Description>
+			<ValueType>int</ValueType>
+			<Value>6</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>UnstickCount</Name>
+			<Description>This is a UnstickCount Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>MotorOnDelay</Name>
+			<Description>This is a MotorOnDelay Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>EncoderSettlingMiliSec</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>100</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>MicrometerPerStep</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item></ItemList>
+</Part>

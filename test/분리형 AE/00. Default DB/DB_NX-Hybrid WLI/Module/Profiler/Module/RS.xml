@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<Module>
+	<Name>RS</Name>
+	<Description>This is a RS Profiler Module</Description>
+	<PartList>
+		<Part>
+			<Type>Info</Type>
+			<Name>RS</Name>
+		</Part>
+	</PartList>
+</Module>

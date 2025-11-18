@@ -1,0 +1,469 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>Info</Type>
+	<Name>Galil</Name>
+	<Description>This is a Galil Info part.</Description>
+	<ItemList>
+		<Item>
+			<Name>Simulation</Name>
+			<Description>This is a bSimulation description.</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Maker</Name>
+			<Description>This is a Maker description.</Description>
+			<ValueType>string</ValueType>
+			<Value>Galil</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Model</Name>
+			<Description>This is a Model description.</Description>
+			<ValueType>string</ValueType>
+			<Value>169.254.154.2</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>MaxLength</Name>
+			<Description>This is a MaxLength description.</Description>
+			<ValueType>double</ValueType>
+			<Value>51</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Origin</Name>
+			<Description>This is a Origin description.</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>MaxSpeed</Name>
+			<Description>This is a MaxSpeed description.</Description>
+			<ValueType>double</ValueType>
+			<Value>0.4</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>MaxAccel</Name>
+			<Description>This is a MaxAccel description.</Description>
+			<ValueType>int</ValueType>
+			<Value>0.5</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>MaxDecel</Name>
+			<Description>This is a MaxDecel description.</Description>
+			<ValueType>int</ValueType>
+			<Value>0.5</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>EncoderPerMilimeter</Name>
+			<Description>This is a EncoderPerMilimeter Description</Description>
+			<ValueType>int</ValueType>
+			<Value>50000</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>PGain</Name>
+			<Description>This is a PGain Description</Description>
+			<ValueType>double</ValueType>
+			<Value>14</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>IGain</Name>
+			<Description>This is a IGain Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.03</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>DGain</Name>
+			<Description>This is a DGain Description</Description>
+			<ValueType>double</ValueType>
+			<Value>14</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>HomeMode</Name>
+			<Description>This is a HomeMode Description</Description>
+			<ValueType>int</ValueType>
+			<Value>4</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>PosMin</Name>
+			<Description>This is a PosMin Description</Description>
+			<ValueType>double</ValueType>
+			<Value>-25.5</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>PosMax</Name>
+			<Description>This is a PosMax Description</Description>
+			<ValueType>double</ValueType>
+			<Value>25.5</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>HomePos</Name>
+			<Description>This is a HomePos Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>HomeSpeed</Name>
+			<Description>This is a HomeSpeed Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.4</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>HomeSearchSpeed</Name>
+			<Description>This is a HomeSearchSpeed Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ReverseDirection</Name>
+			<Description>This is a ReverseDirection Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ProfileDirectionReverse</Name>
+			<Description>This is a ProfileDirectionReverse Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>OverProfileMM</Name>
+			<Description>This is a OverProfileMM Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.4</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ReverseOrigin</Name>
+			<Description>This is a ReverseOrigin Description</Description>
+			<ValueType>double</ValueType>
+			<Value>25</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>FastScanPixelSize</Name>
+			<Description>This is a FastScanPixelSize Description</Description>
+			<ValueType>int</ValueType>
+			<Value>512</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>LiftZWhileMoving</Name>
+			<Description>This is a LiftZWhileMoving Description</Description>
+			<ValueType>int</ValueType>
+			<Value>50</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>MotorType</Name>
+			<Description>This is a MotorType Description</Description>
+			<ValueType>int</ValueType>
+			<Value>-1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Trigger</Name>
+			<Description>This is a Trigger Description</Description>
+			<ValueType>int</ValueType>
+			<Value>-1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>MaxScanRate</Name>
+			<Description>This is a MaxScanRate Description</Description>
+			<ValueType>double</ValueType>
+			<Value>50</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>MinSlowScanPixelSize</Name>
+			<Description>This is a MinSlowScanPixelSize Description</Description>
+			<ValueType>int</ValueType>
+			<Value>256</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>PreventionTorqueThreshold</Name>
+			<Description>This is a PreventionTorqueThreshold Description</Description>
+			<ValueType>double</ValueType>
+			<Value>3</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>PGainWhileMoving</Name>
+			<Description>This is a PGainWhileMoving Description</Description>
+			<ValueType>double</ValueType>
+			<Value>14</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>IGainWhileMoving</Name>
+			<Description>This is a IGainWhileMoving Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.03</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>DGainWhileMoving</Name>
+			<Description>This is a DGainWhileMoving Description</Description>
+			<ValueType>double</ValueType>
+			<Value>14</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>OverProfileAfterMM</Name>
+			<Description>This is a OverProfileAfterMM Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.2</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>OverProfileBeforeMM</Name>
+			<Description>This is a OverProfileBeforeMM Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.2</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ProfileCount</Name>
+			<Description>This is a ProfileCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ProfileCountThreshold</Name>
+			<Description>This is a ProfileCountThreshold Description</Description>
+			<ValueType>int</ValueType>
+			<Value>20</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>UseRecovery</Name>
+			<Description>This is a UseRecovery Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>RecoveryCount</Name>
+			<Description>This is a RecoveryCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>4</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>RecoveryCountThreshold</Name>
+			<Description>This is a RecoveryCountThreshold Description</Description>
+			<ValueType>int</ValueType>
+			<Value>20</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>RecoveryProfileLength</Name>
+			<Description>This is a RecoveryProfileLength Description</Description>
+			<ValueType>double</ValueType>
+			<Value>10</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>FullRecoveryCount</Name>
+			<Description>This is a FullRecoveryCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>128</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>FullRecoveryProfileLength</Name>
+			<Description>This is a FullRecoveryProfileLength Description</Description>
+			<ValueType>double</ValueType>
+			<Value>50</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>TotalRecoveryCount</Name>
+			<Description>This is a TotalRecoveryCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>697</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>UsePrevention</Name>
+			<Description>This is a UsePrevention Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>PreventionFailureRate</Name>
+			<Description>This is a PreventionFailureRate Description</Description>
+			<ValueType>double</ValueType>
+			<Value>10</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>PreventionFailAction</Name>
+			<Description>This is a PreventionFailAction Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Mileage</Name>
+			<Description>This is a Mileage Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>MovementCount</Name>
+			<Description>This is a MovementCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>22315</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>SampleLoadingPos</Name>
+			<Description>This is a SampleLoadingPos Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>TimeOutMilliSec</Name>
+			<Description>This is a TimeOutMilliSec Description</Description>
+			<ValueType>int</ValueType>
+			<Value>150</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>DEBUG</Name>
+			<Description>This is a DEBUG Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseEncoderFailureDetection</Name>
+			<Description>This is a bUseEncoderFailureDetection Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>EncoderFailureDetectionTimeOut</Name>
+			<Description>This is a EncoderFailureDetectionTimeOut Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1000</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>PositionErrorMilimeter</Name>
+			<Description>This is a PositionErrorMilimeter Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.2</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>UpdatePositionErrorMicrometer</Name>
+			<Description>This is a UpdatePositionErrorMicrometer Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>UpdateVelocityErrorMicrometer</Name>
+			<Description>This is a UpdateVelocityErrorMicrometer Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.4</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>UpdateTorqueErrorMicrometer</Name>
+			<Description>This is a UpdateTorqueErrorMicrometer Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>CenterBasedProfile</Name>
+			<Description>This is a CenterBasedProfile Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>UsePositionSync</Name>
+			<Description>This is a UsePositionSync Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ErrorDebug</Name>
+			<Description></Description>
+			<ValueType>list</ValueType>
+			<Value>0:Don't Use|Use</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ExtTriggerAUXSource</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>4</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ExtTriggerType</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ExtTriggerThresholdVolt</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>1.5</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>PIDScale</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>MaxSpeedInMeasurement</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0.2</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>UsePowerOnWhileXYMoving</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item></ItemList>
+</Part>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>SerialPort</Type>
+	<Name>General</Name>
+	<Description>This is a General SerialPort part.</Description>
+	<ItemList>
+		<Item>
+			<Name>PortNo</Name>
+			<Description>This is a PortNo Description</Description>
+			<ValueType>int</ValueType>
+			<Value>11</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>BaudRate</Name>
+			<Description>This is a BaudRate Description</Description>
+			<ValueType>int</ValueType>
+			<Value>9600</Value>
+			<Access>33</Access>
+		</Item></ItemList>
+</Part>

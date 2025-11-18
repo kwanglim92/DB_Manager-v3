@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>YDetector</Type>
+	<Name>NMS050013</Name>
+	<Description>This is a NMS050013 YDetector part.</Description>
+	<ItemList>
+		<Item>
+			<Name>bUse</Name>
+			<Description>This is a bUse Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>MicrometerPerAdc</Name>
+			<Description>Distance that can be detected(um)</Description>
+			<ValueType>double</ValueType>
+			<Value>84.2746</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>AuxMicrometerPerAdc</Name>
+			<Description>This is a AuxMicrometerPerAdc Description</Description>
+			<ValueType>double</ValueType>
+			<Value>271.459</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>OffsetAdc</Name>
+			<Description>Signal offset</Description>
+			<ValueType>double</ValueType>
+			<Value>-0.0264482</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>AuxOffsetAdc</Name>
+			<Description>This is a AuxOffsetAdc Description</Description>
+			<ValueType>double</ValueType>
+			<Value>-0.00279959</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Coefficient3rdOrder</Name>
+			<Description>This is a Coefficient3rdOrder Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Coefficient2ndOrder</Name>
+			<Description>This is a Coefficient2ndOrder Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Coefficient1stOrder</Name>
+			<Description>This is a Coefficient1stOrder Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>CoefficientConstant</Name>
+			<Description>This is a CoefficientConstant Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>CoefficientAux3rdOrder</Name>
+			<Description>This is a CoefficientAux3rdOrder Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>CoefficientAux2ndOrder</Name>
+			<Description>This is a CoefficientAux2ndOrder Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>CoefficientAux1stOrder</Name>
+			<Description>This is a CoefficientAux1stOrder Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>CoefficientAuxConstant</Name>
+			<Description>This is a CoefficientAuxConstant Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>SafeRangeThreshold</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0.5</Value>
+			<Access>33</Access>
+		</Item></ItemList>
+</Part>

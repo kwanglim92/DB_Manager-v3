@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>EFEMFan</Type>
+	<Name>General</Name>
+	<Description>This is a General Fan part.</Description>
+	<ItemList>
+		<Item>
+			<Name>bUse</Name>
+			<Description>This is a bUse description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>bUseAECover</Name>
+			<Description>This is a bUseAECover Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>AECoverSensorPort</Name>
+			<Description>This is a AECoverSensorPort Description</Description>
+			<ValueType>string</ValueType>
+			<Value>R:1:1/R:1:2/R:1:3/R:1:4</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>AECoverLabel</Name>
+			<Description>This is a AECoverLabel Description</Description>
+			<ValueType>string</ValueType>
+			<Value>TopRear/TopFront/BottomFront/BxottomRear</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseCabinetCover</Name>
+			<Description>This is a bUseCabinetCover Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>CabinetCoverSensorPort</Name>
+			<Description>This is a CabinetCoverSensorPort Description</Description>
+			<ValueType>string</ValueType>
+			<Value>X:24:12/X:24:13/X:24:14/X:24:15</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>CabinetCoverLabel</Name>
+			<Description>This is a CabinetCoverLabel Description</Description>
+			<ValueType>string</ValueType>
+			<Value>Pneumatic/Maint. Top/Maint. Middle/Maint. Bottom</Value>
+			<Access>33</Access>
+		</Item></ItemList>
+</Part>

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>FanAlarm</Type>
+	<Name>General</Name>
+	<Description>This is a General FanAlarm part.</Description>
+	<ItemList>
+		<Item>
+			<Name>bUse</Name>
+			<Description>This is a bUse Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>CoolingFan1Port</Name>
+			<Description>This is a CoolingFan1Port Description</Description>
+			<ValueType>string</ValueType>
+			<Value>R:5:0/R:5:1/R:5:2</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>CoolingFan1Label</Name>
+			<Description>This is a CoolingFan1Label Description</Description>
+			<ValueType>string</ValueType>
+			<Value>PowerBoxPort</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>CoolingFan2Port</Name>
+			<Description>This is a CoolingFan2Port Description</Description>
+			<ValueType>string</ValueType>
+			<Value>R:5:3/R:5:4/R:5:5/R:5:6/R:5:7/R:5:8/R:5:9/R:5:10/R:5:11/R:5:12/R:5:13/R:5:14</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>CoolingFan2Label</Name>
+			<Description>This is a CoolingFan2Label Description</Description>
+			<ValueType>string</ValueType>
+			<Value>CabinetPort</Value>
+			<Access>33</Access>
+		</Item>
+	</ItemList>
+</Part>

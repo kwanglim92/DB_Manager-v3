@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>AutoFocus</Type>
+	<Name>General</Name>
+	<Description>This is a General System part.</Description>
+	<ItemList>
+		<Item>
+			<Name>ApproachMargin</Name>
+			<Description>This is a ApproachMargin Description</Description>
+			<ValueType>double</ValueType>
+			<Value>150</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>ReflectiveSample</Name>
+			<Description>This is a ReflectiveSample Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>ZPosition0</Name>
+			<Description>This is a ZPosition0 Description</Description>
+			<ValueType>double</ValueType>
+			<Value>6201.68</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>FocusPosition0</Name>
+			<Description>This is a FocusPosition0 Description</Description>
+			<ValueType>double</ValueType>
+			<Value>5938.44</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>FocusRange0</Name>
+			<Description>This is a FocusRange0 Description</Description>
+			<ValueType>double</ValueType>
+			<Value>120</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>FocusStep0</Name>
+			<Description>This is a FocusStep0 Description</Description>
+			<ValueType>double</ValueType>
+			<Value>6</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Brightness0</Name>
+			<Description>This is a Brightness0 Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Contrast0</Name>
+			<Description>This is a Contrast0 Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.4</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>LightStrength0</Name>
+			<Description>This is a LightStrength0 Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.8</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>ZPosition1</Name>
+			<Description>This is a ZPosition1 Description</Description>
+			<ValueType>double</ValueType>
+			<Value>6400.96</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>FocusPosition1</Name>
+			<Description>This is a FocusPosition1 Description</Description>
+			<ValueType>double</ValueType>
+			<Value>4859.5</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>FocusRange1</Name>
+			<Description>This is a FocusRange1 Description</Description>
+			<ValueType>double</ValueType>
+			<Value>60</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>FocusStep1</Name>
+			<Description>This is a FocusStep1 Description</Description>
+			<ValueType>double</ValueType>
+			<Value>6</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Brightness1</Name>
+			<Description>This is a Brightness1 Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.5</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Contrast1</Name>
+			<Description>This is a Contrast1 Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>LightStrength1</Name>
+			<Description>This is a LightStrength1 Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.25</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>SharpnessType</Name>
+			<Description>This is a SharpnessType Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+	</ItemList>
+</Part>

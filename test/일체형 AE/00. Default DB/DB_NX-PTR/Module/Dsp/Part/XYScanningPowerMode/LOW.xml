@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>XYScanningPowerMode</Type>
+	<Name>LOW</Name>
+	<Description>Low power mode</Description>
+	<ItemList/>
+</Part>

@@ -1,0 +1,196 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>FocusStage</Type>
+	<Name>General</Name>
+	<Description>This is a General FocusStage part.</Description>
+	<ItemList>
+		<Item>
+			<Name>bUse</Name>
+			<Description>Use this part or not</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>UseEncoder</Name>
+			<Description>This is a UseEncoder Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>MaxStepPerSec</Name>
+			<Description>Max speed(step/s)</Description>
+			<ValueType>double</ValueType>
+			<Value>48000</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>AccelStepPerSecSquare</Name>
+			<Description>Acceleration when starting(step/s^2)</Description>
+			<ValueType>double</ValueType>
+			<Value>96000</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>DecelStepPerSecSquare</Name>
+			<Description>Deceleration when stopping(step/s^2)</Description>
+			<ValueType>double</ValueType>
+			<Value>240000</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>StartingStepPerSec</Name>
+			<Description>Start at this speed before accelerating(step/s)</Description>
+			<ValueType>double</ValueType>
+			<Value>100</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>StoppingStepPerSec</Name>
+			<Description>Stop after decelerating to this speed(step/s)</Description>
+			<ValueType>double</ValueType>
+			<Value>200</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>MicrometerPerStep</Name>
+			<Description>Stage moves this distance per step(um)</Description>
+			<ValueType>double</ValueType>
+			<Value>0.0625</Value>
+			<Access>32</Access>
+		</Item>
+		<Item>
+			<Name>MicronMax</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>10000</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>MicronMin</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>-3000</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>MicronUpperLimit</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>9000</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>MicronLowerLimit</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>1260.81</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Position</Name>
+			<Description>This is a Position Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>MicrometerPerEncoder</Name>
+			<Description>This is a MicrometerPerEncoder Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.05</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>LimitCurrent</Name>
+			<Description>This is a LimitCurrent Description</Description>
+			<ValueType>int</ValueType>
+			<Value>20</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>FeedbackErrorMircometer</Name>
+			<Description>This is a FeedbackErrorMircometer Description</Description>
+			<ValueType>double</ValueType>
+			<Value>2</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>StepMode</Name>
+			<Description>This is a StepMode Description</Description>
+			<ValueType>int</ValueType>
+			<Value>2</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>HomeStepPerSec</Name>
+			<Description>This is a HomeStepPerSec Description</Description>
+			<ValueType>double</ValueType>
+			<Value>24000</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>HomeSearchStepPerSec</Name>
+			<Description>This is a HomeSearchStepPerSec Description</Description>
+			<ValueType>double</ValueType>
+			<Value>2400</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>UnstickCount</Name>
+			<Description>This is a UnstickCount Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>MotorOnDelayMiliSec</Name>
+			<Description>This is a MotorOnDelayMiliSec Description</Description>
+			<ValueType>double</ValueType>
+			<Value>50</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>FeedbackErrorMicrometer</Name>
+			<Description>This is a FeedbackErrorMicrometer Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>EncoderSettlingMiliSec</Name>
+			<Description>This is a EncoderSettlingMiliSec Description</Description>
+			<ValueType>double</ValueType>
+			<Value>100</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>UseEncoderErrorCheck</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>EncoderErrorCheckMiliSec</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>500</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>MotorOffDelayMiliSec</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>50</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Isolated</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item></ItemList>
+</Part>

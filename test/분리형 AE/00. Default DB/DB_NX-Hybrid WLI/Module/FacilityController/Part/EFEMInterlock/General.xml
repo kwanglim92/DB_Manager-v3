@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>EFEMFan</Type>
+	<Name>General</Name>
+	<Description>This is a General Fan part.</Description>
+	<ItemList>
+		<Item>
+			<Name>bUse</Name>
+			<Description>This is a bUse Description</Description>
+			<ValueType>string</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>InterlockSensorPort</Name>
+			<Description>This is a InterlockSensorPort Description</Description>
+			<ValueType>string</ValueType>
+			<Value>R:2:15</Value>
+			<Access>33</Access>
+		</Item></ItemList>
+</Part>

@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>SampleInfo</Type>
+	<Name>300mmWafer</Name>
+	<Description>This is a 300mmWafer SampleInfo part.</Description>
+	<ItemList>
+		<Item>
+			<Name>Shape</Name>
+			<Description>This is a Shape description.</Description>
+			<ValueType>list</ValueType>
+			<Value>1:RECT|ROUND_FLAT|ROUND_NOTCH</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>MarkDirection</Name>
+			<Description>This is a MarkDirection description.</Description>
+			<ValueType>list</ValueType>
+			<Value>7:N|NE|E|SE|S|SW|W|NW</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>DimensionX</Name>
+			<Description>This is a DimensionX description.</Description>
+			<ValueType>double</ValueType>
+			<Value>920000</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>DimensionY</Name>
+			<Description>This is a DimensionY description.</Description>
+			<ValueType>double</ValueType>
+			<Value>730000</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>DimensionR</Name>
+			<Description>This is a DimensionR description.</Description>
+			<ValueType>double</ValueType>
+			<Value>300000</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bXDirectionReverse</Name>
+			<Description>This is a bXDirectionReverse description.</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bYDirectionReverse</Name>
+			<Description>This is a bYDirectionReverse description.</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>DieSizeX</Name>
+			<Description>This is a DieSizeX Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>DieSizeY</Name>
+			<Description>This is a DieSizeY Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item></ItemList>
+</Part>

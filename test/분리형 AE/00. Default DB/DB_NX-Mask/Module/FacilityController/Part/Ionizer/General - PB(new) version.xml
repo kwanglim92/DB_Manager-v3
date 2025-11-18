@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>Ionizer</Type>
+	<Name>General</Name>
+	<Description>This is a General Ionizer part.</Description>
+	<ItemList>
+		<Item>
+			<Name>bUse</Name>
+			<Description>This is a bUse description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Port</Name>
+			<Description>This is a Port description.</Description>
+			<ValueType>string</ValueType>
+			<Value>Y:0:6</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>SensorPort</Name>
+			<Description>This is a SensorPort description.</Description>
+			<ValueType>string</ValueType>
+			<Value>X:16:2</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>ActiveLow</Name>
+			<Description>This is a ActiveLow Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+	</ItemList>
+</Part>

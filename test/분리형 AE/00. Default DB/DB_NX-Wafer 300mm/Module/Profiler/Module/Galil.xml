@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Module>
+	<Name>Galil</Name>
+	<Description>This is a Galil Profiler Module</Description>
+	<PartList>
+		<Part>
+			<Type>Info</Type>
+			<Name>Galil</Name>
+		</Part>
+		<Part>
+			<Type>SerialPort</Type>
+			<Name>General</Name>
+		</Part>
+	</PartList>
+</Module>

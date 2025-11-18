@@ -1,0 +1,471 @@
+{
+  "version": "1.0",
+  "created": "2025-11-17T11:09:11.907890",
+  "equipment_types": [
+    "Standard Model",
+    "Advanced Model",
+    "Custom Model",
+    "Test Configuration",
+    "Production Line A",
+    "Production Line B",
+    "고객맞춤형 모델 A",
+    "특수 장비 Type B",
+    "실험용 Configuration",
+    "표준 검수 세트",
+    "Test Equipment"
+  ],
+  "specs": {
+    "Standard Model": [
+      {
+        "item_name": "Temperature",
+        "min_spec": 20,
+        "max_spec": 25,
+        "unit": "°C",
+        "enabled": true
+      },
+      {
+        "item_name": "Pressure",
+        "min_spec": 100,
+        "max_spec": 200,
+        "unit": "kPa",
+        "enabled": true
+      },
+      {
+        "item_name": "Flow_Rate",
+        "min_spec": 10,
+        "max_spec": 20,
+        "unit": "L/min",
+        "enabled": true
+      },
+      {
+        "item_name": "Voltage",
+        "min_spec": 3.2,
+        "max_spec": 3.4,
+        "unit": "V",
+        "enabled": true
+      },
+      {
+        "item_name": "Current",
+        "min_spec": 0.8,
+        "max_spec": 1.2,
+        "unit": "A",
+        "enabled": true
+      }
+    ],
+    "Advanced Model": [
+      {
+        "item_name": "Temperature",
+        "min_spec": 20,
+        "max_spec": 25,
+        "unit": "°C",
+        "enabled": true
+      },
+      {
+        "item_name": "Pressure",
+        "min_spec": 100,
+        "max_spec": 200,
+        "unit": "kPa",
+        "enabled": true
+      },
+      {
+        "item_name": "Flow_Rate",
+        "min_spec": 10,
+        "max_spec": 20,
+        "unit": "L/min",
+        "enabled": true
+      },
+      {
+        "item_name": "Voltage",
+        "min_spec": 3.2,
+        "max_spec": 3.4,
+        "unit": "V",
+        "enabled": true
+      },
+      {
+        "item_name": "Current",
+        "min_spec": 0.8,
+        "max_spec": 1.2,
+        "unit": "A",
+        "enabled": true
+      }
+    ],
+    "Custom Model": [
+      {
+        "item_name": "Temperature",
+        "min_spec": 20,
+        "max_spec": 25,
+        "unit": "°C",
+        "enabled": true
+      },
+      {
+        "item_name": "Pressure",
+        "min_spec": 100,
+        "max_spec": 200,
+        "unit": "kPa",
+        "enabled": true
+      },
+      {
+        "item_name": "Flow_Rate",
+        "min_spec": 10,
+        "max_spec": 20,
+        "unit": "L/min",
+        "enabled": true
+      },
+      {
+        "item_name": "Voltage",
+        "min_spec": 3.2,
+        "max_spec": 3.4,
+        "unit": "V",
+        "enabled": true
+      },
+      {
+        "item_name": "Current",
+        "min_spec": 0.8,
+        "max_spec": 1.2,
+        "unit": "A",
+        "enabled": true
+      }
+    ],
+    "Test Configuration": [
+      {
+        "item_name": "Temperature",
+        "min_spec": 20,
+        "max_spec": 25,
+        "unit": "°C",
+        "enabled": true
+      },
+      {
+        "item_name": "Pressure",
+        "min_spec": 100,
+        "max_spec": 200,
+        "unit": "kPa",
+        "enabled": true
+      },
+      {
+        "item_name": "Flow_Rate",
+        "min_spec": 10,
+        "max_spec": 20,
+        "unit": "L/min",
+        "enabled": true
+      },
+      {
+        "item_name": "Voltage",
+        "min_spec": 3.2,
+        "max_spec": 3.4,
+        "unit": "V",
+        "enabled": true
+      },
+      {
+        "item_name": "Current",
+        "min_spec": 0.8,
+        "max_spec": 1.2,
+        "unit": "A",
+        "enabled": true
+      }
+    ],
+    "Production Line A": [
+      {
+        "item_name": "Temperature",
+        "min_spec": 20,
+        "max_spec": 25,
+        "unit": "°C",
+        "enabled": true
+      },
+      {
+        "item_name": "Pressure",
+        "min_spec": 100,
+        "max_spec": 200,
+        "unit": "kPa",
+        "enabled": true
+      },
+      {
+        "item_name": "Flow_Rate",
+        "min_spec": 10,
+        "max_spec": 20,
+        "unit": "L/min",
+        "enabled": true
+      },
+      {
+        "item_name": "Voltage",
+        "min_spec": 3.2,
+        "max_spec": 3.4,
+        "unit": "V",
+        "enabled": true
+      },
+      {
+        "item_name": "Current",
+        "min_spec": 0.8,
+        "max_spec": 1.2,
+        "unit": "A",
+        "enabled": true
+      }
+    ],
+    "Production Line B": [
+      {
+        "item_name": "Temperature",
+        "min_spec": 20,
+        "max_spec": 25,
+        "unit": "°C",
+        "enabled": true
+      },
+      {
+        "item_name": "Pressure",
+        "min_spec": 100,
+        "max_spec": 200,
+        "unit": "kPa",
+        "enabled": true
+      },
+      {
+        "item_name": "Flow_Rate",
+        "min_spec": 10,
+        "max_spec": 20,
+        "unit": "L/min",
+        "enabled": true
+      },
+      {
+        "item_name": "Voltage",
+        "min_spec": 3.2,
+        "max_spec": 3.4,
+        "unit": "V",
+        "enabled": true
+      },
+      {
+        "item_name": "Current",
+        "min_spec": 0.8,
+        "max_spec": 1.2,
+        "unit": "A",
+        "enabled": true
+      }
+    ],
+    "고객맞춤형 모델 A": [
+      {
+        "item_name": "Temperature",
+        "min_spec": 20,
+        "max_spec": 25,
+        "unit": "°C",
+        "enabled": true
+      },
+      {
+        "item_name": "Pressure",
+        "min_spec": 100,
+        "max_spec": 200,
+        "unit": "kPa",
+        "enabled": true
+      },
+      {
+        "item_name": "Flow_Rate",
+        "min_spec": 10,
+        "max_spec": 20,
+        "unit": "L/min",
+        "enabled": true
+      },
+      {
+        "item_name": "Voltage",
+        "min_spec": 3.2,
+        "max_spec": 3.4,
+        "unit": "V",
+        "enabled": true
+      },
+      {
+        "item_name": "Current",
+        "min_spec": 0.8,
+        "max_spec": 1.2,
+        "unit": "A",
+        "enabled": true
+      }
+    ],
+    "특수 장비 Type B": [
+      {
+        "item_name": "Temperature",
+        "min_spec": 20,
+        "max_spec": 25,
+        "unit": "°C",
+        "enabled": true
+      },
+      {
+        "item_name": "Pressure",
+        "min_spec": 100,
+        "max_spec": 200,
+        "unit": "kPa",
+        "enabled": true
+      },
+      {
+        "item_name": "Flow_Rate",
+        "min_spec": 10,
+        "max_spec": 20,
+        "unit": "L/min",
+        "enabled": true
+      },
+      {
+        "item_name": "Voltage",
+        "min_spec": 3.2,
+        "max_spec": 3.4,
+        "unit": "V",
+        "enabled": true
+      },
+      {
+        "item_name": "Current",
+        "min_spec": 0.8,
+        "max_spec": 1.2,
+        "unit": "A",
+        "enabled": true
+      }
+    ],
+    "실험용 Configuration": [
+      {
+        "item_name": "Temperature",
+        "min_spec": 20,
+        "max_spec": 25,
+        "unit": "°C",
+        "enabled": true
+      },
+      {
+        "item_name": "Pressure",
+        "min_spec": 100,
+        "max_spec": 200,
+        "unit": "kPa",
+        "enabled": true
+      },
+      {
+        "item_name": "Flow_Rate",
+        "min_spec": 10,
+        "max_spec": 20,
+        "unit": "L/min",
+        "enabled": true
+      },
+      {
+        "item_name": "Voltage",
+        "min_spec": 3.2,
+        "max_spec": 3.4,
+        "unit": "V",
+        "enabled": true
+      },
+      {
+        "item_name": "Current",
+        "min_spec": 0.8,
+        "max_spec": 1.2,
+        "unit": "A",
+        "enabled": true
+      }
+    ],
+    "표준 검수 세트": [
+      {
+        "item_name": "Temperature",
+        "min_spec": 20,
+        "max_spec": 25,
+        "unit": "°C",
+        "enabled": true
+      },
+      {
+        "item_name": "Pressure",
+        "min_spec": 100,
+        "max_spec": 200,
+        "unit": "kPa",
+        "enabled": true
+      },
+      {
+        "item_name": "Flow_Rate",
+        "min_spec": 10,
+        "max_spec": 20,
+        "unit": "L/min",
+        "enabled": true
+      },
+      {
+        "item_name": "Voltage",
+        "min_spec": 3.2,
+        "max_spec": 3.4,
+        "unit": "V",
+        "enabled": true
+      },
+      {
+        "item_name": "Current",
+        "min_spec": 0.8,
+        "max_spec": 1.2,
+        "unit": "A",
+        "enabled": true
+      }
+    ],
+    "Test Equipment": [
+      {
+        "item_name": "Temperature",
+        "min_spec": 20.0,
+        "max_spec": 25.0,
+        "unit": "°C",
+        "enabled": true,
+        "description": "Operating temperature range"
+      },
+      {
+        "item_name": "Humidity",
+        "min_spec": 40.0,
+        "max_spec": 60.0,
+        "unit": "%",
+        "enabled": true,
+        "description": "Relative humidity range"
+      },
+      {
+        "item_name": "Pressure",
+        "min_spec": 100.0,
+        "max_spec": 105.0,
+        "unit": "kPa",
+        "enabled": true,
+        "description": "Operating pressure range"
+      },
+      {
+        "item_name": "Voltage",
+        "min_spec": 4.8,
+        "max_spec": 5.0,
+        "unit": "V",
+        "enabled": true,
+        "description": "Supply voltage - WILL FAIL (measured 5.2)"
+      },
+      {
+        "item_name": "Current",
+        "min_spec": 2.0,
+        "max_spec": 2.5,
+        "unit": "A",
+        "enabled": true,
+        "description": "Operating current range"
+      },
+      {
+        "item_name": "Resistance",
+        "min_spec": 100.0,
+        "max_spec": 110.0,
+        "unit": "Ω",
+        "enabled": true,
+        "description": "Load resistance - WILL FAIL (measured 98.5)"
+      },
+      {
+        "item_name": "Frequency",
+        "min_spec": 59.0,
+        "max_spec": 61.0,
+        "unit": "Hz",
+        "enabled": true,
+        "description": "Operating frequency range"
+      },
+      {
+        "item_name": "Power",
+        "min_spec": 10.0,
+        "max_spec": 15.0,
+        "unit": "W",
+        "enabled": true,
+        "description": "Power consumption range"
+      },
+      {
+        "item_name": "Efficiency",
+        "min_spec": 90.0,
+        "max_spec": 100.0,
+        "unit": "%",
+        "enabled": true,
+        "description": "Energy efficiency"
+      },
+      {
+        "item_name": "Response Time",
+        "min_spec": 10.0,
+        "max_spec": 15.0,
+        "unit": "ms",
+        "enabled": true,
+        "description": "System response time - WILL FAIL (measured 15.5)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>Camera</Type>
+	<Name>AVT</Name>
+	<Description>This is a AVT GT(GC) 2450 Camera part.</Description>
+	<ItemList>
+		<Item>
+			<Name>Maker</Name>
+			<Description>The camera type.</Description>
+			<ValueType>string</ValueType>
+			<Value>AVT_GIGECAM1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>IlluminatorID</Name>
+			<Description>The illuminator ID.</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Acess>0</Acess>
+		</Item>
+		<Item>
+			<Name>Contrast</Name>
+			<Description>The contrast value.</Description>
+			<ValueType>double</ValueType>
+			<Value>0.0</Value>
+			<Acess>0</Acess>
+		</Item>
+		<Item>
+			<Name>Brightness</Name>
+			<Description>The brightness value.</Description>
+			<ValueType>double</ValueType>
+			<Value>0.3</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>LightStrength</Name>
+			<Description>The illuminator light strength value.</Description>
+			<ValueType>double</ValueType>
+			<Value>0.3</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>FieldOfView</Name>
+			<Description>The width of the full-range(Large) view in micrometers.</Description>
+			<ValueType>double</ValueType>
+			<Value>10520</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>ViewMode</Name>
+			<Description>The view mode(image format).</Description>
+			<ValueType>string</ValueType>
+			<Value>Large</Value>
+			<!--Large Small-->
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>FullPixel</Name>
+			<Description>The width of the Large view in pixels.</Description>
+			<ValueType>int</ValueType>
+			<Value>2440</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>ViewModeChangeable</Name>
+			<Description>Can the view mode be changed.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>SmallViewPosition</Name>
+			<Description>The left offset of the small view.</Description>
+			<ValueType>string</ValueType>
+			<Value>N</Value>
+			<!--C N W E S NE NW SE SW-->
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>SmallViewWidth</Name>
+			<Description>The width of the small view.</Description>
+			<ValueType>int</ValueType>
+			<Value>1600</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>SmallViewHeight</Name>
+			<Description>The height of the small view.</Description>
+			<ValueType>int</ValueType>
+			<Value>1200</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>MediumViewWidth</Name>
+			<Description>This is a MediumViewWidth Description</Description>
+			<ValueType>int</ValueType>
+			<Value>2048</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>MediumViewHeight</Name>
+			<Description>This is a MediumViewHeight Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1536</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>MediumViewPosition</Name>
+			<Description>This is a MediumViewPosition Description</Description>
+			<ValueType>string</ValueType>
+			<Value>N</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>AcceptThreshold</Name>
+			<Description>This is a AcceptThreshold Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.65</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>FrameRate</Name>
+			<Description>This is a FrameRate Description</Description>
+			<ValueType>int</ValueType>
+			<Value>10</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>FullPixelHeight</Name>
+			<Description>This is a FullPixelHeight Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1828</Value>
+			<Access>33</Access>
+		</Item>
+	</ItemList>
+</Part>

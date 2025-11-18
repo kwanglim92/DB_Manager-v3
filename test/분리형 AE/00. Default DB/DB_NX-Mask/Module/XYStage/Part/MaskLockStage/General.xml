@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>RotationStage</Type>
+	<Name>General</Name>
+	<Description>This is a General RotationStage part.</Description>
+	<ItemList>
+		<Item>
+			<Name>bUse</Name>
+			<Description>This is a bUse description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Axis</Name>
+			<Description>This is a Axis description.</Description>
+			<ValueType>list</ValueType>
+			<Value>2:X|Y|Z|U|V|D</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>MaxSpeed</Name>
+			<Description>This is a MaxSpeed Description</Description>
+			<ValueType>double</ValueType>
+			<Value>10000</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>StrokeMargin</Name>
+			<Description>This is a StrokeMargin Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>StrokeMin</Name>
+			<Description>This is a StrokeMin Description</Description>
+			<ValueType>double</ValueType>
+			<Value>-1000</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>StrokeMax</Name>
+			<Description>This is a StrokeMax Description</Description>
+			<ValueType>double</ValueType>
+			<Value>4500</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseLinearEncoder</Name>
+			<Description>This is a bUseLinearEncoder Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ErrorMargin</Name>
+			<Description>This is a ErrorMargin Description</Description>
+			<ValueType>double</ValueType>
+			<Value>20</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>LockPosition</Name>
+			<Description>This is a LockPosition Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1320</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>UnlockPosition</Name>
+			<Description>This is a UnlockPosition Description</Description>
+			<ValueType>double</ValueType>
+			<Value>100</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>LockSpeed (%)</Name>
+			<Description>This is a LockSpeed (%) Description</Description>
+			<ValueType>double</ValueType>
+			<Value>20</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>UnlockSpeed (%)</Name>
+			<Description>This is a UnlockSpeed (%) Description</Description>
+			<ValueType>double</ValueType>
+			<Value>70</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>TeachPosX</Name>
+			<Description>This is a TeachPosX Description</Description>
+			<ValueType>double</ValueType>
+			<Value>-8.92424</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>TeachPosY</Name>
+			<Description>This is a TeachPosY Description</Description>
+			<ValueType>double</ValueType>
+			<Value>5564.67</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>MaskLockCount</Name>
+			<Description>Mask lock count, try once in case of 1 (default : 1)</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseAlwaysRetry</Name>
+			<Description>Repeat mask lock until the trial number is equal to MaskLockCount</Description>
+			<ValueType>list</ValueType>
+			<Value>1:Don't Use|Use</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>DriverPowerControlPort</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>4</Value>
+			<Access>33</Access>
+		</Item></ItemList>
+</Part>

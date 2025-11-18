@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>QController</Type>
+	<Name>General</Name>
+	<Description>This is a General QController part.</Description>
+	<ItemList>
+		<Item>
+			<Name>bUse</Name>
+			<Description>Use this part or not</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>InitialPhase</Name>
+			<Description>This is a InitialPhase Description</Description>
+			<ValueType>double</ValueType>
+			<Value>87.5</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Gain</Name>
+			<Description>This is a Gain Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.5</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>FrequencyMargin</Name>
+			<Description>This is a FrequencyMargin Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1000</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>SamplingFreqInHz</Name>
+			<Description>This is a SamplingFreqInHz Description</Description>
+			<ValueType>double</ValueType>
+			<Value>5e+007</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>BandWidthPerResonance</Name>
+			<Description>This is a BandWidthPerResonance Description</Description>
+			<ValueType>double</ValueType>
+			<Value>10</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>MaxGain</Name>
+			<Description>This is a MaxGain Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.5</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>MaxInitialPhase</Name>
+			<Description>This is a MaxInitialPhase Description</Description>
+			<ValueType>double</ValueType>
+			<Value>90</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>CoarsePhaseStepForInitialPhase</Name>
+			<Description>This is a CoarsePhaseStepForInitialPhase Description</Description>
+			<ValueType>double</ValueType>
+			<Value>10</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>FinePhaseStepForInitialPhase</Name>
+			<Description>This is a FinePhaseStepForInitialPhase Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.5</Value>
+			<Access>33</Access>
+		</Item>
+	</ItemList>
+</Part>

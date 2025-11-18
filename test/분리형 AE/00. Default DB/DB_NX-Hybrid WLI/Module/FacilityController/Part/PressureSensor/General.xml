@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>PressureAlarm</Type>
+	<Name>General</Name>
+	<Description>This is a General FrontDoor part.</Description>
+	<ItemList>
+		<Item>
+			<Name>bUseAirSensor</Name>
+			<Description>This is a bUseAirSensor Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseVacuumSensor</Name>
+			<Description>This is a bUseVacuumSensor Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseVacuumPressure</Name>
+			<Description>This is a bUseVacuumPressure Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>DifferentialSensorPort</Name>
+			<Description>This is a DifferentialSensorPort Description</Description>
+			<ValueType>string</ValueType>
+			<Value>R:3:15</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseAirPressure</Name>
+			<Description>This is a bUseAirPressure Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>AirSensorPort</Name>
+			<Description>This is a AirSensorPort Description</Description>
+			<ValueType>string</ValueType>
+			<Value>R:3:10</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>PressurePort</Name>
+			<Description>This is a PressurePort Description</Description>
+			<ValueType>string</ValueType>
+			<Value>X:4:0/X:5:0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>VacuumSensorPort</Name>
+			<Description>This is a VacuumSensorPort Description</Description>
+			<ValueType>string</ValueType>
+			<Value>P:3:7</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseDifferential</Name>
+			<Description>This is a bUseDifferential Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseEFEMDifferentialPressureSensor</Name>
+			<Description>This is a bUseEFEMDifferentialPressureSensor Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>VacuumPressureSensorPort</Name>
+			<Description>This is a VacuumPressureSensorPort Description</Description>
+			<ValueType>string</ValueType>
+			<Value>R:3:12/R:3:13/R:3:14</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>VacuumPressureSensorLabel</Name>
+			<Description>This is a VacuumPressureSensorLabel Description</Description>
+			<ValueType>string</ValueType>
+			<Value>SampleChuck/Suction/EFEM</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>EFEMDifferentialPressureSensorPort</Name>
+			<Description>This is a EFEMDifferentialPressureSensorPort Description</Description>
+			<ValueType>string</ValueType>
+			<Value>R:3:15</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseAirPressure_Second</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+	</ItemList>
+</Part>

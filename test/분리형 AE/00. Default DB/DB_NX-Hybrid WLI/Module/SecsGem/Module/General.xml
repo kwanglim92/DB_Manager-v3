@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<Module>
+	<Name>General</Name>
+	<Description>This is a General SECSGEM Module</Description>
+	<PartList>
+		<Part>
+			<Type>Info</Type>
+			<Name>General</Name>
+		</Part>
+	</PartList>
+</Module>

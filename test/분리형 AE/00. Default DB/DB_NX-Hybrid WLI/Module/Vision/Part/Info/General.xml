@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>Info</Type>
+	<Name>General</Name>
+	<Description>This is a General Vision Info part.</Description>
+	<ItemList>
+		<Item>
+			<Name>bUse</Name>
+			<Description>Enables the vision module.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>NoCamera</Name>
+			<Description>The number of cameras.</Description>
+			<ValueType>int</ValueType>
+			<Value>2</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>SampleAlignCameraID</Name>
+			<Description>The sample align camera ID.</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>PatternAlignCameraID</Name>
+			<Description>The pattern align camera ID.</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>OnAxisCameraID</Name>
+			<Description>The on-axis camera ID. deprecated</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>WLICameraID</Name>
+			<Description>The WLI camera ID.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>OffAxisCameraID</Name>
+			<Description>The on-axis camera ID. deprecated</Description>
+			<ValueType>int</ValueType>
+			<Value>-1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>TipPositionX</Name>
+			<Description>This is a TipPositionX Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1221</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>TipPositionY</Name>
+			<Description>This is a TipPositionY Description</Description>
+			<ValueType>int</ValueType>
+			<Value>436</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ABCSupported</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item></ItemList>
+</Part>

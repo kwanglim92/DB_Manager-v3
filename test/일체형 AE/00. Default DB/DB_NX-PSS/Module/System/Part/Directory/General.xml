@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>DirectoryInfo</Type>
+	<Name>General</Name>
+	<Description>This is a General DirectoryInfo part.</Description>
+	<ItemList>
+		<Item>
+			<Name>TMP</Name>
+			<Description>This is a TMP description.</Description>
+			<ValueType>directory</ValueType>
+			<Value>XEP\DB\DATA\TMP</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>PAF</Name>
+			<Description>This is a PAF description.</Description>
+			<ValueType>directory</ValueType>
+			<Value>XEP\DB\DATA\PAF</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>LOG</Name>
+			<Description>This is a LOG description.</Description>
+			<ValueType>directory</ValueType>
+			<Value>XEP\DB\DATA\LOG</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>DB</Name>
+			<Description>This is a DB description.</Description>
+			<ValueType>directory</ValueType>
+			<Value>XEP\DB\DATA</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>MM</Name>
+			<Description>This is a MM description.</Description>
+			<ValueType>directory</ValueType>
+			<Value>XEP\DB\DATA\MM</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>BIN</Name>
+			<Description>This is a BIN description.</Description>
+			<ValueType>directory</ValueType>
+			<Value>XEP\bin</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>RECIPES</Name>
+			<Description>This is a RECIPES description.</Description>
+			<ValueType>directory</ValueType>
+			<Value>XEP\DB\DATA\Recipes</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>TEMPLATE</Name>
+			<Description>This is a TEMPLATE description.</Description>
+			<ValueType>directory</ValueType>
+			<Value>XEP\DB\DATA\Template</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>MEASURE</Name>
+			<Description>This is a MEASURE description.</Description>
+			<ValueType>directory</ValueType>
+			<Value>XEP\DB\DATA\Measure</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>XYPOS</Name>
+			<Description>This is a XYPOS description.</Description>
+			<ValueType>directory</ValueType>
+			<Value>XEP\DB\DATA\XYPos</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>COMBINEAPPROACHPARAM</Name>
+			<Description>This is a CombineApproachParam description.</Description>
+			<ValueType>directory</ValueType>
+			<Value>XEP\DB\DATA\CombineApproachParam</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>StepScanParam</Name>
+			<Description>This is a StepScanParam Description</Description>
+			<ValueType>string</ValueType>
+			<Value>XEP\DB\DATA\StepScanParam</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ScanParam</Name>
+			<Description>This is a ScanParam Description</Description>
+			<ValueType>string</ValueType>
+			<Value>XEP\DB\DATA\ScanParam</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>XYStepScanParam</Name>
+			<Description>This is a XYStepScanParam Description</Description>
+			<ValueType>string</ValueType>
+			<Value>XEP\DB\DATA\XYStepScanParam</Value>
+			<Access>33</Access>
+		</Item>
+	</ItemList>
+</Part>

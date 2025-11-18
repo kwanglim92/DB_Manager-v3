@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>XDetector</Type>
+	<Name>General</Name>
+	<Description>This is a General XDetector part.</Description>
+	<ItemList>
+		<Item>
+			<Name>OffsetAdc</Name>
+			<Description>Signal offset</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>MicrometerPerAdc</Name>
+			<Description>Distance that can be detected(um)</Description>
+			<ValueType>double</ValueType>
+			<Value>12</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>AuxOffsetAdc</Name>
+			<Description>This is a AuxOffsetAdc Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>AuxMicrometerPerAdc</Name>
+			<Description>This is a AuxMicrometerPerAdc Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bUse</Name>
+			<Description>This is a bUse Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+	</ItemList>
+</Part>

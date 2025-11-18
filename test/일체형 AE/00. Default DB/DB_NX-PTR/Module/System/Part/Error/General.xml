@@ -1,0 +1,274 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>Error</Type>
+	<Name>General</Name>
+	<Description>This is a General Error Part.</Description>
+	<ItemList>
+		<Item>
+			<Name>0</Name>
+			<Description>[Service] : Unknown module type</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>1</Name>
+			<Description>[Service] : Unknown command</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>2</Name>
+			<Description>[Service] : Unknown property</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>3</Name>
+			<Description>[System] : PatternAlign : Wrong parameter</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>4</Name>
+			<Description>[System] : PatternAlign : Invalid mode</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>5</Name>
+			<Description>[System] : Camera port setting error</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>6</Name>
+			<Description>[System] : Pattern not found</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>7</Name>
+			<Description>[System] : PSPDAlign failed</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>8</Name>
+			<Description>[System] : Set tip map info failed</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>9</Name>
+			<Description>[System] : XYStage not supported</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>10</Name>
+			<Description>[System] : Vision not supported</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>11</Name>
+			<Description>[System] : SetControlMode failed</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>12</Name>
+			<Description>[System] : ZServo failed</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>13</Name>
+			<Description>[System] : ZServo off failed</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>14</Name>
+			<Description>[System] : XYStage move failed</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>15</Name>
+			<Description>[System] : ZStage move failed</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>16</Name>
+			<Description>[System] : Tip exchange acquire failed</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>17</Name>
+			<Description>[System] : Tip exchange discard failed</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>18</Name>
+			<Description>[System] : Tip exchange up failed</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>19</Name>
+			<Description>[System] : Tip exchange down failed</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>20</Name>
+			<Description>[System] : VCR not supported</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>21</Name>
+			<Description>[System] : FacilityControl not supported</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>22</Name>
+			<Description>[System] : PSPDStage not supported</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>23</Name>
+			<Description>[System] : Indexer not supported</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>24</Name>
+			<Description>[System] : Profiler not supported</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>25</Name>
+			<Description>[System] : Tip index out of range</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>26</Name>
+			<Description>[System] : Invalid autofocus range</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>27</Name>
+			<Description>[System] : Invalid focus position</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>28</Name>
+			<Description>[System] : focus stage move failed</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>29</Name>
+			<Description>[System] : autofocus failed</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>30</Name>
+			<Description>[System] : autofocus stopped</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>31</Name>
+			<Description>[System] : Invalid Z position</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>32</Name>
+			<Description>[System] : Rotation Stage move failed.</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>33</Name>
+			<Description>[System] : RotateStageLock failed.</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>34</Name>
+			<Description>[System] : RotateStageUnLock failed.</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>35</Name>
+			<Description>[System] : Invalid Scan mode.</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>36</Name>
+			<Description>[System] : Invalid profile range.</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>37</Name>
+			<Description>[System] : Invalid profile position. (Not Homed.)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<Access>22</Access>
+		</Item>
+	</ItemList>
+</Part>

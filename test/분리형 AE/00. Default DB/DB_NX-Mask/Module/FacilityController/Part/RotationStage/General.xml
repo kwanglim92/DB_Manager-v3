@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>RotationStage</Type>
+	<Name>XE-3DM</Name>
+	<Description>This is a XE-3DM RotationStage part.</Description>
+	<ItemList>
+		<Item>
+			<Name>bUse</Name>
+			<Description>This is a bUse description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>Port</Name>
+			<Description>This is a Port description.</Description>
+			<ValueType>string</ValueType>
+			<Value>R:1:1</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>LockPort</Name>
+			<Description>This is a Port description.</Description>
+			<ValueType>string</ValueType>
+			<Value>R:1:2</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>UnlockedSensorPort</Name>
+			<Description>This is a UnlockedSensorPort description.</Description>
+			<ValueType>string</ValueType>
+			<Value>X:16:9</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>LockedSensorPort</Name>
+			<Description>This is a LockedSensorPort description.</Description>
+			<ValueType>string</ValueType>
+			<Value>X:16:10</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>bUseAirPressureSensor</Name>
+			<Description>This is a bUseAirPressureSensor Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>AirPressureSensorPort</Name>
+			<Description>This is a AirPressureSensorPort Description</Description>
+			<ValueType>string</ValueType>
+			<Value>X:17:9</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>UnlockMileage</Name>
+			<Description>This is a UnlockMileage Description</Description>
+			<ValueType>int</ValueType>
+			<Value>18647</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>LockMileage</Name>
+			<Description>This is a LockMileage Description</Description>
+			<ValueType>int</ValueType>
+			<Value>18580</Value>
+			<Access>33</Access>
+		</Item>
+	</ItemList>
+</Part>

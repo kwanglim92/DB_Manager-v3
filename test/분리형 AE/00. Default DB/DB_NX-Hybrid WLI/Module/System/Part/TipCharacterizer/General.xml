@@ -1,0 +1,435 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>TipCharacterizer</Type>
+	<Name>General</Name>
+	<Description>This is a General TipCharacterizer part.</Description>
+	<ItemList>
+		<Item>
+			<Name>bUse</Name>
+			<Description>This is a bUse description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>XPositionX</Name>
+			<Description>This is a XpositionX description.</Description>
+			<ValueType>double</ValueType>
+			<Value>-25399</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>XPositionY</Name>
+			<Description>This is a XpositionY description.</Description>
+			<ValueType>double</ValueType>
+			<Value>-55312.5</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>XTipPattern</Name>
+			<Description>This is a XTipPattern description.</Description>
+			<ValueType>string</ValueType>
+			<Value>VLSI_T_C</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>XSamplePattern</Name>
+			<Description>This is a XSamplePattern description.</Description>
+			<ValueType>string</ValueType>
+			<Value>VLSI_S_C</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>XScanRate</Name>
+			<Description>This is a XScanRate description.</Description>
+			<ValueType>double</ValueType>
+			<Value>0.2</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>XZServoGain</Name>
+			<Description>This is a XZServoGain description.</Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>XSetPoint</Name>
+			<Description>This is a XSetPoint description.</Description>
+			<ValueType>double</ValueType>
+			<Value>0.00415</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>XAmplitude</Name>
+			<Description>This is a XAmplitude description.</Description>
+			<ValueType>double</ValueType>
+			<Value>0.005</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>XPixel</Name>
+			<Description>This is a XPixel description.</Description>
+			<ValueType>int</ValueType>
+			<Value>2048</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>XSize</Name>
+			<Description>This is a XSize description.</Description>
+			<ValueType>double</ValueType>
+			<Value>1.3</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>XSampleWidth</Name>
+			<Description>This is a XSampleWidth description.</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>YPositionX</Name>
+			<Description>This is a YpositionX description.</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>YPositionY</Name>
+			<Description>This is a YpositionY description.</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>YTipPattern</Name>
+			<Description>This is a YTipPattern description.</Description>
+			<ValueType>string</ValueType>
+			<Value>TIP_VLSI2</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>YSamplePattern</Name>
+			<Description>This is a YSamplePattern description.</Description>
+			<ValueType>string</ValueType>
+			<Value>VLSI_2</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>YScanRate</Name>
+			<Description>This is a YScanRate description.</Description>
+			<ValueType>double</ValueType>
+			<Value>0.1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>YZServoGain</Name>
+			<Description>This is a YZServoGain description.</Description>
+			<ValueType>double</ValueType>
+			<Value>2</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>YSetPoint</Name>
+			<Description>This is a YSetPoint description.</Description>
+			<ValueType>double</ValueType>
+			<Value>0.8</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>YAmplitude</Name>
+			<Description>This is a YAmplitude description.</Description>
+			<ValueType>double</ValueType>
+			<Value>1.5</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>YPixel</Name>
+			<Description>This is a YPixel description.</Description>
+			<ValueType>int</ValueType>
+			<Value>4096</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>YSize</Name>
+			<Description>This is a YSize description.</Description>
+			<ValueType>double</ValueType>
+			<Value>2.0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>YSampleWidth</Name>
+			<Description>This is a YSampleWidth description.</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>XZServoNCGain</Name>
+			<Description>This is a XZServoNCGain Description</Description>
+			<ValueType>double</ValueType>
+			<Value>10</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>XTipAutoFocus</Name>
+			<Description>This is a XTipAutoFocus Description</Description>
+			<ValueType>string</ValueType>
+			<Value>VLSI_T_C</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>XSampleAutoFocus</Name>
+			<Description>This is a XSampleAutoFocus Description</Description>
+			<ValueType>string</ValueType>
+			<Value>VLSI_S_C</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>YZServoNCGain</Name>
+			<Description>This is a YZServoNCGain Description</Description>
+			<ValueType>double</ValueType>
+			<Value>2</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>YTipAutoFocus</Name>
+			<Description>This is a YTipAutoFocus Description</Description>
+			<ValueType>string</ValueType>
+			<Value>VLSI_Tip2</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>YSampleAutoFocus</Name>
+			<Description>This is a YSampleAutoFocus Description</Description>
+			<ValueType>string</ValueType>
+			<Value>VLSI_2</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>XRefScanRate</Name>
+			<Description>This is a XRefScanRate Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.13</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>XFineSweepFreq</Name>
+			<Description>This is a XFineSweepFreq Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>XOptimalSetPoint</Name>
+			<Description>This is a XOptimalSetPoint Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>YRefScanRate</Name>
+			<Description>This is a YRefScanRate Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>YFineSweepFreq</Name>
+			<Description>This is a YFineSweepFreq Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>YOptimalSetPoint</Name>
+			<Description>This is a YOptimalSetPoint Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>XPixelX</Name>
+			<Description>This is a XPixelX Description</Description>
+			<ValueType>int</ValueType>
+			<Value>4096</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>XPixelY</Name>
+			<Description>This is a XPixelY Description</Description>
+			<ValueType>int</ValueType>
+			<Value>16</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>XSizeX</Name>
+			<Description>This is a XSizeX Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>XSizeY</Name>
+			<Description>This is a XSizeY Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>XAmplitudeFeedback</Name>
+			<Description>This is a XAmplitudeFeedback Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>XIntermittent</Name>
+			<Description>This is a XIntermittent Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>XRefScanPixel</Name>
+			<Description>This is a XRefScanPixel Description</Description>
+			<ValueType>double</ValueType>
+			<Value>4096</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>XRefScanSize</Name>
+			<Description>This is a XRefScanSize Description</Description>
+			<ValueType>double</ValueType>
+			<Value>8</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>XRefScanOffset</Name>
+			<Description>This is a XRefScanOffset Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>XTipHeight</Name>
+			<Description>This is a XTipHeight Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>YPixelX</Name>
+			<Description>This is a YPixelX Description</Description>
+			<ValueType>int</ValueType>
+			<Value>2048</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>YPixelY</Name>
+			<Description>This is a YPixelY Description</Description>
+			<ValueType>int</ValueType>
+			<Value>16</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>YSizeX</Name>
+			<Description>This is a YSizeX Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>YSizeY</Name>
+			<Description>This is a YSizeY Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>YAmplitudeFeedback</Name>
+			<Description>This is a YAmplitudeFeedback Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>YIntermittent</Name>
+			<Description>This is a YIntermittent Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>YRefScanPixel</Name>
+			<Description>This is a YRefScanPixel Description</Description>
+			<ValueType>double</ValueType>
+			<Value>4096</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>YRefScanSize</Name>
+			<Description>This is a YRefScanSize Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>YRefScanOffset</Name>
+			<Description>This is a YRefScanOffset Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>YTipHeight</Name>
+			<Description>This is a YTipHeight Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>XRefScanOffsetX</Name>
+			<Description>This is a XRefScanOffsetX Description</Description>
+			<ValueType>double</ValueType>
+			<Value>-1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>XRefScanOffsetY</Name>
+			<Description>This is a XRefScanOffsetY Description</Description>
+			<ValueType>double</ValueType>
+			<Value>-3.5</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>XRefZServoGain</Name>
+			<Description>This is a XRefZServoGain Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>XRefZServoNCGain</Name>
+			<Description>This is a XRefZServoNCGain Description</Description>
+			<ValueType>double</ValueType>
+			<Value>10</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>XMaxTipWidth</Name>
+			<Description>This is a XMaxTipWidth Description</Description>
+			<ValueType>double</ValueType>
+			<Value>50</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>XMethodID</Name>
+			<Description>This is a XMethodID Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+	</ItemList>
+</Part>

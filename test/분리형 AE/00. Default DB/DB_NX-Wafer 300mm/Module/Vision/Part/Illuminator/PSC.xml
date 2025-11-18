@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>Illuminator</Type>
+	<Name>PSC</Name>
+	<Description>This is a PSC Illuminator part.</Description>
+	<ItemList>
+		<Item>
+			<Name>bUseControl</Name>
+			<Description>Enables the illuminator.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bSimulation</Name>
+			<Description>Enables simulation.</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Maker</Name>
+			<Description>The illuminator maker.</Description>
+			<ValueType>string</ValueType>
+			<Value>PSC</Value>
+			<Access/>
+		</Item>
+		<Item>
+			<Name>Model</Name>
+			<Description>The illuminator model.</Description>
+			<ValueType>string</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>SerialPortNo</Name>
+			<Description>The serial port number used by the illuminator.</Description>
+			<ValueType>int</ValueType>
+			<Value>4</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>BaudRate</Name>
+			<Description>The baudrate for serial communication.</Description>
+			<ValueType>int</ValueType>
+			<Value>9600</Value>
+			<Access/>
+		</Item>
+		<Item>
+			<Name>0</Name>
+			<Description>[Illuminator] : No Response</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access/>
+		</Item>
+		<Item>
+			<Name>1</Name>
+			<Description>[Illuminator] : Serial Port Open Fail</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access/>
+		</Item>
+		<Item>
+			<Name>2</Name>
+			<Description>[Illuminator] : DIO Read Error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access/>
+		</Item>
+		<Item>
+			<Name>3</Name>
+			<Description>[Illuminator] : DIO Write Error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access/>
+		</Item>
+		<Item>
+			<Name>ReverseLevel</Name>
+			<Description>This is a ReverseLevel Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+	</ItemList>
+</Part>

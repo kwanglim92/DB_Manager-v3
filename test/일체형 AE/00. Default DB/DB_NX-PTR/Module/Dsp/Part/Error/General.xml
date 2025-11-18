@@ -1,0 +1,344 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>Error</Type>
+	<Name>General</Name>
+	<Description>This is a General Error Part.</Description>
+	<ItemList>
+		<Item>
+			<Name>0</Name>
+			<Description>[Spm] : Unknown spm command</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>1</Name>
+			<Description>[Spm] : Can't excute ScanOn while imaging</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>2</Name>
+			<Description>[Spm] : Can't find DSP code</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>3</Name>
+			<Description>[Spm] : ZTo = 0 or QuickTo = 0</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>4</Name>
+			<Description>[Spm] : Invalid motor position</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>5</Name>
+			<Description>[Spm] : Command timeout</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>6</Name>
+			<Description>[Spm] : Frequency sweep error</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>100</Name>
+			<Description>[DSP] : Property list access error</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>101</Name>
+			<Description>[DSP] : Unknown command</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>102</Name>
+			<Description>[DSP] : Unknown propertyID</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>103</Name>
+			<Description>[DSP] : Invalid Parameter</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>104</Name>
+			<Description>[DSP] : Inconsistent status</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>105</Name>
+			<Description>[DSP] : Conflicting operation</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>106</Name>
+			<Description>[DSP] : Invalid Job ID</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>107</Name>
+			<Description>[DSP] : Invalid cookie</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>108</Name>
+			<Description>[DSP] : Job timeout</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>109</Name>
+			<Description>[DSP] : No device is detected</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>110</Name>
+			<Description>[DSP] : DSP ID does not match</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>111</Name>
+			<Description>[DSP] : DSP code donwload failed</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>112</Name>
+			<Description>[DSP] : DSP code may be corrupted</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>113</Name>
+			<Description>[DSP] : DSP code version does not match</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>114</Name>
+			<Description>[DSP] : Failed in creating a communication thread</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>115</Name>
+			<Description>[DSP] : DSP does not respond. Please reset controller</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>116</Name>
+			<Description>[DSP] : Unknown head mode</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>117</Name>
+			<Description>[DSP] : Unknown image mode</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>118</Name>
+			<Description>[DSP] : Unknown servo mode</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>119</Name>
+			<Description>[DSP] : Unknown approach mode</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>120</Name>
+			<Description>[DSP] : Approach: Laser intensity is too low</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>121</Name>
+			<Description>[DSP] : Approach: A-B is not aligned</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>122</Name>
+			<Description>[DSP] : Approach: Please turn on z servo</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>123</Name>
+			<Description>[DSP] : Trace: Z servo conflicts with z drive</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>124</Name>
+			<Description>[DSP] : Z stage reached the upper hardware limit</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>125</Name>
+			<Description>[DSP] : Z stage reached the lower hardware limit</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>126</Name>
+			<Description>[DSP] : Focus stage reached the upper hardware limit</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>127</Name>
+			<Description>[DSP] : Focus stage reached the lower hardware limit</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>128</Name>
+			<Description>[DSP] : Z and focus stage are too close</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>129</Name>
+			<Description>[DSP] : Z stage reached the upper limit</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>130</Name>
+			<Description>[DSP] : Z stage reached the lower limit</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>131</Name>
+			<Description>[DSP] : Focus stage reached the upper limit</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>132</Name>
+			<Description>[DSP] : Focus stage reached the lower limit</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>133</Name>
+			<Description>[DSP] : Laser intensity is too low</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>134</Name>
+			<Description>[DSP] : A-B is too high</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>135</Name>
+			<Description>[DSP] : A-B is too low</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>136</Name>
+			<Description>[DSP] : Reset incomplete</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>137</Name>
+			<Description>[DSP] : Reset incomplete</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>138</Name>
+			<Description>[DSP] : Z stage encoder initialization failed</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>139</Name>
+			<Description>[DSP] : Z stage feedback failed</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>140</Name>
+			<Description>[DSP] : Focus stage feedback failed</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+	</ItemList>
+</Part>

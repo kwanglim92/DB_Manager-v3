@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>SideDoor</Type>
+	<Name>General</Name>
+	<Description>This is a General SideDoor part.</Description>
+	<ItemList>
+		<Item>
+			<Name>bUse</Name>
+			<Description>This is a bUse description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>SensorPort</Name>
+			<Description>This is a SensorPort description.</Description>
+			<ValueType>string</ValueType>
+			<Value>X:0:10</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bUseEvent</Name>
+			<Description>This is a bUseEvent description.</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>EventPort</Name>
+			<Description>This is a EventPort description.</Description>
+			<ValueType>string</ValueType>
+			<Value/>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bUseSideDoorActiveLow</Name>
+			<Description/>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseAEDoorLock</Name>
+			<Description/>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseCabinetDoorSensor</Name>
+			<Description/>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseCabinetInterlockDoorSensor</Name>
+			<Description/>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseInterlockBypass</Name>
+			<Description/>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseAELampControl</Name>
+			<Description/>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>AELampControlPort</Name>
+			<Description>This is a AELampControlPort Description</Description>
+			<ValueType>string</ValueType>
+			<Value>X:0:2</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>AELampSensorPort</Name>
+			<Description>This is a AELampSensorPort Description</Description>
+			<ValueType>string</ValueType>
+			<Value>Y:0:7</Value>
+			<Access>33</Access>
+		</Item>
+	</ItemList>
+</Part>

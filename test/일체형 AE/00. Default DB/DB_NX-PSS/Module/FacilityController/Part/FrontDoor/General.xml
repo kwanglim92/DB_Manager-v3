@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>FrontDoor</Type>
+	<Name>General</Name>
+	<Description>This is a General FrontDoor part.</Description>
+	<ItemList>
+		<Item>
+			<Name>bUse</Name>
+			<Description>This is a bUse description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>Port</Name>
+			<Description>This is a Port description.</Description>
+			<ValueType>string</ValueType>
+			<Value>R:0:10</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>OpenPort</Name>
+			<Description>This is a Port description.</Description>
+			<ValueType>string</ValueType>
+			<Value>R:0:11</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>CloseSensorPort</Name>
+			<Description>This is a CloseSensorPort description.</Description>
+			<ValueType>string</ValueType>
+			<Value>X:0:6</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>OpenSensorPort</Name>
+			<Description>This is a OpenSensorPort description.</Description>
+			<ValueType>string</ValueType>
+			<Value>X:0:7</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>bUseEnableAccess</Name>
+			<Description>This is a bUseEnableAccess Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>EnableAccessPort</Name>
+			<Description>This is a EnableAccessPort Description</Description>
+			<ValueType>string</ValueType>
+			<Value>R:0:14</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bSimulation</Name>
+			<Description/>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseCommandInit</Name>
+			<Description/>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>EanbleAccessOnDelayMilliSec</Name>
+			<Description/>
+			<ValueType>int</ValueType>
+			<Value>500</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseErrorAlarm</Name>
+			<Description/>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseServiceMode</Name>
+			<Description/>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+	</ItemList>
+</Part>

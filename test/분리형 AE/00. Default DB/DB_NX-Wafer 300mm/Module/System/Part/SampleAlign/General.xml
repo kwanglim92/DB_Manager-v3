@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>SampleAlign</Type>
+	<Name>General</Name>
+	<Description>This is a General SampleAlign part.</Description>
+	<ItemList>
+		<Item>
+			<Name>bUse</Name>
+			<Description>This is a bUse description.</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>PatternFindStep</Name>
+			<Description>This is a PatternFindStep description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1500</Value>
+			<Access>0</Access>
+		</Item>
+	</ItemList>
+</Part>

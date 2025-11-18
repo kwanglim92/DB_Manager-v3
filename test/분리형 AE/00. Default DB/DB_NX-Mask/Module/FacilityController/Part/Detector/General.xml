@@ -1,0 +1,176 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>Dtector</Type>
+	<Name>General</Name>
+	<Description>This is a General FrontDoor part.</Description>
+	<ItemList>
+		<Item>
+			<Name>bUse</Name>
+			<Description>This is a bUse Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>SmokeDetectorPort</Name>
+			<Description>This is a SmokeDetectorPort Description</Description>
+			<ValueType>string</ValueType>
+			<Value>X:17:7</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>FireAlarmPort</Name>
+			<Description>This is a FireAlarmPort Description</Description>
+			<ValueType>string</ValueType>
+			<Value>R:1:15</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseSmokeDetector</Name>
+			<Description>This is a bUseSmokeDetector Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseTemperature</Name>
+			<Description>This is a bUseTemperature Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseStaticElectricity</Name>
+			<Description>This is a bUseStaticElectricity Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseAETemperature</Name>
+			<Description>This is a bUseAETemperature Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseAEHumidity</Name>
+			<Description>This is a bUseAEHumidity Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>AEHumidityPort</Name>
+			<Description>This is a AEHumidityPort Description</Description>
+			<ValueType>string</ValueType>
+			<Value>D:0:0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>AEHumidityMin</Name>
+			<Description>This is a AEHumidityMin Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>AEHumidityMax</Name>
+			<Description>This is a AEHumidityMax Description</Description>
+			<ValueType>int</ValueType>
+			<Value>100</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>AETemperaturePort</Name>
+			<Description>This is a AETemperaturePort Description</Description>
+			<ValueType>string</ValueType>
+			<Value>D:2:0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>AETemperatureMin</Name>
+			<Description>This is a AETemperatureMin Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>AETemperatureMax</Name>
+			<Description>This is a AETemperatureMax Description</Description>
+			<ValueType>int</ValueType>
+			<Value>100</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>AETemperatureRatio</Name>
+			<Description>{Temperature} / {Ratio} + {Offset}</Description>
+			<ValueType>double</ValueType>
+			<Value>20</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>AETemperatureOffset</Name>
+			<Description>{Temperature} / {Ratio} + {Offset}</Description>
+			<ValueType>double</ValueType>
+			<Value>-40</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>AEHumidityRatio</Name>
+			<Description>{Humidity} / {Ratio} + {Offset}</Description>
+			<ValueType>double</ValueType>
+			<Value>20</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>AEHumidityOffset</Name>
+			<Description>{Humidity} / {Ratio} + {Offset}</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseWaterLeak</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseLoadingPositionYSensor</Name>
+			<Description></Description>
+			<ValueType>list</ValueType>
+			<Value>0:Don't Use|Use</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseLoadingPositionX1Sensor</Name>
+			<Description></Description>
+			<ValueType>list</ValueType>
+			<Value>0:Don't Use|Use</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseLoadingPositionX2Sensor</Name>
+			<Description></Description>
+			<ValueType>list</ValueType>
+			<Value>0:Don't Use|Use</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseRegulator</Name>
+			<Description></Description>
+			<ValueType>list</ValueType>
+			<Value>0:Don't Use|Use</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseTHC</Name>
+			<Description></Description>
+			<ValueType>list</ValueType>
+			<Value>0:Don't Use|Use</Value>
+			<Access>33</Access>
+		</Item>
+	</ItemList>
+</Part>

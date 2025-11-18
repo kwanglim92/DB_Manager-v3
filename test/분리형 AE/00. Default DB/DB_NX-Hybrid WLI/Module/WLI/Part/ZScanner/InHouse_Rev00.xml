@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>ZScanner</Type>
+	<Name>InHouse_Rev00</Name>
+	<Description>This is a ZScanner.</Description>
+	<ItemList>
+		<Item>
+			<Name>ZScanner_Scale_um</Name>
+			<Description>This is a ZScanner_Scale_um Description</Description>
+			<ValueType>double</ValueType>
+			<Value>20</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Range_Min</Name>
+			<Description>This is a Range_Min Description</Description>
+			<ValueType>double</ValueType>
+			<Value>-0.296924</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Range_Max</Name>
+			<Description>This is a Range_Max Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.418287</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ServoGain_P</Name>
+			<Description>This is a ServoGain_P Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ServoGain_I</Name>
+			<Description>This is a ServoGain_I Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ServoGain_Z</Name>
+			<Description>This is a ServoGain_Z Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>PSI_Scale_um</Name>
+			<Description>This is a PSI_Scale_um Description</Description>
+			<ValueType>double</ValueType>
+			<Value>27</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>WLI_Scale_um</Name>
+			<Description>This is a WLI_Scale_um Description</Description>
+			<ValueType>double</ValueType>
+			<Value>34.41</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ZScanner_Range_Min</Name>
+			<Description>This is a ZScanner_Range_Min Description</Description>
+			<ValueType>double</ValueType>
+			<Value>-1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ZScanner_Range_Max</Name>
+			<Description>This is a ZScanner_Range_Max Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Polynomial_Coeff</Name>
+			<Description>This is a Polynomial_Coeff Description</Description>
+			<ValueType>string</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ServoOn</Name>
+			<Description>This is a ServoOn Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ZTracking_Support</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ZTracking_Ratio</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ZTracking_Gain</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ZTracking_Roi</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>100</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ZTracking_Range_Max</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>10</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ZTracking_Interval</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>100</Value>
+			<Access>33</Access>
+		</Item></ItemList>
+</Part>

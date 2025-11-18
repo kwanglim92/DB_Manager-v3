@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Module>
+	<Name>NX20</Name>
+	<Description>This is a NX20 XYStage Module</Description>
+	<PartList>
+		<Part>
+			<Type>Info</Type>
+			<Name>150mm</Name>
+		</Part>
+		<Part>
+			<Type>SampleInfo</Type>
+			<Name>150mm</Name>
+		</Part>
+		<Part>
+			<Type>SerialPort</Type>
+			<Name>General</Name>
+		</Part>
+		<Part>
+			<Type>CoordTR</Type>
+			<Name>General</Name>
+		</Part>
+		<Part>
+			<Type>Error</Type>
+			<Name>HCM</Name>
+		</Part>
+		<Part>
+			<Type>TiltingStage</Type>
+			<Name>XE-PTR</Name>
+		</Part>
+	</PartList>
+</Module>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Module>
+	<Name>Indexer</Name>
+	<Description>This is a Indexer Module</Description>
+	<PartList>
+		<Part>
+			<Type>Info</Type>
+			<Name>General</Name>
+		</Part>
+		<Part>
+			<Type>Error</Type>
+			<Name>General</Name>
+		</Part>
+		<Part>
+			<Type>SerialPort</Type>
+			<Name>General</Name>
+		</Part>
+	</PartList>
+</Module>

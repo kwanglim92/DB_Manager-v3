@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>SampleChecker</Type>
+	<Name>General</Name>
+	<Description>This is a General SampleChecker part.</Description>
+	<ItemList>
+		<Item>
+			<Name>bUse</Name>
+			<Description>This is a bUse description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>OnPort</Name>
+			<Description>This is a OnPort Description</Description>
+			<ValueType>string</ValueType>
+			<Value>R:4:0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>SensorPort</Name>
+			<Description>This is a SensorPort Description</Description>
+			<ValueType>string</ValueType>
+			<Value>R:4:1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>CheckingTimeMilliSec</Name>
+			<Description>This is a CheckingTimeMilliSec Description</Description>
+			<ValueType>int</ValueType>
+			<Value>3000</Value>
+			<Access>33</Access>
+		</Item></ItemList>
+</Part>

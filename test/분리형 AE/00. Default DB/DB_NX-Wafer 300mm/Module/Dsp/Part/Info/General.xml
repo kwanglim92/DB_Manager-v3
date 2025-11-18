@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Part>
+	<Type>Info</Type>
+	<Name>General</Name>
+	<Description>This is a General Info Part.</Description>
+	<ItemList>
+		<Item>
+			<Name>Simulation</Name>
+			<Description>Simulation flag</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>DSPCode</Name>
+			<Description>DSP code</Description>
+			<ValueType>string</ValueType>
+			<Value>dsp64.bin</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>DEBUG</Name>
+			<Description>This is a DEBUG Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>LittleEndian</Name>
+			<Description>LittleEndian</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>DSPComm</Name>
+			<Description>DSP communication method</Description>
+			<ValueType>string</ValueType>
+			<Value>TCP</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>TCPAddress</Name>
+			<Description>TCP Address</Description>
+			<ValueType>string</ValueType>
+			<Value>192.168.0.2</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>PDDSupport</Name>
+			<Description>PDD support</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>InterruptRateHz</Name>
+			<Description>This is a InterruptRateHz Description</Description>
+			<ValueType>double</ValueType>
+			<Value>50000</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>NCMSweepRetryCount</Name>
+			<Description>This is a NCMSweepRetryCount Description</Description>
+			<ValueType>double</ValueType>
+			<Value>4</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>NCMAmplitudeFeedBackError</Name>
+			<Description>This is a NCMAmplitudeFeedBackError Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.05</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>NCMAmplitudeFeedBackErrorRate</Name>
+			<Description>This is a NCMAmplitudeFeedBackErrorRate Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.05</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>LithographySupport</Name>
+			<Description>This is a LithographySupport Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>PhotoCurrentSupport</Name>
+			<Description>This is a PhotoCurrentSupport Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>IndenterV2Supported</Name>
+			<Description>This is a IndenterV2Supported Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>ScatteringSupport</Name>
+			<Description>This is a ScatteringSupport Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>ARSModeSupport</Name>
+			<Description>This is a ARSModeSupport Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>LockinControlForPFMSupport</Name>
+			<Description>This is a LockinControlForPFMSupport Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>ExtLaserDrivingSupport</Name>
+			<Description>This is a ExtLaserDrivingSupport Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>HideTipSampleDistanceUnit</Name>
+			<Description>This is a HideTipSampleDistanceUnit Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>TipSampleDistanceName</Name>
+			<Description>This is a TipSampleDistanceName Description</Description>
+			<ValueType>string</ValueType>
+			<Value>Tip-sample dist</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bDisableAPlusBCorrection</Name>
+			<Description>This is a bDisableAPlusBCorrection Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>BioARSModeSupport</Name>
+			<Description>This is a BioARSModeSupport Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>LockinControlSupport</Name>
+			<Description>This is a LockinControlSupport Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>NCMDriveRangeLiquidMode</Name>
+			<Description>This is a NCMDriveRangeLiquidMode Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bEnableNCMAPlusBCorrection</Name>
+			<Description>This is a bEnableNCMAPlusBCorrection Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>FDV2Support</Name>
+			<Description>This is a FDV2Support Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>illuminatorSupport</Name>
+			<Description>This is a illuminatorSupport Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>NCMDriveReductionFactor</Name>
+			<Description>This is a NCMDriveReductionFactor Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bDisableNCMDriveReduction</Name>
+			<Description>This is a bDisableNCMDriveReduction Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>LiftZNanoMeterWhileMoving</Name>
+			<Description>This is a LiftZNanoMeterWhileMoving Description</Description>
+			<ValueType>double</ValueType>
+			<Value>200</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ApproachWaitTime</Name>
+			<Description>This is a ApproachWaitTime Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.5</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>HeadRotationAngle</Name>
+			<Description>This is a HeadRotationAngle Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>HeadTiltAngle</Name>
+			<Description>This is a HeadTiltAngle Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>illuminatorStrengthPercent</Name>
+			<Description>This is a illuminatorStrengthPercent Description</Description>
+			<ValueType>double</ValueType>
+			<Value>17.001</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>HEMLogAmpGain</Name>
+			<Description>This is a HEMLogAmpGain Description</Description>
+			<ValueType>double</ValueType>
+			<Value>15.3506</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>HEMLogAmpScale</Name>
+			<Description>This is a HEMLogAmpScale Description</Description>
+			<ValueType>double</ValueType>
+			<Value>7.88592</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>HEMLogAmpOffsetVolt</Name>
+			<Description>This is a HEMLogAmpOffsetVolt Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ExtCurrentAmpSupport</Name>
+			<Description>This is a ExtCurrentAmpSupport Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>CurrentAmpGain</Name>
+			<Description>This is a CurrentAmpGain Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1e+009</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>CurrentAmpType</Name>
+			<Description>This is a CurrentAmpType Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>CurrentAmpCurrentSRC</Name>
+			<Description>This is a CurrentAmpCurrentSRC Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>CheckErrorTimeMiliSec</Name>
+			<Description>This is a CheckErrorTimeMiliSec Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>CurrentAmpOffsetVolt</Name>
+			<Description>This is a CurrentAmpOffsetVolt Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ThetaIntegralGainHigh</Name>
+			<Description>This is a ThetaIntegralGainHigh Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.15</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ThetaIntegralRatioHigh</Name>
+			<Description>This is a ThetaIntegralRatioHigh Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>LockIn1FreqSweepPixel</Name>
+			<Description>This is a LockIn1FreqSweepPixel Description</Description>
+			<ValueType>int</ValueType>
+			<Value>512</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>LockIn1FreqSweepIntervalMiliSec</Name>
+			<Description>This is a LockIn1FreqSweepIntervalMiliSec Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>MinimumLockInSettlingTimeMiliSec</Name>
+			<Description>This is a MinimumLockInSettlingTimeMiliSec Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.5</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>LockInFreqSweepOverSamplingPixel</Name>
+			<Description>This is a LockInFreqSweepOverSamplingPixel Description</Description>
+			<ValueType>int</ValueType>
+			<Value>100</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>EFMTimeConstantMiliSec</Name>
+			<Description>This is a EFMTimeConstantMiliSec Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>EFMFilterOrder</Name>
+			<Description>This is a EFMFilterOrder Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>EFMLockInGain</Name>
+			<Description>This is a EFMLockInGain Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>EFMFrequencyHz</Name>
+			<Description>This is a EFMFrequencyHz Description</Description>
+			<ValueType>double</ValueType>
+			<Value>17800</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>EFMAmplitude</Name>
+			<Description>This is a EFMAmplitude Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.3</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>LockIn2FreqSweepIntervalMiliSec</Name>
+			<Description>This is a LockIn2FreqSweepIntervalMiliSec Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>CriticalNCMAmplitudeFeedBackErrorRate</Name>
+			<Description>This is a CriticalNCMAmplitudeFeedBackErrorRate Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.3</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>CriticalNCMFindingFreqErrorInHz</Name>
+			<Description>This is a CriticalNCMFindingFreqErrorInHz Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1000</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>CheckQValue</Name>
+			<Description>This is a CheckQValue Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>NCMSweepDataAnalysisType</Name>
+			<Description>This is a NCMSweepDataAnalysisType Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>OptimalSetpointMinRate</Name>
+			<Description>This is a OptimalSetpointMinRate Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.7</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>OptimalSetpointMaxRate</Name>
+			<Description>This is a OptimalSetpointMaxRate Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.9</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>PaletteName</Name>
+			<Description>This is a PaletteName Description</Description>
+			<ValueType>string</ValueType>
+			<Value>Brown</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bDisableZDetectorInterlock</Name>
+			<Description>This is a bDisableZDetectorInterlock Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>ThetaIntegralGainLow</Name>
+			<Description>This is a ThetaIntegralGainLow Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.05</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ThetaIntegralRatioLow</Name>
+			<Description>This is a ThetaIntegralRatioLow Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ThetaIntegralGainMedium</Name>
+			<Description>This is a ThetaIntegralGainMedium Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.2</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ThetaIntegralRatioMedium</Name>
+			<Description>This is a ThetaIntegralRatioMedium Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>DacOffset0</Name>
+			<Description>This is a DacOffset0 Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>DacOffset1</Name>
+			<Description>This is a DacOffset1 Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>DacOffset2</Name>
+			<Description>This is a DacOffset2 Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>DacOffset3</Name>
+			<Description>This is a DacOffset3 Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>DacOffset4</Name>
+			<Description>This is a DacOffset4 Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>DacOffset5</Name>
+			<Description>This is a DacOffset5 Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>DacOffset6</Name>
+			<Description>This is a DacOffset6 Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>DacOffset7</Name>
+			<Description>This is a DacOffset7 Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>DacOffset8</Name>
+			<Description>This is a DacOffset8 Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>DacOffset9</Name>
+			<Description>This is a DacOffset9 Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>DacOffset10</Name>
+			<Description>This is a DacOffset10 Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>DacOffset11</Name>
+			<Description>This is a DacOffset11 Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>DacOffset12</Name>
+			<Description>This is a DacOffset12 Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>DacOffset13</Name>
+			<Description>This is a DacOffset13 Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>DacOffset14</Name>
+			<Description>This is a DacOffset14 Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>DacOffset15</Name>
+			<Description>This is a DacOffset15 Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>DacOffset16</Name>
+			<Description>This is a DacOffset16 Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>DacOffset17</Name>
+			<Description>This is a DacOffset17 Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>DacOffset18</Name>
+			<Description>This is a DacOffset18 Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>DacOffset19</Name>
+			<Description>This is a DacOffset19 Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>DacOffset20</Name>
+			<Description>This is a DacOffset20 Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>DisableZScannerMoveAfterLaserOnOff</Name>
+			<Description>This is a DisableZScannerMoveAfterLaserOnOff Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>BaseboardVersion</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>1846608926</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>CheckHeadTypeSupport</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>CheckSafetyInterlockSupport</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>CurrentAmpPreGain</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>1e+09</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>CurrentAmpPostGain</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>UsePreviousLineFeedforward</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>LaserOnWaitTime</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>1000</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bNCMApproachInCM</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>HRProfileSupport</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>NCMDefaultSetpointRatio</Name>
+			<Description>This is a NCMDefaultSetpointRatio Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.75</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>NCMFindingFreqPoints</Name>
+			<Description>This is a NCMFindingFreqPoints Description</Description>
+			<ValueType>double</ValueType>
+			<Value>100</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ApproachRetryTimes</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ScratchScanZScannerServo</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bPinPointScanLiftZ</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ScratchScanAverageTimeMiliSec</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>XYMovingSpeedMicrometerPerSec</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>NCMApproachInFilterTimeConstant</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>NCMApproachFilterType</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>TipBiasPathSwitchDelayTimeMiliSec</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>10</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>TipBiasPathSwitchRetryCommand</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>SampleBiasPathSwitchMaxVoltage</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>4</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>SampleBiasPathSwitchGain</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>5</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>SampleBiasPathSwitchDelayTimeMiliSec</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>10</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>SampleBiasPathSwitchRetryCommand</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>CapacitancePicoFaradPerVolt</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>10</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>SensitivityGain</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ErrorSignalPerNcmLockinOutGain</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Sensitivity</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>IAfmACAmplitude</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0.1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>XEServiceLimitData</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>720</Value>
+			<Access>33</Access>
+		</Item></ItemList>
+</Part>

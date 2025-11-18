@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Module>
+	<Name>General</Name>
+	<Description>This is a General XYStage Module</Description>
+	<PartList>
+		<Part>
+			<Type>Info</Type>
+			<Name>General</Name>
+		</Part>
+		<Part>
+			<Type>SampleInfo</Type>
+			<Name>300mm</Name>
+		</Part>
+		<Part>
+			<Type>SerialPort</Type>
+			<Name>General</Name>
+		</Part>
+		<Part>
+			<Type>CoordTR</Type>
+			<Name>General</Name>
+		</Part>
+		<Part>
+			<Type>Error</Type>
+			<Name>HCM</Name>
+		</Part>
+		<Part>
+			<Type>MaskLockStage</Type>
+			<Name>General</Name>
+		</Part>
+	</PartList>
+</Module>

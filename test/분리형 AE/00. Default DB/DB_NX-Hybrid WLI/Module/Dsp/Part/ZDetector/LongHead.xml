@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>ZDetector</Type>
+	<Name>General</Name>
+	<Description>This is a General ZDetector part.</Description>
+	<ItemList>
+		<Item>
+			<Name>MicrometerPerAdc</Name>
+			<Description>Distance that can be detected(um)</Description>
+			<ValueType>double</ValueType>
+			<Value>25.000</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>CX2</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>CX</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>CY2</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>CY</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>OffsetAdcHigh</Name>
+			<Description>This is a OffsetAdcHigh Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>OffsetAdc</Name>
+			<Description>This is a OffsetAdc Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>MicrometerPerAdcHigh</Name>
+			<Description>This is a MicrometerPerAdcHigh Description</Description>
+			<ValueType>double</ValueType>
+			<Value>58.7037</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>MicrometerPerAdcLow</Name>
+			<Description>This is a MicrometerPerAdcLow Description</Description>
+			<ValueType>double</ValueType>
+			<Value>66.5577</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>SafeRangeThreshold</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0.5</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>PolynomialCoefficient</Name>
+			<Description></Description>
+			<ValueType>string</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item></ItemList>
+</Part>

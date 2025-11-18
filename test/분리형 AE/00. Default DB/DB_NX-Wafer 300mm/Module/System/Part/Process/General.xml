@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>Process</Type>
+	<Name>General</Name>
+	<Description>This is a General Process part.</Description>
+	<ItemList>
+		<Item>
+			<Name>bSampleLoad</Name>
+			<Description>This is a bSampleLoad description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bSampleUnload</Name>
+			<Description>This is a bSampleUnload description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bAutoSampleVacuumControl</Name>
+			<Description>This is a bAutoSampleVacuumControl description.</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bAutoXYStageOnOff</Name>
+			<Description>This is a bAutoXYStageOnOff description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bWriteLogFile</Name>
+			<Description>This is a bWriteLogFile description.</Description>
+			<Valuetype>int</Valuetype>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bCleanAirOffWhileImaging</Name>
+			<Description>This is a bCleanAirOffWhileImaging description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>InitZ</Name>
+			<Description>This is a InitZ description.</Description>
+			<ValueType>double</ValueType>
+			<Value>15000</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>InitFocus</Name>
+			<Description>This is a InitFocus description.</Description>
+			<ValueType>double</ValueType>
+			<Value>7000</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>HeadZRetractUm</Name>
+			<Description>This is a HeadZRetractUm description.</Description>
+			<ValueType>double</ValueType>
+			<Value>10</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>SACameraCalPosX</Name>
+			<Description>This is a SACameraCalPosX description.</Description>
+			<ValueType>double</ValueType>
+			<Value>433200</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>SACameraCalPosY</Name>
+			<Description>This is a SACameraCalPosY description.</Description>
+			<ValueType>double</ValueType>
+			<Value>598368</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>SACameraToTipX</Name>
+			<Description>This is a SACameraToTipX description.</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>SACameraToTipY</Name>
+			<Description>This is a SACameraToTipY description.</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bSignTowerUsed</Name>
+			<Description>This is a bSignTowerUsed Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bVCRUsed</Name>
+			<Description>This is a bVCRUsed Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>fRefScanErrorLimit</Name>
+			<Description>Reference scan error limit in micrometers</Description>
+			<ValueType>double</ValueType>
+			<Value>10</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>LowPassFilter</Name>
+			<Description>Low pass filter value</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>dfZPosition</Name>
+			<Description>This is a dfZPosition Description</Description>
+			<ValueType>double</ValueType>
+			<Value>15499.4</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>PatternAlignDestPositionX</Name>
+			<Description>This is a DestPositionXDescription</Description>
+			<ValueType>double</ValueType>
+			<Value>1211.14</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>PatternAlignDestPositionY</Name>
+			<Description>This is a DestPositionYDescription</Description>
+			<ValueType>double</ValueType>
+			<Value>324.264</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>PatternAlignResultPositionX</Name>
+			<Description>This is a PatternAlignResultPositionX Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1220</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>PatternAlignResultPositionY</Name>
+			<Description>This is a PatternAlignResultPositionY Description</Description>
+			<ValueType>double</ValueType>
+			<Value>600</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>StagePatternAlignError</Name>
+			<Description>This is a StagePatternAlignError</Description>
+			<ValueType>double</ValueType>
+			<Value>1.5</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>ScannerPatternAlignError</Name>
+			<Description>This is a ScannerPatternAlignError</Description>
+			<ValueType>double</ValueType>
+			<Value>0.1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bWriteMFData</Name>
+			<Description>This is a bWriteMFData Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>DayToMonitorLogFile</Name>
+			<Description>This is a DayToMonitorLogFile Description</Description>
+			<ValueType>int</ValueType>
+			<Value>7</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>OpticalAxisShiftPerFocusX</Name>
+			<Description>This is a OpticalAxisShiftPerFocusX Description</Description>
+			<ValueType>double</ValueType>
+			<Value>-0.0014</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>OpticalAxisShiftPerFocusY</Name>
+			<Description>This is a OpticalAxisShiftPerFocusY Description</Description>
+			<ValueType>double</ValueType>
+			<Value>-0.0031</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>fCleanAirStrength</Name>
+			<Description>This is a fCleanAirStrength Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>XYStageDriftSafeDistance</Name>
+			<Description>This is a XYStageDriftSafeDistance Description</Description>
+			<ValueType>int</ValueType>
+			<Value>20000</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>XYStageDriftSettlingTime</Name>
+			<Description>This is a XYStageDriftSettlingTime Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>PatternAlignScoreThreshold</Name>
+			<Description>This is a PatternAlignScoreThreshold Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>PatternDecisionType</Name>
+			<Description>This is a PatternDecisionType Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bEnableLogDisplay</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>OnAxisCameraCalPosX</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>OnAxisCameraCalPosY</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>OffAxisCameraDistanceX</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>-92000</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>OffAxisCameraDistanceY</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>OriginZ</Name>
+			<Description>This is a OriginZ Description</Description>
+			<ValueType>double</ValueType>
+			<Value>500</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>SampleDepth</Name>
+			<Description>This is a SampleDepth Description</Description>
+			<ValueType>double</ValueType>
+			<Value>500</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>SafetyMarginZ</Name>
+			<Description>This is a SafetyMarginZ Description</Description>
+			<ValueType>double</ValueType>
+			<Value>10000</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>SampleFocusZ</Name>
+			<Description>This is a SampleFocusZ Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1000</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>TipFocusZ</Name>
+			<Description>This is a TipFocusZ Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1000</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>TipOffsetX</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>-0.527</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>TipOffsetY</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>-0.85</Value>
+			<Access>33</Access>
+		</Item></ItemList>
+</Part>

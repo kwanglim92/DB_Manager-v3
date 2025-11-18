@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Part>
+	<Type>Info</Type>
+	<Name>WAFER300</Name>
+	<Description>This is a WAFER300 Info part.</Description>
+	<ItemList>
+		<Item>
+			<Name>bUse</Name>
+			<Description>This is a bUse description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bSimulation</Name>
+			<Description>This is a bSimulation description.</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Maker</Name>
+			<Description>This is a Maker description.</Description>
+			<ValueType>list</ValueType>
+			<Value>3:RND|NSSYSTEM|HCM|HCMNEW</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Model</Name>
+			<Description>This is a Model description.</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bUseLiftPinUnit</Name>
+			<Description>This is a bUseLiftPinUnit description.</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bUseLinearEncoder</Name>
+			<Description>This is a bUseLinearEncoder description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bUseStageMapping</Name>
+			<Description>This is a bUseStageMapping description.</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bXYAxisSwap</Name>
+			<Description>This is a bXYAxisSwap description.</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bXDirectionReverse</Name>
+			<Description>This is a bXDirectionReverse description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bYDirectionReverse</Name>
+			<Description>This is a bYDirectionReverse description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>MaxSpeed</Name>
+			<Description>This is a MaxSpeed description.</Description>
+			<ValueType>double</ValueType>
+			<Value>80000</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>StrokeMargin</Name>
+			<Description>This is a StrokeMargin description.</Description>
+			<ValueType>double</ValueType>
+			<Value>200</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bUseStageClamp</Name>
+			<Description>This is a bUseStageClamp description.</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bUseSubstrateSensor</Name>
+			<Description>This is a bUseSubstrateSensor description.</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bUseSEP</Name>
+			<Description>This is a bUseStaticElectricityProventor description.</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>StrokeXMin</Name>
+			<Description>This is a StrokeXMin description.</Description>
+			<ValueType>double</ValueType>
+			<Value>-203605.00</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>StrokeXMax</Name>
+			<Description>This is a StrokeXMax description.</Description>
+			<ValueType>double</ValueType>
+			<Value>203642.00</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>StrokeYMin</Name>
+			<Description>This is a StrokeYMin description.</Description>
+			<ValueType>double</ValueType>
+			<Value>-153204.25</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>StrokeYMax</Name>
+			<Description>This is a StrokeYMax description.</Description>
+			<ValueType>double</ValueType>
+			<Value>150125.70</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>ChuckSizeX</Name>
+			<Description>This is a ChuckSizecx description.</Description>
+			<ValueType>double</ValueType>
+			<Value>200000</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>ChuckSizeY</Name>
+			<Description>This is a ChuckSizecy description.</Description>
+			<ValueType>double</ValueType>
+			<Value>200000</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>SampleOffsetX</Name>
+			<Description>This is a SampleOffsetX description.</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>SampleOffsetY</Name>
+			<Description>This is a SampleOffsetY description.</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>TipCenterPosX</Name>
+			<Description>This is a TipCenterPosX description.</Description>
+			<ValueType>double</ValueType>
+			<Value>57654</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>TipCenterPosY</Name>
+			<Description>This is a TipCenterPosY description.</Description>
+			<ValueType>double</ValueType>
+			<Value>25568</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>CameraCenterPosX</Name>
+			<Description>This is a CameraCenterPosX description.</Description>
+			<ValueType>double</ValueType>
+			<Value>47655</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>CameraCenterPosY</Name>
+			<Description>This is a CameraCenterPosY description.</Description>
+			<ValueType>double</ValueType>
+			<Value>-11000</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>OriginOffsetX</Name>
+			<Description>This is a OriginOffsetX description.</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>OriginOffsetY</Name>
+			<Description>This is a CameraCenterPosY description.</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bUseDriverPowerControl</Name>
+			<Description>This is a bUseDriverPowerControl description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bAutoDriverPowerControl</Name>
+			<Description>This is a bAutoDriverPowerControl description.</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bUseCheckDriverPower</Name>
+			<Description>This is a bUseCheckDriverPower Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>SampleLoadingPosX</Name>
+			<Description>This is a SampleLoadingPosX Description</Description>
+			<ValueType>double</ValueType>
+			<Value>-203406</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>SampleLoadingPosY</Name>
+			<Description>This is a SampleLoadingPosY Description</Description>
+			<ValueType>double</ValueType>
+			<Value>-38644.9</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bUseSampleCoord</Name>
+			<Description>This is a bUseSampleCoord Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bUseTeachUI</Name>
+			<Description>This is a bUseTeachUI Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bDriverPowerControlReverse</Name>
+			<Description>This is a bDriverPowerControlReverse Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseStageLock</Name>
+			<Description>This is a bUseStageLock Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>StageLockDelay</Name>
+			<Description>This is a StageLockDelay Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUpdateEncoderAlways</Name>
+			<Description>This is a bUpdateEncoderAlways Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseInterlock</Name>
+			<Description>This is a bUseInterlock Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>DriverPowerControlPort</Name>
+			<Description>This is a DriverPowerControlPort Description</Description>
+			<ValueType>int</ValueType>
+			<Value>4</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bUseLog</Name>
+			<Description>This is a bUseLog Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseTwoXMover</Name>
+			<Description>This is a bUseTwoXMover Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>XAxis</Name>
+			<Description>This is a XAxis Description</Description>
+			<ValueType>list</ValueType>
+			<Value>0:X</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>StageSafetyXMin</Name>
+			<Description>This is a StageSafetyXMin Description</Description>
+			<ValueType>double</ValueType>
+			<Value>-100872</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>StageSafetyXMax</Name>
+			<Description>This is a StageSafetyXMax Description</Description>
+			<ValueType>double</ValueType>
+			<Value>199756</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>StageSafetyYMin</Name>
+			<Description>This is a StageSafetyYMin Description</Description>
+			<ValueType>double</ValueType>
+			<Value>-152304</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>StageSafetyYMax</Name>
+			<Description>This is a StageSafetyYMax Description</Description>
+			<ValueType>double</ValueType>
+			<Value>147666</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ServoOffSettlingTimeMiliSec</Name>
+			<Description>This is a ServoOffSettlingTimeMiliSec Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1000</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>SafeModeMaxSpeed</Name>
+			<Description>This is a SafeModeMaxSpeed Description</Description>
+			<ValueType>double</ValueType>
+			<Value>40000</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>SafetySpeed</Name>
+			<Description>This is a SafetySpeed Description</Description>
+			<ValueType>int</ValueType>
+			<Value>40000</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseAuxiliaryStage</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Delay</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>750</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>UseRStageDriverPowerSync</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseNewSerialComm</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseHomeFound</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>HCCSetupLine</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>128</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseAbsoluteEncoder</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bUseEncoderError</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>EncoderErrorValue</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>10</Value>
+			<Access>33</Access>
+		</Item></ItemList>
+</Part>

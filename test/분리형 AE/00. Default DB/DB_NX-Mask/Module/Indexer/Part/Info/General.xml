@@ -1,0 +1,990 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>Info</Type>
+	<Name>General</Name>
+	<Description>This is a General Info part.</Description>
+	<ItemList>
+		<Item>
+			<Name>bUse</Name>
+			<Description>This is a bUse description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bSimulation</Name>
+			<Description>This is a bSimulation description.</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Maker</Name>
+			<Description>This is a Maker description.</Description>
+			<ValueType>string</ValueType>
+			<Value>KT</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Model</Name>
+			<Description>This is a Model description.</Description>
+			<ValueType>string</ValueType>
+			<Value>KT</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bAutoPreProcess</Name>
+			<Description>This is a bAutoPreProcess description.</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bMutiGlassLoading</Name>
+			<Description>This is a bMutiGlassLoading description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>NoPort</Name>
+			<Description>This is a NoPort description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>NoSlot</Name>
+			<Description>This is a NoSlot description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>NoArm</Name>
+			<Description>This is a NoArm description.</Description>
+			<ValueType>int</ValueType>
+			<Value>2</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>LoadArm</Name>
+			<Description>This is a LoadArm description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<!--0 : Lower 1: Upper-->
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>UnloadArm</Name>
+			<Description>This is a UnloadArm description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<!--0 : Lower 1: Upper-->
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>SlotOrder</Name>
+			<Description>This is a SlotOrder description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<!--0: Downward, 1: Upward-->
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bDisplay</Name>
+			<Description>This is a bDisplay description.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>bUseLog</Name>
+			<Description>This is a bUseLog Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>SimulationCSTID1</Name>
+			<Description>This is a SimulationCSTID1 Description</Description>
+			<ValueType>string</ValueType>
+			<Value>PORT1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>SimulationMap1</Name>
+			<Description>This is a SimulationMap1 Description</Description>
+			<ValueType>string</ValueType>
+			<Value>101010000000000000</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>SimulationCSTID2</Name>
+			<Description>This is a SimulationCSTID2 Description</Description>
+			<ValueType>string</ValueType>
+			<Value>PORT2</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>SimulationMap2</Name>
+			<Description>This is a SimulationMap2 Description</Description>
+			<ValueType>string</ValueType>
+			<Value>010101000000000000</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>ThicknessCount</Name>
+			<Description>This is a ThicknessCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>ThicknessIndex</Name>
+			<Description>This is a ThicknessIndex Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>ThicknessLabel</Name>
+			<Description>This is a ThicknessLabel Description</Description>
+			<ValueType>string</ValueType>
+			<Value>1.21|1.21|1.21</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>ThicknessEFEMIndex</Name>
+			<Description>This is a ThicknessEFEMIndex Description</Description>
+			<ValueType>string</ValueType>
+			<Value>0|0|0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>SlotInfoInLowerArm</Name>
+			<Description>This is a SlotInfoInLowerArm Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>SlotInfoInStage</Name>
+			<Description>This is a SlotInfoInStage Description</Description>
+			<ValueType>int</ValueType>
+			<Value>65537</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>SlotInfoInAligner</Name>
+			<Description>This is a SlotInfoInAligner Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Port1Status</Name>
+			<Description>This is a Port1Status Description</Description>
+			<ValueType>int</ValueType>
+			<Value>2</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Port1CSTID</Name>
+			<Description>This is a Port1CSTID Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Port1ChuckIn</Name>
+			<Description>This is a Port1ChuckIn Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Port1AGV</Name>
+			<Description>This is a Port1AGV Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Port2Status</Name>
+			<Description>This is a Port2Status Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Port2CSTID</Name>
+			<Description>This is a Port2CSTID Description</Description>
+			<ValueType>string</ValueType>
+			<Value></Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Port2ChuckIn</Name>
+			<Description>This is a Port2ChuckIn Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Port2AGV</Name>
+			<Description>This is a Port2AGV Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>CurrentPort</Name>
+			<Description>This is a CurrentPort Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>CurrentSlot</Name>
+			<Description>This is a CurrentSlot Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>RobotStatus</Name>
+			<Description>This is a RobotStatus Description</Description>
+			<ValueType>int</ValueType>
+			<Value>2</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>AlignerStatus</Name>
+			<Description>This is a AlignerStatus Description</Description>
+			<ValueType>int</ValueType>
+			<Value>6</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Port1MapData</Name>
+			<Description>This is a Port1MapData Description</Description>
+			<ValueType>string</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>Port2MapData</Name>
+			<Description>This is a Port2MapData Description</Description>
+			<ValueType>string</ValueType>
+			<Value>1000000000000000000000100</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>UseAlignerRotate</Name>
+			<Description>This is a UseAlignerRotate Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>TotalAlignAngle</Name>
+			<Description>This is a TotalAlignAngle Description</Description>
+			<ValueType>double</ValueType>
+			<Value>270</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>SampleSizeCount</Name>
+			<Description>This is a SampleSizeCount Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>SampleSizeIndex</Name>
+			<Description>This is a SampleSizeIndex Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>SampleSizeLabel</Name>
+			<Description>This is a SampleSizeLabel Description</Description>
+			<ValueType>string</ValueType>
+			<Value>300mm</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Port1SampleSize</Name>
+			<Description>This is a Port1SampleSize Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Port2SampleSize</Name>
+			<Description>This is a Port2SampleSize Description</Description>
+			<ValueType>int</ValueType>
+			<Value>2</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>SampleSizeEFEMIndex</Name>
+			<Description>This is a SampleSizeEFEMIndex Description</Description>
+			<ValueType>string</ValueType>
+			<Value>0|0|0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>UseTCP</Name>
+			<Description>This is a UseTCP Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>TCPAddress</Name>
+			<Description>This is a TCPAddress Description</Description>
+			<ValueType>string</ValueType>
+			<Value>127.0.0.1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>TCPPort</Name>
+			<Description>This is a TCPPort Description</Description>
+			<ValueType>int</ValueType>
+			<Value>40000</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>AlignAngleWhileUnloading</Name>
+			<Description>This is a AlignAngleWhileUnloading Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>CSTIDLength</Name>
+			<Description>This is a CSTIDLength Description</Description>
+			<ValueType>int</ValueType>
+			<Value>8</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>PortOffset</Name>
+			<Description>This is a PortOffset Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>StageNo</Name>
+			<Description>This is a StageNo Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Protocol</Name>
+			<Description>This is a Protocol Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>NoStage</Name>
+			<Description>This is a NoStage Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>UseAligner</Name>
+			<Description>This is a UseAligner Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>AutoPortAccessSupport</Name>
+			<Description>This is a AutoPortAccessSupport Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>UseE84Data</Name>
+			<Description>This is a UseE84Data Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ChangePortSampleSizeSupport</Name>
+			<Description>This is a ChangePortSampleSizeSupport Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ChangeUnclampControlSupport</Name>
+			<Description>This is a ChangeUnclampControlSupport Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>EnablePortSupport</Name>
+			<Description>This is a EnablePortSupport Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>AutoLoadInManualAccessMode</Name>
+			<Description>This is a AutoLoadInManualAccessMode Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>PortOrder</Name>
+			<Description>This is a PortOrder Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>TimeForMap</Name>
+			<Description>This is a TimeForMap Description</Description>
+			<ValueType>double</ValueType>
+			<Value>2</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>TimeForUnloadFromCassette</Name>
+			<Description>This is a TimeForUnloadFromCassette Description</Description>
+			<ValueType>double</ValueType>
+			<Value>2</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>TimeForLoadToCassette</Name>
+			<Description>This is a TimeForLoadToCassette Description</Description>
+			<ValueType>double</ValueType>
+			<Value>2</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>TimeForUnloadFromAligner</Name>
+			<Description>This is a TimeForUnloadFromAligner Description</Description>
+			<ValueType>double</ValueType>
+			<Value>2</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>TimeForAlign</Name>
+			<Description>This is a TimeForAlign Description</Description>
+			<ValueType>double</ValueType>
+			<Value>2</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>TimeForLoadToAligner</Name>
+			<Description>This is a TimeForLoadToAligner Description</Description>
+			<ValueType>double</ValueType>
+			<Value>2</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>TimeForUnloadFromStage</Name>
+			<Description>This is a TimeForUnloadFromStage Description</Description>
+			<ValueType>double</ValueType>
+			<Value>2</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>TimeForLoadToStage</Name>
+			<Description>This is a TimeForLoadToStage Description</Description>
+			<ValueType>double</ValueType>
+			<Value>2</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>EndEffectorType</Name>
+			<Description>This is a EndEffectorType Description</Description>
+			<ValueType>string</ValueType>
+			<Value>Single</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>PortRotated</Name>
+			<Description>This is a PortRotated Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ClampOnSupport</Name>
+			<Description>This is a ClampOnSupport Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>UseAlignWhileUnloading</Name>
+			<Description>This is a UseAlignWhileUnloading Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>PortSlotCount_300mm</Name>
+			<Description>This is a PortSlotCount_300mm Description</Description>
+			<ValueType>int</ValueType>
+			<Value>25</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>UseRobotMapping_300mm</Name>
+			<Description>This is a UseRobotMapping_300mm Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>UseFOUP</Name>
+			<Description>This is a UseFOUP Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>UseFOUP_200mm</Name>
+			<Description>This is a UseFOUP_300mm Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>UseCassetteIDReader</Name>
+			<Description>This is a UseCassetteIDReader Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>UseCassetteIDReader_200mm</Name>
+			<Description>This is a UseCassetteIDReader_300mm Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>SampleIDPosSupport</Name>
+			<Description>This is a SampleIDPosSupport Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>AlignAngleOffset</Name>
+			<Description>This is a AlignAngleOffset Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>UseCheckVacuumWhileLoading</Name>
+			<Description>This is a UseCheckVacuumWhileLoading Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>SlotInfoInUpperArm</Name>
+			<Description>This is a SlotInfoInUpperArm Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>CassetteIDReadingMode</Name>
+			<Description>This is a CassetteIDReadingMode Description</Description>
+			<ValueType>int</ValueType>
+			<Value>2</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>CassetteIDReadingMode_200mm</Name>
+			<Description>This is a CassetteIDReadingMode_300mm Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>E84ManualClear</Name>
+			<Description>This is a E84ManualClear Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>UseDoorControl</Name>
+			<Description>This is a UseDoorControl Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>bDetailedE84TimeOut</Name>
+			<Description>This is a bDetailedE84TimeOut Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>UseArmBySampleSize</Name>
+			<Description>This is a UseArmBySampleSize Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>NoStoker</Name>
+			<Description>This is a NoStoker Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>NoStokerSlot</Name>
+			<Description>This is a NoStokerSlot Description</Description>
+			<ValueType>int</ValueType>
+			<Value>6</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>CurrentSlotInfo</Name>
+			<Description>This is a CurrentSlotInfo Description</Description>
+			<ValueType>int</ValueType>
+			<Value>720900</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>SimulationStokerMap1</Name>
+			<Description>This is a SimulationStokerMap1 Description</Description>
+			<ValueType>string</ValueType>
+			<Value>11111111</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Stoker1MapData</Name>
+			<Description>This is a Stoker1MapData Description</Description>
+			<ValueType>string</ValueType>
+			<Value>000000</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>PortSlotCount_150mm</Name>
+			<Description>This is a PortSlotCount_150mm Description</Description>
+			<ValueType>int</ValueType>
+			<Value>12</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>UseRobotMapping_150mm</Name>
+			<Description>This is a UseRobotMapping_150mm Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>UseFOUP_150mm</Name>
+			<Description>This is a UseFOUP_150mm Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>UseCassetteIDReader_150mm</Name>
+			<Description>This is a UseCassetteIDReader_150mm Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>CassetteIDReadingMode_150mm</Name>
+			<Description>This is a CassetteIDReadingMode_150mm Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>NoStocker</Name>
+			<Description>This is a NoStocker Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>NoStockerSlot</Name>
+			<Description>This is a NoStockerSlot Description</Description>
+			<ValueType>int</ValueType>
+			<Value>6</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>SimulationStockerMap1</Name>
+			<Description>This is a SimulationStockerMap1 Description</Description>
+			<ValueType>string</ValueType>
+			<Value>11111111</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Stocker1MapData</Name>
+			<Description>This is a Stocker1MapData Description</Description>
+			<ValueType>string</ValueType>
+			<Value>000000</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>UseStocker</Name>
+			<Description>This is a UseStocker Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>UseStoker</Name>
+			<Description>This is a UseStoker Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>LowerArmDisbled</Name>
+			<Description>This is a LowerArmDisbled Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>UpperArmDisabled</Name>
+			<Description>This is a UpperArmDisabled Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>ClearErrorPerPortSupport</Name>
+			<Description>This is a ClearErrorPerPortSupport Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>UseSlotIntegrityCheck</Name>
+			<Description>This is a UseSlotIntegrityCheck Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>IgnoreMappingErrorWhileSlotIntegrityCheck</Name>
+			<Description>This is a IgnoreMappingErrorWhileSlotIntegrityCheck Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>AlignAngle</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>UseRotateAligner</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>UseFlipper</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>UseDualPod</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>CurrentSlotInfoInLowerArm</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>CurrentSlotInfoInUpperArm</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>UseIonizer</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>TimeForPutCoverToStation</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>2</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>TimeForGetCoverFromStation</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>2</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>TimeForUnloadFromPlateStation</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>2</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>TimeForLoadToPlateStation</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>2</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>TimeForUnloadFromLifter</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>2</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>TimeForLoadToLifter</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>2</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>TimeForFlip</Name>
+			<Description></Description>
+			<ValueType>double</ValueType>
+			<Value>2</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>SampleIDAsAlignReference</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>UseResetRecovery</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>UseBreakInPrepare</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>SlotInfoInCoverStation</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>SlotInfoInPlateSation</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>SlotInfoInLifter</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>SlotInfoInFlipper</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Version6</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>AutoToManualInAbnormal</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>UseDynamicSlotCount</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>SampleGroupIndex1</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>SampleGroupIndex2</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>FlippedSlotInfo</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>65537</Value>
+			<Access>33</Access>
+		</Item></ItemList>
+</Part>

@@ -1,0 +1,393 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>XYStage</Type>
+	<Name>General</Name>
+	<Description>This is a General XYStage part.</Description>
+	<ItemList>
+		<Item>
+			<Name>bUse</Name>
+			<Description>This is a bUse Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>UseEncoder</Name>
+			<Description>This is a UseEncoder Description</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>XLimitCurrent</Name>
+			<Description>This is a LimitCurrent Description</Description>
+			<ValueType>int</ValueType>
+			<Value>18</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>XMaxStepPerSec</Name>
+			<Description>Max speed(step/s)</Description>
+			<ValueType>double</ValueType>
+			<Value>32000</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>XAccelStepPerSecSquare</Name>
+			<Description>Acceleration when starting(step/s^2)</Description>
+			<ValueType>double</ValueType>
+			<Value>64000</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>XDecelStepPerSecSquare</Name>
+			<Description>Deceleration when stopping(step/s^2)</Description>
+			<ValueType>double</ValueType>
+			<Value>64000</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>XStartingStepPerSec</Name>
+			<Description>Start at this speed before accelerating(step/s)</Description>
+			<ValueType>double</ValueType>
+			<Value>50</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>XStoppingStepPerSec</Name>
+			<Description>Stop after decelerating to this speed(step/s)</Description>
+			<ValueType>double</ValueType>
+			<Value>50</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>XMicrometerPerStep</Name>
+			<Description>Stage moves this distance per step(um)</Description>
+			<ValueType>double</ValueType>
+			<Value>0.625</Value>
+			<Access>32</Access>
+		</Item>
+		<Item>
+			<Name>XMicronMax</Name>
+			<Description/>
+			<ValueType>double</ValueType>
+			<Value>75000</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>XMicronMin</Name>
+			<Description/>
+			<ValueType>double</ValueType>
+			<Value>-75000</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>XMicronUpperLimit</Name>
+			<Description/>
+			<ValueType>double</ValueType>
+			<Value>115480</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>XMicronLowerLimit</Name>
+			<Description/>
+			<ValueType>double</ValueType>
+			<Value>-116233</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>XMicrometerPerEncoder</Name>
+			<Description>This is a X MicrometerPerEncoder Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.05</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>XPosition</Name>
+			<Description>This is a Position Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>XFeedbackErrorMircometer</Name>
+			<Description>This is a FeedbackErrorMircometer Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1.5</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>YLimitCurrent</Name>
+			<Description>This is a Y LimitCurrent Description</Description>
+			<ValueType>int</ValueType>
+			<Value>18</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>YMaxStepPerSec</Name>
+			<Description>Max speed(step/s)</Description>
+			<ValueType>double</ValueType>
+			<Value>32000</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>YAccelStepPerSecSquare</Name>
+			<Description>Y Acceleration when starting(step/s^2)</Description>
+			<ValueType>double</ValueType>
+			<Value>64000</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>YDecelStepPerSecSquare</Name>
+			<Description>Y Deceleration when stopping(step/s^2)</Description>
+			<ValueType>double</ValueType>
+			<Value>64000</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>YStartingStepPerSec</Name>
+			<Description>Start at this speed before accelerating(step/s)</Description>
+			<ValueType>double</ValueType>
+			<Value>50</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>YStoppingStepPerSec</Name>
+			<Description>Stop after decelerating to this speed(step/s)</Description>
+			<ValueType>double</ValueType>
+			<Value>50</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>YMicrometerPerStep</Name>
+			<Description>Stage moves this distance per step(um)</Description>
+			<ValueType>double</ValueType>
+			<Value>0.625</Value>
+			<Access>32</Access>
+		</Item>
+		<Item>
+			<Name>YMicronMax</Name>
+			<Description/>
+			<ValueType>double</ValueType>
+			<Value>75000</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>YMicronMin</Name>
+			<Description/>
+			<ValueType>double</ValueType>
+			<Value>-75000</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>YMicronUpperLimit</Name>
+			<Description/>
+			<ValueType>double</ValueType>
+			<Value>103476</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>YMicronLowerLimit</Name>
+			<Description/>
+			<ValueType>double</ValueType>
+			<Value>-101794</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>YMicrometerPerEncoder</Name>
+			<Description>This is a YMicrometerPerEncoder Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0.05</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>YPosition</Name>
+			<Description>This is a YPosition Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>YFeedbackErrorMircometer</Name>
+			<Description>This is a YFeedbackErrorMircometer Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1.5</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>XStepMode</Name>
+			<Description>This is a XStepMode Description</Description>
+			<ValueType>int</ValueType>
+			<Value>2</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>YStepMode</Name>
+			<Description>This is a YStepMode Description</Description>
+			<ValueType>int</ValueType>
+			<Value>2</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>XMicronHome</Name>
+			<Description>This is a XMicronHome Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>YMicronHome</Name>
+			<Description>This is a YMicronHome Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>LimitActiveHigh</Name>
+			<Description>This is a LimitActiveHigh Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>XHomeStepPerSec</Name>
+			<Description>This is a XHomeStepPerSec Description</Description>
+			<ValueType>double</ValueType>
+			<Value>16000</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>YHomeStepPerSec</Name>
+			<Description>This is a YHomeStepPerSec Description</Description>
+			<ValueType>double</ValueType>
+			<Value>16000</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>XHomeSearchStepPerSec</Name>
+			<Description>This is a XHomeSearchStepPerSec Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1600</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>YHomeSearchStepPerSec</Name>
+			<Description>This is a YHomeSearchStepPerSec Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1600</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>XHomeMode</Name>
+			<Description>This is a XHomeMode Description</Description>
+			<ValueType>int</ValueType>
+			<Value>2</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>YHomeMode</Name>
+			<Description>This is a YHomeMode Description</Description>
+			<ValueType>int</ValueType>
+			<Value>4</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>UnstickCount</Name>
+			<Description>This is a UnstickCount Description</Description>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>MotorOnDelay</Name>
+			<Description>This is a MotorOnDelay Description</Description>
+			<ValueType>double</ValueType>
+			<Value>50</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>XFeedbackErrorMicrometer</Name>
+			<Description>This is a XFeedbackErrorMicrometer Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>EncoderSettlingMiliSec</Name>
+			<Description>This is a EncoderSettlingMiliSec Description</Description>
+			<ValueType>double</ValueType>
+			<Value>100</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>YFeedbackErrorMicrometer</Name>
+			<Description>This is a YFeedbackErrorMicrometer Description</Description>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>XLimitReverse</Name>
+			<Description/>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>UseEncoderErrorCheck</Name>
+			<Description/>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>EncoderErrorCheckMiliSec</Name>
+			<Description/>
+			<ValueType>double</ValueType>
+			<Value>500</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>YLimitReverse</Name>
+			<Description/>
+			<ValueType>double</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>XAxisDisabled</Name>
+			<Description/>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>YAxisDisabled</Name>
+			<Description/>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>XEncoderReverse</Name>
+			<Description/>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>YEncoderReverse</Name>
+			<Description/>
+			<ValueType>double</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>EventToClient</Name>
+			<Description>This is a EventToClient Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+	</ItemList>
+</Part>

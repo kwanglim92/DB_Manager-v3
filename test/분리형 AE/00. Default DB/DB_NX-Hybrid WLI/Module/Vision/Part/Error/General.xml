@@ -1,0 +1,197 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>Error</Type>
+	<Name>General</Name>
+	<Description>This is a General Vision Error Part.</Description>
+	<ItemList>
+		<Item>
+			<Name>0</Name>
+			<Description>[Vision] : Unkown command.</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>101</Name>
+			<Description>[Vision] : Unkown command.</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>102</Name>
+			<Description>[Vision] : Add camera failure.</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>103</Name>
+			<Description>[Vision] : Select camera failure.</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>104</Name>
+			<Description>[Vision] : Set brightness failure .</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>105</Name>
+			<Description>[Vision] : Set contrast failure.</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>106</Name>
+			<Description>[Vision] : Show display failure.</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>107</Name>
+			<Description>[Vision] : Start live display failure.</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>108</Name>
+			<Description>[Vision] : Set zoom failure.</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>109</Name>
+			<Description>[Vision] : Show crossmark failure.</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>110</Name>
+			<Description>[Vision] : Show rectangle failure.</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>111</Name>
+			<Description>[Vision] : Set rectangle failure.</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>112</Name>
+			<Description>[Vision] : Show point failure.</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>113</Name>
+			<Description>[Vision] : Set point failure.</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>114</Name>
+			<Description>[Vision] : Add patternmatcher failure.</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>115</Name>
+			<Description>[Vision] : Select pattern matcher failure.</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>116</Name>
+			<Description>[Vision] : Show train display failure.</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>117</Name>
+			<Description>[Vision] : Train pattern failure.</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>118</Name>
+			<Description>[Vision] : Load pattern failure.</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>119</Name>
+			<Description>[Vision] : Save pattern failure.</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>120</Name>
+			<Description>[Vision] :  Pattern match failure.</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>121</Name>
+			<Description>[Vision] : Display results failure.</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>122</Name>
+			<Description>[Vision] : Erase results failure.</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>123</Name>
+			<Description>[Vision] : Set threshold failure.</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>124</Name>
+			<Description>[Vision] : Add illuminator failure.</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>125</Name>
+			<Description>[Vision] : Set light strength failure.</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>126</Name>
+			<Description>[Vision] : Set auto white balance failure.</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<Access>22</Access>
+		</Item>
+	</ItemList>
+</Part>

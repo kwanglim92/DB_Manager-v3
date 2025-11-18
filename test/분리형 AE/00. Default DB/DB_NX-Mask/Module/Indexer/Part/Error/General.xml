@@ -1,0 +1,4957 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Part>
+	<Type>Error</Type>
+	<Name>General</Name>
+	<Description>This is a General Indexer Error Part.</Description>
+	<ItemList>
+		<Item>
+			<Name>0</Name>
+			<Description>[Indexer] : Communication Error : No Response or NAK</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>1</Name>
+			<Description>[Indexer] : Front Door Control Error</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>2</Name>
+			<Description>[Indexer] : Lift Pin Control Error</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>3</Name>
+			<Description>[Indexer] : Stage Clamp Error</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>4</Name>
+			<Description>[Indexer] : Serial Port Write Error</Description>
+			<ValueType>int</ValueType>
+			<Value>5</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>5</Name>
+			<Description>[Indexer] : Invalid Port</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>6</Name>
+			<Description>[Indexer] : Invalid Port Status</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>7</Name>
+			<Description>[Indexer] : Invalid Slot</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>8</Name>
+			<Description>[Indexer] : Upper Arm Has Sample</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>9</Name>
+			<Description>[Indexer] : Upper Arm Has No Sample</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>10</Name>
+			<Description>[Indexer] : Lower Arm Has Sample</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>11</Name>
+			<Description>[Indexer] : Lower Arm Has No Sample</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>12</Name>
+			<Description>[Indexer] : Stage Has Sample</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>13</Name>
+			<Description>[Indexer] : Stage Has No Sample</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>14</Name>
+			<Description>[Indexer] : Unexpected Response</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>15</Name>
+			<Description>[Indexer] : XYStage Move Fail</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>16</Name>
+			<Description>[Indexer] : Mapping Data Error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>17</Name>
+			<Description>[Indexer] : Carrier ID Reading Error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>18</Name>
+			<Description>[Indexer] : Sliding Stage Move Fail</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>19</Name>
+			<Description>[Indexer] : Aligner Has Sample</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>20</Name>
+			<Description>[Indexer] : Aligner Has No Sample</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>100</Name>
+			<Description>[Indexer] : Cancel : Not happened cancel</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>101</Name>
+			<Description>[Indexer] : Cancel : System state is error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>102</Name>
+			<Description>[Indexer] : Cancel : System state is lock</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>103</Name>
+			<Description>[Indexer] : Cancel : Robot state is pause</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>104</Name>
+			<Description>[Indexer] : Cancel : No cassette on 1st port during
+1st port mapping</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>105</Name>
+			<Description>[Indexer] : Cancel : No cassette on 2nd port during 2nd port mapping</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>106</Name>
+			<Description>[Indexer] : Cancel : No cassette on 1st port during 1st port unload</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>107</Name>
+			<Description>[Indexer] : Cancel: Outside slot index range during 1st port unload</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>108</Name>
+			<Description>[Indexer] : Cancel : No wafer is present on 1st port specify slot during 1st port unload</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>109</Name>
+			<Description>[Indexer] : Cancel : Invalid 1st port state during 1st port unload</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>110</Name>
+			<Description>[Indexer] : Cancel : No cassette on 2nd port during 2nd port unload</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>111</Name>
+			<Description>[Indexer] : Cancel : Outside slot index range during 2nd port unload</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>112</Name>
+			<Description>[Indexer] : Cancel : No wafer is present on 2nd port specify slot during 2nd port unload</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>113</Name>
+			<Description>[Indexer] : Cancel : Invalid 2nd port state during 2nd port unload</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>114</Name>
+			<Description>[Indexer] : Cancel : Wafer be robot's end effect during Unload cassette</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>115</Name>
+			<Description>[Indexer] : Cancel : No cassette on 1st port during 1st port load</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>116</Name>
+			<Description>[Indexer] : Cancel : Outside slot index range during 1st port load</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>117</Name>
+			<Description>[Indexer] : Cancel : Wafer is present on 1st port specify slot during 1st port load</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>118</Name>
+			<Description>[Indexer] : Cancel : Invalid 1st port state during 1st port load</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>119</Name>
+			<Description>[Indexer] : Cancel: No cassette on 2nd port during 2nd port load</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>120</Name>
+			<Description>[Indexer] : Cancel: Outside slot index range during 2nd  port load</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>121</Name>
+			<Description>[Indexer] : Cancel: Wafer is present on 2nd port specify slot during 2nd port load</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>122</Name>
+			<Description>[Indexer] : Cancel: Invalid 2nd port state during 2nd  port load</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>123</Name>
+			<Description>[Indexer] : Cancel: No wafer be robot's end effect during load cassette</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>124</Name>
+			<Description>[Indexer] : Cancel: Stage door not open during unload stage</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>125</Name>
+			<Description>[Indexer] : Cancel: Wafer be robot's end effect during Unload stage</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>126</Name>
+			<Description>[Indexer] : Cancel: Stage door not open during load stage</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>127</Name>
+			<Description>[Indexer] : Cancel: No wafer be robot's end effect during load stage</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>128</Name>
+			<Description>[Indexer] : Cancel: No wafer be on aligner during unload aligner</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>129</Name>
+			<Description>[Indexer] : Cancel: Wafer be robot's end effect during unload aligner</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>130</Name>
+			<Description>[Indexer] : Cancel: Wafer be on aligner during load aligner</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>131</Name>
+			<Description>[Indexer] : Cancel: No wafer be robot's end effect during load aligner</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>132</Name>
+			<Description>[Indexer] : Cancel: No cassette on 1st port at receive PRS1 cmd</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>133</Name>
+			<Description>[Indexer] : Cancel: 1st port state is not Waiting at receive PRS1 cmd</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>134</Name>
+			<Description>[Indexer] : Cancel: No cassette on 2nd port at receive PRS2 cmd</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>135</Name>
+			<Description>[Indexer] : Cancel: 2nd port state is not Waiting at receive PRS2 cmd</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>136</Name>
+			<Description>[Indexer] : Cancel: 1st port state is not reserve or busy at receive PRE1 cmd</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>137</Name>
+			<Description>[Indexer] : Cancel: 2nd port state is not reserve or busy at receive PRE2 cmd</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>138</Name>
+			<Description>[Indexer] : Cancel: 1st port state is not idle at receive CLC1 cmd</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>139</Name>
+			<Description>[Indexer] : Cancel: 2nd port state is not idle at receive CLC2 cmd</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>140</Name>
+			<Description>[Indexer] : Cancel: No cassette on 1st port at receive CLO1 cmd</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>141</Name>
+			<Description>[Indexer] : Cancel: No cassette on 2nd port at receive CLO2 cmd</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>142</Name>
+			<Description>[Indexer] : Cancel: Driver power is off, Push the RESET button</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>143</Name>
+			<Description>[Indexer] : Cancel: Mute switch is on</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>144</Name>
+			<Description>[Indexer] : Cancel: No Cassette</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>145</Name>
+			<Description>[Indexer] : Cancel: Ouside slot index range</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>146</Name>
+			<Description>[Indexer] : Cancel: No wafer is on robot's arm</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>147</Name>
+			<Description>[Indexer] : Cancel: Wafer is in the slot</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>148</Name>
+			<Description>[Indexer] : Cancel: No wafer is in the slot</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>149</Name>
+			<Description>[Indexer] : Cancel: Robot state is not Idle</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>150</Name>
+			<Description>[Indexer] : Cancel: Aligner state is not Idle</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>151</Name>
+			<Description>[Indexer] : Cancel: Port state is not waiting</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>152</Name>
+			<Description>[Indexer] : Cancel: Port state is not reserve or not busy</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>153</Name>
+			<Description>[Indexer] : Cancel: Port state is not idle</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>154</Name>
+			<Description>[Indexer] : Cancel: Air pressure is low</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>155</Name>
+			<Description>[Indexer] : Cancel: Vacuum pressure is low</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>156</Name>
+			<Description>[Indexer] : Cancel: EMO Switch pushed - EFEM</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>157</Name>
+			<Description>[Indexer] : Cancel: EMO Switch pushed - MC</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>158</Name>
+			<Description>[Indexer] : Cancel: Wafer is on robot's end effect</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>159</Name>
+			<Description>[Indexer] : Cancel: No wafer is on robot's end effect</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>160</Name>
+			<Description>[Indexer] : Cancel: Sample Size Mismatch</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>161</Name>
+			<Description>[Indexer] : Cancel: Stage is not empty</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>162</Name>
+			<Description>[Indexer] : Cancel: Port1 protrusion is detected</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>163</Name>
+			<Description>[Indexer] : Cancel: Port2 protrusion is detected</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>164</Name>
+			<Description>[Indexer] : Cancel: Port1 side door is opened</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>165</Name>
+			<Description>[Indexer] : Cancel: Port2 side door is opened</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>166</Name>
+			<Description>[Indexer] : Cancel: E84 state is not ready to reset</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY 1,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>200</Name>
+			<Description>[Indexer] : Error: Not error state</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>201</Name>
+			<Description>[Indexer] : Error: No wafer is present on the end effector</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>202</Name>
+			<Description>[Indexer] : Error: A wafer is present on the end effector</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>203</Name>
+			<Description>[Indexer] : Error: No wafer is present at the specified position</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>204</Name>
+			<Description>[Indexer] : Error: A wafer is present at the specified position</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>205</Name>
+			<Description>[Indexer] : Error: Incorrect specified position</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>206</Name>
+			<Description>[Indexer] : Error: Incorrect specified position No.</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>207</Name>
+			<Description>[Indexer] : Error: Low battery voltage for absolute value encoder of 1st arm rotation motor</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>208</Name>
+			<Description>[Indexer] : Error: Low battery voltage for absolute value encoder of 2st arm rotation motor</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>209</Name>
+			<Description>[Indexer] : Error: Low battery voltage for absolute value encoder of Hand rotation motor</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>210</Name>
+			<Description>[Indexer] : Error: Low battery voltage for absolute value encoder of Lifting motor</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN 1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>211</Name>
+			<Description>[Indexer] : Error: Mapping Sensor Error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>212</Name>
+			<Description>[Indexer] : Error: Outside operation range</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>213</Name>
+			<Description>[Indexer] : Error: Outside Lifting operation range</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>214</Name>
+			<Description>[Indexer] : Error: No mapping parameters specified</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>215</Name>
+			<Description>[Indexer] : Error: Wafer protrusion from cassette</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>216</Name>
+			<Description>[Indexer] : Error:  R-axis Interlock</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>217</Name>
+			<Description>[Indexer] : Error: Command cannot be executed because not initialized yet</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>218</Name>
+			<Description>[Indexer] : Error: Operation Timeout</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>219</Name>
+			<Description>[Indexer] : Error: The wafer is lost during operation</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>220</Name>
+			<Description>[Indexer] : Error: The lifting brake is not released</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>221</Name>
+			<Description>[Indexer] : Error: Position error of the  1st arm rotation motor</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>222</Name>
+			<Description>[Indexer] : Error: Position error of the 2nd arm rotation motor</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>223</Name>
+			<Description>[Indexer] : Error: Position error of the hand rotation motor</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOW ,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>224</Name>
+			<Description>[Indexer] : Error: Position error of the lifting motor</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>225</Name>
+			<Description>[Indexer] : Error: The operation is cancelled after pause</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>226</Name>
+			<Description>[Indexer] : Error: Fan Operation Error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>227</Name>
+			<Description>[Indexer] : Error: Encode communication Error.</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>228</Name>
+			<Description>[Indexer] : Error: Battery error for absolute value encoder of 1st arm rotation motor</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>229</Name>
+			<Description>[Indexer] : Error: Battery error for absolute value encoder of 2nd arm rotation motor</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>230</Name>
+			<Description>[Indexer] : Error: Battery error for absolute value encoder of Hand rotation motor</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>231</Name>
+			<Description>[Indexer] : Error: Battery error for absolute value encoder of Lifting motor</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>232</Name>
+			<Description>[Indexer] : Error: Data read error for absolute value encoder of 1st arm rotation motor</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>233</Name>
+			<Description>[Indexer] : Error: Data read error for absolute value encoder of 2nd arm rotation motor</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>234</Name>
+			<Description>[Indexer] : Error: Data read error for absolute value encoder of Hand rotation motor</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>235</Name>
+			<Description>[Indexer] : Error: Data read error for absolute value encoder of Lifting motor</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>236</Name>
+			<Description>[Indexer] : Error: Over rotation in positive direction of the 1st arm rotation motor</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>237</Name>
+			<Description>[Indexer] : Error: Over rotation in negative direction of the 1st arm rotation motor</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>238</Name>
+			<Description>[Indexer] : Error: Over rotation in positive direction of the 2nd arm rotation motor</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>239</Name>
+			<Description>[Indexer] : Error: Over rotation in negative direction of the 2nd arm rotation motor</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>240</Name>
+			<Description>[Indexer] : Error: Over rotation in positive direction of the Hand rotation motor</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>241</Name>
+			<Description>[Indexer] : Error: Over rotation in negative direction of the Hand rotation motor</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>242</Name>
+			<Description>[Indexer] : Error: In the cylindrical coordinates, a joint is reversed and hand is positive</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>243</Name>
+			<Description>[Indexer] : Error: In the cylindrical coordinates, a joint is reversed and hand is negative</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>244</Name>
+			<Description>[Indexer] : Error: The arm joint is reversed in the positive direction along the R-axis</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>245</Name>
+			<Description>[Indexer] : Error: The arm joint is reversed in the negative direction along the R-axis</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>246</Name>
+			<Description>[Indexer] : Error: The driving power is off</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>247</Name>
+			<Description>[Indexer] : Error: Interlocked(emergency stop)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>248</Name>
+			<Description>[Indexer] : Error: R-Axis illegal data error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>249</Name>
+			<Description>[Indexer] : Error: R-Axis drive time out error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFT ,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>250</Name>
+			<Description>[Indexer] : Error: R-Axis undefined error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>251</Name>
+			<Description>[Indexer] : Error: X-Axis illegal data error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>252</Name>
+			<Description>[Indexer] : Error: X-Axis stopped by limit sensor signal</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>253</Name>
+			<Description>[Indexer] : Error: X-Axis drive time out error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>254</Name>
+			<Description>[Indexer] : Error: X-Axis undefined error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>255</Name>
+			<Description>[Indexer] : Error: X-Axis NEG limit sensor search error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>256</Name>
+			<Description>[Indexer] : Error: X-Axis POS limit sensor search error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>257</Name>
+			<Description>[Indexer] : Error: X-Axis motor fail</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>258</Name>
+			<Description>[Indexer] : Error: Z-Axis illegal data error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>259</Name>
+			<Description>[Indexer] : Error: Z-Axis stopped by limit sensor signal</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>260</Name>
+			<Description>[Indexer] : Error: Z-Axis drive time out error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>261</Name>
+			<Description>[Indexer] : Error: Z-Axis undefined error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_AT ENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>262</Name>
+			<Description>[Indexer] : Error: Z-Axis NEG limit sensor search error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>263</Name>
+			<Description>[Indexer] : Error: Z-Axis POS limit sensor search error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>264</Name>
+			<Description>[Indexer] : Error: Z-Axis motor fail</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>265</Name>
+			<Description>[Indexer] : Error: No response from CCD sensor module</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>266</Name>
+			<Description>[Indexer] : Error: Pin vacuum error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>267</Name>
+			<Description>[Indexer] : Error: Chuck vacuum error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>268</Name>
+			<Description>[Indexer] : Error: No wafer error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>269</Name>
+			<Description>[Indexer] : Error: Wafer image scan speed is set too fast</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>270</Name>
+			<Description>[Indexer] : Error: Notch image scan speed is set too fast</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>271</Name>
+			<Description>[Indexer] : Error: Invalid command error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>272</Name>
+			<Description>[Indexer] : Error: SLPOS commanded offset is out of NEG range</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>273</Name>
+			<Description>[Indexer] : Error: SLPOS commanded offset is out of POS range</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>274</Name>
+			<Description>[Indexer] : Error: Cannot do ELEDN command: The elevator position is neither up nor down position</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>275</Name>
+			<Description>[Indexer] : Error: Cannot do ELEUP command: The elevator position is neither up nor down position</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>276</Name>
+			<Description>[Indexer] : Error: Pre elevator on chuck position setting fail during calibration</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>277</Name>
+			<Description>[Indexer] : Error: Elevator on chuck position setting fail during calibration</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>278</Name>
+			<Description>[Indexer] : Error: Rough align fail before calibratioy</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>279</Name>
+			<Description>[Indexer] : Error: Get calibration data error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>280</Name>
+			<Description>[Indexer] : Error: Calibration fail</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>281</Name>
+			<Description>[Indexer] : Error: CCD sensor error: wafer was detected by CCD sensor but wasn't detected by vacuum sensor</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>282</Name>
+			<Description>[Indexer] : Error: CCD range out: Cannot do centering</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>283</Name>
+			<Description>[Indexer] : Error: Flat or notch area start point find error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>284</Name>
+			<Description>[Indexer] : Error: Flat or notch area find error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>285</Name>
+			<Description>[Indexer] : Error: Find flat start / end but flat area too large</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>286</Name>
+			<Description>[Indexer] : Find flat area but flat sample data is not enough to calculate flat angle</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>287</Name>
+			<Description>[Indexer] : Error: Calculate flat error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>288</Name>
+			<Description>[Indexer] : Error: Find notch stat/end but notch area too large</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>289</Name>
+			<Description>[Indexer] : Error: Notch area sample data is not enough to calculate notch position</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>290</Name>
+			<Description>[Indexer] : Error: Notch area sample data is not suitable to calculate notch position</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>291</Name>
+			<Description>[Indexer] : Error: Find notch error during high accuracy mode align</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>292</Name>
+			<Description>[Indexer] : Error: Center area sample data is not enough to calculate center</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>293</Name>
+			<Description>[Indexer] : Error: Rough Centering Fail: Could not found rough center</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>294</Name>
+			<Description>[Indexer] : Error: Unexpected error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>295</Name>
+			<Description>[Indexer] : Error: I/O Card Error.</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>296</Name>
+			<Description>[Indexer] : Error: Cassette unload during operation</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>297</Name>
+			<Description>[Indexer] : Error: Stage door close during operation</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>298</Name>
+			<Description>[Indexer] : Error: Safety sensor on during operation</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>299</Name>
+			<Description>[Indexer] : Error: Air  pressure is low</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>300</Name>
+			<Description>[Indexer] : Error: Vacuum press is low</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>301</Name>
+			<Description>[Indexer] : Error: Ionize Error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>302</Name>
+			<Description>[Indexer] : Error: EMO Switch Pushed - INDEX</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>303</Name>
+			<Description>[Indexer] : Error: EMO Switch Pushed - MC</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>304</Name>
+			<Description>[Indexer] : Error: TIME OUT</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>305</Name>
+			<Description>[Indexer] : Error: Success Codes</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>306</Name>
+			<Description>[Indexer] : Error: Station Errors</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>307</Name>
+			<Description>[Indexer] : Error: User I/O - Command Parser Errors</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>308</Name>
+			<Description>[Indexer] : Error: Station Setup Errors</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>309</Name>
+			<Description>[Indexer] : Error: Robot Internal Errors</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>310</Name>
+			<Description>[Indexer] : Error: Dispatcher/Communications Errors</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>311</Name>
+			<Description>[Indexer] : Error: Wafer Slot Errors</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>312</Name>
+			<Description>[Indexer] : Error: Wafer Sensor Errors</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>313</Name>
+			<Description>[Indexer] : Error: Configuration Errors</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>314</Name>
+			<Description>[Indexer] : Error: Monitor Errors</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>315</Name>
+			<Description>[Indexer] : Error: I/O Mapping Errors</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>316</Name>
+			<Description>[Indexer] : Error: Inclusion Zones (WorkSpace) Errors</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>317</Name>
+			<Description>[Indexer] : Error: CVG Errors</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>318</Name>
+			<Description>[Indexer] : Error: Motion Command Task Errors</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>319</Name>
+			<Description>[Indexer] : Error: Startup Errors</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>320</Name>
+			<Description>[Indexer] : Error: SIO Errors</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>321</Name>
+			<Description>[Indexer] : Error: Real Time Clock Errors</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>322</Name>
+			<Description>[Indexer] : Error: Temperature Controller Errors</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>323</Name>
+			<Description>[Indexer] : Error: CDM Related Errors</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>324</Name>
+			<Description>[Indexer] : Error: Comm Port Driver</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>325</Name>
+			<Description>[Indexer] : Error: System Task (Kernel) Related Errors</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>326</Name>
+			<Description>[Indexer] : Error: Non-Volatile Memory Errors</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>327</Name>
+			<Description>[Indexer] : Error: Mail System Related Errors</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>328</Name>
+			<Description>[Indexer] : Error: Application List Errors</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>329</Name>
+			<Description>[Indexer] : Error: Device and Link Table Errors</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>330</Name>
+			<Description>[Indexer] : Error: Monitor Trace Error Codes</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>331</Name>
+			<Description>[Indexer] : Error: System Initialization and Error Log Errors</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>332</Name>
+			<Description>[Indexer] : Error: System Specific Errors</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>333</Name>
+			<Description>[Indexer] : Error: System Vacuum Errors</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>334</Name>
+			<Description>[Indexer] : Error: DeviceNet Error Codes</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>335</Name>
+			<Description>[Indexer] : Error: Wafer Inverter Module Errors</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>336</Name>
+			<Description>[Indexer] : Error: Gateway Errors</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>337</Name>
+			<Description>[Indexer] : Error: FixLoad 6M Errors</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>338</Name>
+			<Description>[Indexer] : Error: File Errors</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>339</Name>
+			<Description>[Indexer] : Error: LonWorks Errors</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>340</Name>
+			<Description>[Indexer] : Error: Resource lock -PRIMARY- error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>341</Name>
+			<Description>[Indexer] : Error: Aligner Resources</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>342</Name>
+			<Description>[Indexer] : Error: Load Port Resources</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>343</Name>
+			<Description>[Indexer] : Error: E84 Resources</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>344</Name>
+			<Description>[Indexer] : Error: Station Resources for Arm A</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>345</Name>
+			<Description>[Indexer] : Error: Station Resources for Arm B</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>346</Name>
+			<Description>[Indexer] : Error: Resource Lock -SECONDARY- Errors</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>347</Name>
+			<Description>[Indexer] : Error: Aligner Blocked Resources</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>348</Name>
+			<Description>[Indexer] : Error: Load Port Blocked Resources</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>349</Name>
+			<Description>[Indexer] : Error: E84 Blocked Resources</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>350</Name>
+			<Description>[Indexer] : Error: Station Blocked Resources for Arm A</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>351</Name>
+			<Description>[Indexer] : Error: Station Blocked Resources for Arm B</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>352</Name>
+			<Description>[Indexer] : Error: Robot Motion Control Processor Errors</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>353</Name>
+			<Description>[Indexer] : Error: Find Bias and Mapping Errors</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>354</Name>
+			<Description>[Indexer] : Error: Aligner and Other Device Errors</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>355</Name>
+			<Description>[Indexer] : Error: Load Port Module Errors</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>356</Name>
+			<Description>[Indexer] : Error: DeviceNet Serial Gateway Errors</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>357</Name>
+			<Description>[Indexer] : Error: Pause and Resume Errors</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>358</Name>
+			<Description>[Indexer] : Error: IFFU Errors</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>359</Name>
+			<Description>[Indexer] : Error: Aligner Specific Errors</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>360</Name>
+			<Description>[Indexer] : Error: Smart Aligner Errors</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>361</Name>
+			<Description>[Indexer] : Error: Z-axis position (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>362</Name>
+			<Description>[Indexer] : Error: Y-axis position (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>363</Name>
+			<Description>[Indexer] : Error: Wafer fly out (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>364</Name>
+			<Description>[Indexer] : Error: Door position (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>365</Name>
+			<Description>[Indexer] : Error: Mapper arm  position (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>366</Name>
+			<Description>[Indexer] : Error: Mapper Z-axis position (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>367</Name>
+			<Description>[Indexer] : Error: Mapping stopper position (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>368</Name>
+			<Description>[Indexer] : Error: Mapping end position (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>369</Name>
+			<Description>[Indexer] : Error: FOUP clamp open error (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>370</Name>
+			<Description>[Indexer] : Error: FOUP clamp close error (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>371</Name>
+			<Description>[Indexer] : Error: Latch key open error (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>372</Name>
+			<Description>[Indexer] : Error: Latch key close error (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>373</Name>
+			<Description>[Indexer] : Error: Vacuum on error (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>374</Name>
+			<Description>[Indexer] : Error: Vacuum off error (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>375</Name>
+			<Description>[Indexer] : Error: Main air error (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>376</Name>
+			<Description>[Indexer] : Error: Normal position error at FOUP open (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>377</Name>
+			<Description>[Indexer] : Error: Normal position error at FOUP close (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>378</Name>
+			<Description>[Indexer] : Error: Mapper storage error when Z-axi lowered (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>379</Name>
+			<Description>[Indexer] : Error: Parallel signal error from upper machine (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>380</Name>
+			<Description>[Indexer] : Error: Mapping mechanism failure (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>381</Name>
+			<Description>[Indexer] : Error: Fan operation error (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>382</Name>
+			<Description>[Indexer] : Error: Interlock relay failure (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>383</Name>
+			<Description>[Indexer] : Error: Communication failure (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>384</Name>
+			<Description>[Indexer] : Error: Obstacle detection sensor failure (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>385</Name>
+			<Description>[Indexer] : Error: CanOpen Error  (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>386</Name>
+			<Description>[Indexer] : Error: CanOpen response timeout (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>387</Name>
+			<Description>[Indexer] : Error: CanOpen Abort (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>388</Name>
+			<Description>[Indexer] : Error: System internal timeout (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>389</Name>
+			<Description>[Indexer] : Error: Illegal command  (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>390</Name>
+			<Description>[Indexer] : Error: Illegal no. of parameters (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>391</Name>
+			<Description>[Indexer] : Error: Illegal parameter value (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>392</Name>
+			<Description>[Indexer] : Error: Syntax error (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>393</Name>
+			<Description>[Indexer] : Error: Illegal address (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>394</Name>
+			<Description>[Indexer] : Error: Command not supported (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>395</Name>
+			<Description>[Indexer] : Error: Start condition for command not valid (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>396</Name>
+			<Description>[Indexer] : Error: Invalid system operation (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>397</Name>
+			<Description>[Indexer] : Error: Motor power failure (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>398</Name>
+			<Description>[Indexer] : Error: Emergency function activated (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>399</Name>
+			<Description>[Indexer] : Error: File IO error (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>400</Name>
+			<Description>[Indexer] : Error: Vision Invalid System Operation (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>401</Name>
+			<Description>[Indexer] : Error: Dock aborted (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>402</Name>
+			<Description>[Indexer] : Error: UnloadClampedDockedAborted (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>403</Name>
+			<Description>[Indexer] : Error: UnloadClampedUndockedAborted (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>404</Name>
+			<Description>[Indexer] : Error: UnloadAborted (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>405</Name>
+			<Description>[Indexer] : Error: UndockAborted (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>406</Name>
+			<Description>[Indexer] : Error: Command rejected, another sequence command is still in progress (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>407</Name>
+			<Description>[Indexer] : Error: Invalid sequence name (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>408</Name>
+			<Description>[Indexer] : Error: Invalid sequence return value (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>409</Name>
+			<Description>[Indexer] : Error: Sequence does not have return value (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>410</Name>
+			<Description>[Indexer] : Error: Sequencer is not initialized (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>411</Name>
+			<Description>[Indexer] : Error: Sequence can not be executed due to active Service mode (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>412</Name>
+			<Description>[Indexer] : Error: Service Mode Access Denied (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>413</Name>
+			<Description>[Indexer] : Error: Vacuum System failure (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>414</Name>
+			<Description>[Indexer] : Error: Wafer protrusion sensor triggered (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>415</Name>
+			<Description>[Indexer] : Error: Not initialized (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>416</Name>
+			<Description>[Indexer] : Error: Initialization is not complete (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>417</Name>
+			<Description>[Indexer] : Error: Resource not available (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>418</Name>
+			<Description>[Indexer] : Error: Invalid configuration (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>419</Name>
+			<Description>[Indexer] : Error: Vacuum not sensed (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>420</Name>
+			<Description>[Indexer] : Error: Vacuum present (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>421</Name>
+			<Description>[Indexer] : Error: Carrier not placed (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>422</Name>
+			<Description>[Indexer] : Error: Carrier not present (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>423</Name>
+			<Description>[Indexer] : Error: Carrier edge detection failure (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>424</Name>
+			<Description>[Indexer] : Error: Carrier door detected (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>425</Name>
+			<Description>[Indexer] : Error: Limit position d1 not reached (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>426</Name>
+			<Description>[Indexer] : Error: Limit position d2 not reached (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>427</Name>
+			<Description>[Indexer] : Error: Door motion is disabled by interlock (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>428</Name>
+			<Description>[Indexer] : Error: Safety frame active (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>429</Name>
+			<Description>[Indexer] : Error: Latch cannot open (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>430</Name>
+			<Description>[Indexer] : Error : Latch cannot close (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>431</Name>
+			<Description>[Indexer] : Error : Carrier is not in unclamped state (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>432</Name>
+			<Description>[Indexer] : Error : Carrier is not in clamped state (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>433</Name>
+			<Description>[Indexer] : Error : Shuttle is not in extended state (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>434</Name>
+			<Description>[Indexer] : Error : Shuttle is not in retracted state (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>435</Name>
+			<Description>[Indexer] : Error : Vacuum is not in established state (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>436</Name>
+			<Description>[Indexer] : Error : Vacuum is in established state (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>437</Name>
+			<Description>[Indexer] : Error : Carrier door is not in latched state (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>438</Name>
+			<Description>[Indexer] : Error : Carrier door is in latched state (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>439</Name>
+			<Description>[Indexer] : Error : Pivot is not in extended state (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>440</Name>
+			<Description>[Indexer] : Error : Pivot is not in retracted state (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>441</Name>
+			<Description>[Indexer] : Error : Door is not in UP position (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>442</Name>
+			<Description>[Indexer] : Error : Door is not in DOWN position (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>443</Name>
+			<Description>[Indexer] : Error : Invalid wafer edges (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>444</Name>
+			<Description>[Indexer] : Error : Too may wafers detected (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>445</Name>
+			<Description>[Indexer] : Error : MapResultUnavailable (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>446</Name>
+			<Description>[Indexer] : Error : Incorrect slot for findbias (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>447</Name>
+			<Description>[Indexer] : Error : Find bias Not performed (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>448</Name>
+			<Description>[Indexer] : Error : Wafer slot out of range (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>449</Name>
+			<Description>[Indexer] : Error : Shuttle Servo Generic Error (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>450</Name>
+			<Description>[Indexer] : Error : Shuttle Servo Over Current (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>451</Name>
+			<Description>[Indexer] : Error : Shuttle Servo Peak Current (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>452</Name>
+			<Description>[Indexer] : Error : Shuttle Servo Over Temp (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>453</Name>
+			<Description>[Indexer] : Error : Shuttle Servo Unknown Motor (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>454</Name>
+			<Description>[Indexer] : Error : Shuttle Not Arrived At Target (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>455</Name>
+			<Description>[Indexer] : Error : Shuttle Servo Following Error (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>456</Name>
+			<Description>[Indexer] : Error : Shuttle Homing Error (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>457</Name>
+			<Description>[Indexer] : Error : Shuttle Servo Commutation Error (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>458</Name>
+			<Description>[Indexer] : Error : Shuttle Servo Settle Timeout (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>459</Name>
+			<Description>[Indexer] : Error : Shuttle Servo Command Config Error (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>460</Name>
+			<Description>[Indexer] : Error : Shuttle Servo Sensor Config Error (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>461</Name>
+			<Description>[Indexer] : Error : Shuttle Servo Output Config Error (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>462</Name>
+			<Description>[Indexer] : Error : Shuttle Servo Undefined Error (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>463</Name>
+			<Description>[Indexer] : Error : Teach Range Exceeds (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>464</Name>
+			<Description>[Indexer] : Error : Clamp Not Arrived At Target (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>465</Name>
+			<Description>[Indexer] : Error : Clamp Homing Error (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>466</Name>
+			<Description>[Indexer] : Error : Lock Not Arrived At Target (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>467</Name>
+			<Description>[Indexer] : Error : Lock Homing Error (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>468</Name>
+			<Description>[Indexer] : Error : Latch Servo Generic (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>469</Name>
+			<Description>[Indexer] : Error : Latch Servo Over Current (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>470</Name>
+			<Description>[Indexer] : Error : Latch Servo Peak Current (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>471</Name>
+			<Description>[Indexer] : Error : Latch Servo Over Temp (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>472</Name>
+			<Description>[Indexer] : Error : Latch Servo Unknown Motor (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>473</Name>
+			<Description>[Indexer] : Error : Latch Not Arrived At Target (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>474</Name>
+			<Description>[Indexer] : Error : Latch Servo Following Error (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>475</Name>
+			<Description>[Indexer] : Error : Latch Homing Error (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>476</Name>
+			<Description>[Indexer] : Error : Latch Servo Commutation Error (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>477</Name>
+			<Description>[Indexer] : Error : Latch Servo Settle Timeout (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>478</Name>
+			<Description>[Indexer] : Error : Latch Servo Command Config Error (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>479</Name>
+			<Description>[Indexer] : Error : Latch Servo Sensor Config Error (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>480</Name>
+			<Description>[Indexer] : Error : Latch Servo Output Config Error (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>481</Name>
+			<Description>[Indexer] : Error : Latch Servo Undefined Error (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>482</Name>
+			<Description>[Indexer] : Error : Mapper Not Arrived At Target (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>483</Name>
+			<Description>[Indexer] : Error : Mapper Homing Error (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>484</Name>
+			<Description>[Indexer] : Error : Mapper Servo Generic (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>485</Name>
+			<Description>[Indexer] : Error : Mapper Servo Over Current (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>486</Name>
+			<Description>[Indexer] : Error : Mapper Servo Peak Current (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>487</Name>
+			<Description>[Indexer] : Error : Mapper Servo Over Temperature (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>488</Name>
+			<Description>[Indexer] : Error : Mapper Servo Unknown Motor (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>489</Name>
+			<Description>[Indexer] : Error : Mapper Servo Not Arrived At Target (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>490</Name>
+			<Description>[Indexer] : Error : Mapper Servo Following Error (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>491</Name>
+			<Description>[Indexer] : Error : Mapper Servo Homing Error (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>492</Name>
+			<Description>[Indexer] : Error : Mapper Servo Commutation Error (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>493</Name>
+			<Description>[Indexer] : Error : Mapper Servo Settle Timeout (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>494</Name>
+			<Description>[Indexer] : Error : Mapper Servo Command Config Error (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>495</Name>
+			<Description>[Indexer] : Error : Mapper Servo Sensor Config Error (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>496</Name>
+			<Description>[Indexer] : Error : Mapper Servo Output Config Error (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>497</Name>
+			<Description>[Indexer] : Error : Mapper Servo Undefined Error (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>498</Name>
+			<Description>[Indexer] : Error : Z motor Servo Generic (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>499</Name>
+			<Description>[Indexer] : Error : Z Motor Servo Over Current (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>500</Name>
+			<Description>[Indexer] : Error : Z Motor Servo Peak Current (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>501</Name>
+			<Description>[Indexer] : Error : Z Motor Servo Over Temp (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>502</Name>
+			<Description>[Indexer] : Error : Z Motor Servo Unknown Motor (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>503</Name>
+			<Description>[Indexer] : Error : Z Motor Not Arrived At Target (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>504</Name>
+			<Description>[Indexer] : Error : Z Motor Servo Following Error (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>505</Name>
+			<Description>[Indexer] : Error : Z Motor Homing Error (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>506</Name>
+			<Description>[Indexer] : Error : Z Motor Servo Commutation Error (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>507</Name>
+			<Description>[Indexer] : Error : Z Motor Servo Settle Timeout (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>508</Name>
+			<Description>[Indexer] : Error : Z Motor Servo Command Config Error (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>509</Name>
+			<Description>[Indexer] : Error : Z Motor Servo Sensor Config Error (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>510</Name>
+			<Description>[Indexer] : Error : Z Motor Servo Output Config Error (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>511</Name>
+			<Description>[Indexer] : Error : Z Motor Servo Undefined Error (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>512</Name>
+			<Description>[Indexer] : Error : Pivot Not Arrived At Target (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>513</Name>
+			<Description>[Indexer] : Error : Door not closed (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>514</Name>
+			<Description>[Indexer] : Error : Pivot Homing Error (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>515</Name>
+			<Description>[Indexer] : Error : Home Position Error (Aligner)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>516</Name>
+			<Description>[Indexer] : Error : Undefined Message (Aligner)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>517</Name>
+			<Description>[Indexer] : Error : Undefined Error (Aligner)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>518</Name>
+			<Description>[Indexer] : Error : Servo On Error (Aligner)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>519</Name>
+			<Description>[Indexer] : Error : Pins Vacuum Switch ON (Aligner)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>520</Name>
+			<Description>[Indexer] : Error : I/O File error  (Aligner)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>521</Name>
+			<Description>[Indexer] : Error : Servo OFF on one or more axes  (Aligner)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>522</Name>
+			<Description>[Indexer] : Error : Motion in progress  (Aligner)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>523</Name>
+			<Description>[Indexer] : Error : User macro running  (Aligner)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>524</Name>
+			<Description>[Indexer] : Error : Home procedure not executed (Aligner)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>525</Name>
+			<Description>[Indexer] : Error : Motion limit violation (Aligner)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>526</Name>
+			<Description>[Indexer] : Error : Motion error (Aligner)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>527</Name>
+			<Description>[Indexer] : Error : Chuck Vacuum Switch ON (Aligner)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>528</Name>
+			<Description>[Indexer] : Error : Chuck Vacuum Sensor ON (Aligner)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>529</Name>
+			<Description>[Indexer] : Error : Previous command returned an error (Aligner)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>530</Name>
+			<Description>[Indexer] : Error : Unable to execute motion commands (Aligner)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>531</Name>
+			<Description>[Indexer] : Error : Wrong Wafer Size (Aligner)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>532</Name>
+			<Description>[Indexer] : Error : Vacuum not sensed on chuck (Aligner)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>533</Name>
+			<Description>[Indexer] : Error : Data Capture Error (Aligner)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>534</Name>
+			<Description>[Indexer] : Error : Data not available (Aligner))</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>535</Name>
+			<Description>[Indexer] : Error : Wafer lost during prealign operation (Aligner)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>536</Name>
+			<Description>[Indexer] : Error : Alignment algorithm interrupted by host (Aligner)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>537</Name>
+			<Description>[Indexer] : Error : Data not received on time (Aligner)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>538</Name>
+			<Description>[Indexer] : Error : Index not received on time  (Aligner)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>539</Name>
+			<Description>[Indexer] : Error : Measurement speed not reached on time  (Aligner)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>540</Name>
+			<Description>[Indexer] : Error : Synchronization error  (Aligner)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>541</Name>
+			<Description>[Indexer] : Error : Flat error  (Aligner)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>542</Name>
+			<Description>[Indexer] : Error : Flat or not found  (Aligner)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>543</Name>
+			<Description>[Indexer] : Error : Calculated offset out of limits (Aligner)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>544</Name>
+			<Description>[Indexer] : Error : Invalid CCD sensor data (Aligner)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>545</Name>
+			<Description>[Indexer] : Error : Invalid parameters (Aligner)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>546</Name>
+			<Description>[Indexer] : Error : Cannot align within required offset (Aligner)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>547</Name>
+			<Description>[Indexer] : Error : Cannot align within required notch angle (Aligner)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>548</Name>
+			<Description>[Indexer] : Error : Invalid Position</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>549</Name>
+			<Description>[Indexer] : Error : Invalid Slot</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>550</Name>
+			<Description>[Indexer] : Error : Invalid Command</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>551</Name>
+			<Description>[Indexer] : Error : Invalid Model</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>552</Name>
+			<Description>[Indexer] : Error : Carrier check failed</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>553</Name>
+			<Description>[Indexer] : Error : E84 T1 Timeout</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>554</Name>
+			<Description>[Indexer] : Error : E84 T2 Timeout</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>555</Name>
+			<Description>[Indexer] : Error : E84 T3 Timeout</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>556</Name>
+			<Description>[Indexer] : Error : E84 T4 Timeout</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>557</Name>
+			<Description>[Indexer] : Error : E84 T5 Timeout</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>558</Name>
+			<Description>[Indexer] : Error : Manual Load in Auto Mode</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>559</Name>
+			<Description>[Indexer] : Error : Manual Unload in Auto Mode</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>600</Name>
+			<Description>[Indexer] : Error : RS232C overrun (Robot)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>601</Name>
+			<Description>[Indexer] : Error : RS232C framing (Robot)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>602</Name>
+			<Description>[Indexer] : Error : RS232C parity (Robot)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>603</Name>
+			<Description>[Indexer] : Error : Alarm input stop (Robot)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>604</Name>
+			<Description>[Indexer] : Error : Command error (Robot)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>605</Name>
+			<Description>[Indexer] : Error : Step-out error detection (Robot:R-axis)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>606</Name>
+			<Description>[Indexer] : Error : Limit detection (Robot:R-axis)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>607</Name>
+			<Description>[Indexer] : Error : Displacement during stop (Robot:R-axis)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>608</Name>
+			<Description>[Indexer] : Error : Accumulated error (Robot:R-axis)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>609</Name>
+			<Description>[Indexer] : Error : Step-out error detection (Robot:Theta-axis)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>610</Name>
+			<Description>[Indexer] : Error : Limit detection (Robot:Theta-axis)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>611</Name>
+			<Description>[Indexer] : Error : Displacement detection during stop (Robot:Theta-axis)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>612</Name>
+			<Description>[Indexer] : Error : Accumulated error (Robot:Theta-axis)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>613</Name>
+			<Description>[Indexer] : Error : Step-out error detection (Robot:Z-axis)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>614</Name>
+			<Description>[Indexer] : Error : Limit detection (Robot:Z-axis)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>615</Name>
+			<Description>[Indexer] : Error : Displacement detection during stop (Robot:Z-axis)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>616</Name>
+			<Description>[Indexer] : Error : Accumulated error (Robot:Z-axis)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>617</Name>
+			<Description>[Indexer] : Error : Compound command error (Robot)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>618</Name>
+			<Description>[Indexer] : Error : Dead-man switch release (Robot)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>619</Name>
+			<Description>[Indexer] : Error : Get failed (Robot)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>620</Name>
+			<Description>[Indexer] : Error : Put failed (Robot)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>630</Name>
+			<Description>[Indexer] : Error : RS232C overrun (Aligner)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>631</Name>
+			<Description>[Indexer] : Error : RS232C framing (Aligner)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>632</Name>
+			<Description>[Indexer] : Error : RS232C parity (Aligner)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>633</Name>
+			<Description>[Indexer] : Error : Alarm input stop (Aligner)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>634</Name>
+			<Description>[Indexer] : Error : Command error (Aligner)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>635</Name>
+			<Description>[Indexer] : Error : Step-out error detection (Aligner:X-axis)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>636</Name>
+			<Description>[Indexer] : Error : Limit detection (Aligner:X-axis)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>637</Name>
+			<Description>[Indexer] : Error : Displacement during stop (Aligner:X-axis)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>638</Name>
+			<Description>[Indexer] : Error : Accumulated error (Aligner:X-axis)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>639</Name>
+			<Description>[Indexer] : Error : Step-out error detection (Aligner:Theta-axis)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>640</Name>
+			<Description>[Indexer] : Error : Limit detection (Aligner:Theta-axis)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>641</Name>
+			<Description>[Indexer] : Error : Displacement during stop (Aligner:Theta-axis)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>642</Name>
+			<Description>[Indexer] : Error : Accumulated error (Aligner:Theta-axis)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>643</Name>
+			<Description>[Indexer] : Error : Step-out error detection (Aligner:Y-axis)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>644</Name>
+			<Description>[Indexer] : Error : Limit detection  (Aligner:Y-axis)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>645</Name>
+			<Description>[Indexer] : Error : Displacement detection during stop  (Aligner:Y-axis)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>646</Name>
+			<Description>[Indexer] : Error : Accumulated error  (Aligner:Y-axis)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>647</Name>
+			<Description>[Indexer] : Error : Suction Error (Aligner)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>648</Name>
+			<Description>[Indexer] : Error : Alignment error (Aligner)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>649</Name>
+			<Description>[Indexer] : Error : Holding number excess error (Aligner)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>650</Name>
+			<Description>[Indexer] : Error : Fan of the aligner stopped (Aligner)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>660</Name>
+			<Description>[Indexer] : Error : Host AVAILABLE not input (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>661</Name>
+			<Description>[Indexer] : Error : No FOUP mounting (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>662</Name>
+			<Description>[Indexer] : Error : Not at home Position (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>663</Name>
+			<Description>[Indexer] : Error : Clamping not completed (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>664</Name>
+			<Description>[Indexer] : Error : Docking not completed (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>665</Name>
+			<Description>[Indexer] : Error : Door vacuum not completed (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>666</Name>
+			<Description>[Indexer] : Error : Unlatching not completed (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>667</Name>
+			<Description>[Indexer] : Error : Door opening not completed (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>668</Name>
+			<Description>[Indexer] : Error : Mapping not started (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>669</Name>
+			<Description>[Indexer] : Error : Mapping forward not completed (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>670</Name>
+			<Description>[Indexer] : Error : Z axis is not door position (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>671</Name>
+			<Description>[Indexer] : Error : Not in the mapping range (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>672</Name>
+			<Description>[Indexer] : Error : Undocking not completed (Load Port)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>680</Name>
+			<Description>[Indexer] : Error : Not Home (SMIF)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>681</Name>
+			<Description>[Indexer] : Error : Indexer busy (SMIF)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>682</Name>
+			<Description>[Indexer] : Error : Pod removed (SMIF)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>683</Name>
+			<Description>[Indexer] : Error : Aborted by user (SMIF)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>684</Name>
+			<Description>[Indexer] : Error : Cassette not present (SMIF)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>685</Name>
+			<Description>[Indexer] : Error : Missing pod door (SMIF)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>686</Name>
+			<Description>[Indexer] : Error : Cassette present (SMIF)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>687</Name>
+			<Description>[Indexer] : Error : Position following error (SMIF)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>688</Name>
+			<Description>[Indexer] : Error : Port door failed to open (SMIF)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>689</Name>
+			<Description>[Indexer] : Error : Port door failed to close (SMIF)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>690</Name>
+			<Description>[Indexer] : Error : Port hold-down failed to open (SMIF)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>691</Name>
+			<Description>[Indexer] : Error : Port hold-down failed to close (SMIF)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>692</Name>
+			<Description>[Indexer] : Error : Seater failed to move in (SMIF)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>693</Name>
+			<Description>[Indexer] : Error : Wafer protruding (SMIF)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>694</Name>
+			<Description>[Indexer] : Error : Seater failed to move out (SMIF)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>695</Name>
+			<Description>[Indexer] : Error : Elevator fails to reach target position (SMIF)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>696</Name>
+			<Description>[Indexer] : Error : Wafer protrusion sensor malfunction (SMIF)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>697</Name>
+			<Description>[Indexer] : Error : Slot sensor malfunction (SMIF)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>698</Name>
+			<Description>[Indexer] : Error : Flash sensor malfunction (SMIF)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>699</Name>
+			<Description>[Indexer] : Error : Tripping of elevator over-travel limit (SMIF)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>700</Name>
+			<Description>[Indexer] : Error : System internal time out (SMIF)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>701</Name>
+			<Description>[Indexer] : Error : Excessive wafer out error (SMIF)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>702</Name>
+			<Description>[Indexer] : Error : Servo controller command error (SMIF)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>703</Name>
+			<Description>[Indexer] : Error : Loss of configuration data (SMIF)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>704</Name>
+			<Description>[Indexer] : Error : Encoder Error (SMIF)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>705</Name>
+			<Description>[Indexer] : Error : Wafer sensor malfunction or mis-aligned (SMIF)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>706</Name>
+			<Description>[Indexer] : Error : System error (SMIF)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>707</Name>
+			<Description>[Indexer] : Error : Inadequate fan flow (SMIF)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>708</Name>
+			<Description>[Indexer] : Error : Vertical servo over current (SMIF)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>709</Name>
+			<Description>[Indexer] : Error : Unknown Error (SMIF)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>710</Name>
+			<Description>[Indexer] : Error : Light Curtain Stop (SMIF)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>720</Name>
+			<Description>[Indexer] : Error : State code is wrong</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>721</Name>
+			<Description>[Indexer] : Error : Homing not completed</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>722</Name>
+			<Description>[Indexer] : Error : In Teach mode</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>723</Name>
+			<Description>[Indexer] : Error : Unit is in motion</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>724</Name>
+			<Description>[Indexer] : Error : Linear motion failed</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>725</Name>
+			<Description>[Indexer] : Error : Encoder Commnunication Error (Level 1)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>726</Name>
+			<Description>[Indexer] : Error : Servo Tracking Error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>727</Name>
+			<Description>[Indexer] : Error : Parameter Setting Error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>728</Name>
+			<Description>[Indexer] : Error : Absolute Encoder Back-up Error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>729</Name>
+			<Description>[Indexer] : Error : Micro program transfer Error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>730</Name>
+			<Description>[Indexer] : Error : Servo control board response timeout</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>731</Name>
+			<Description>[Indexer] : Error : Encoder commnunication error (Level 2)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>732</Name>
+			<Description>[Indexer] : Error : Servo Tracking Error1</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>733</Name>
+			<Description>[Indexer] : Error : Servo Tracking Error2</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>734</Name>
+			<Description>[Indexer] : Error : Encoder Communication Error (Level 3)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>735</Name>
+			<Description>[Indexer] : Error : Servo Tracking Error3</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>736</Name>
+			<Description>[Indexer] : Error : Servo Tracking Error4</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>737</Name>
+			<Description>[Indexer] : Error : Servo Tracking Error5</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>738</Name>
+			<Description>[Indexer] : Error : Servo Tracking Error6</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>739</Name>
+			<Description>[Indexer] : Error : Servo I/O communication Error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>740</Name>
+			<Description>[Indexer] : Error : communication Error (Converter)</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>741</Name>
+			<Description>[Indexer] : Error : Servo System Error1</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>742</Name>
+			<Description>[Indexer] : Error : Servo System Error2</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>743</Name>
+			<Description>[Indexer] : Error : Servo System Error3</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>744</Name>
+			<Description>[Indexer] : Error : Servo System Error4</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>745</Name>
+			<Description>[Indexer] : Error : Character Interval Timeout</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>746</Name>
+			<Description>[Indexer] : Error : Receive Data Checksum Error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>747</Name>
+			<Description>[Indexer] : Error : Unit Number Error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>748</Name>
+			<Description>[Indexer] : Error : Undefined command received</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>749</Name>
+			<Description>[Indexer] : Error : Message Parameter Error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>750</Name>
+			<Description>[Indexer] : Error : Receiveing Time-out Error / for Confirmation of Execution Complete</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>751</Name>
+			<Description>[Indexer] : Error : Incorrect Sequence number</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>752</Name>
+			<Description>[Indexer] : Error : Duplicated message</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>753</Name>
+			<Description>[Indexer] : Error : Lan Device Setting Error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>754</Name>
+			<Description>[Indexer] : Error : IP address Error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>755</Name>
+			<Description>[Indexer] : Error : Subnet mask Error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>756</Name>
+			<Description>[Indexer] : Error : Default Gateway Error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>757</Name>
+			<Description>[Indexer] : Error : Ethernet receive Error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>758</Name>
+			<Description>[Indexer] : Error : I/O Emergency Stop 1</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>759</Name>
+			<Description>[Indexer] : Error : T.P Emergency Stop</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>760</Name>
+			<Description>[Indexer] : Error : I/O Emergency Stop 2</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>761</Name>
+			<Description>[Indexer] : Error : Emergency Stop 1</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>762</Name>
+			<Description>[Indexer] : Error : Controller Fan 1 Error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>763</Name>
+			<Description>[Indexer] : Error : Controller Fan 2 Error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>764</Name>
+			<Description>[Indexer] : Error : Controller Fan 3 Error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>765</Name>
+			<Description>[Indexer] : Error : Controller Fan 4 Error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>766</Name>
+			<Description>[Indexer] : Error : CPS Power Fan Error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>767</Name>
+			<Description>[Indexer] : Error : Unit Fan 1 Error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>768</Name>
+			<Description>[Indexer] : Error : Unit Fan 2 Error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>769</Name>
+			<Description>[Indexer] : Error : Battery Error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>770</Name>
+			<Description>[Indexer] : Error : Pre-Aligner is running</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>771</Name>
+			<Description>[Indexer] : Error : Pre-Aligner was holding Wafer</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>772</Name>
+			<Description>[Indexer] : Error : A Wafer is on the Pre-Aligner</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>773</Name>
+			<Description>[Indexer] : Error : Pre-Aligner is not in Relese State</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>774</Name>
+			<Description>[Indexer] : Error : Pre-Aligner Lifter was not upper. lower end</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>775</Name>
+			<Description>[Indexer] : Error : Pre-Aligner Lifter was not Ready Position</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>776</Name>
+			<Description>[Indexer] : Error : Pre-Aligner Stage specified with Get is not the one specified with MALN</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>777</Name>
+			<Description>[Indexer] : Error : Pre-Aligner Stage was not able to move</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>778</Name>
+			<Description>[Indexer] : Error : Fork 1 : Wafer Presence Confirm Time out</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>779</Name>
+			<Description>[Indexer] : Error : Fork 1 : Wafer Absence Confirm Time out</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>780</Name>
+			<Description>[Indexer] : Error : Fork 1 : Wafer Presence Confirm Time out 2</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>781</Name>
+			<Description>[Indexer] : Error : Fork 1 : Wafer Absence Confirm Time out 2</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>782</Name>
+			<Description>[Indexer] : Error : Grip Sensor On Time out</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>783</Name>
+			<Description>[Indexer] : Error : Grip Sensor Off Time out</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>784</Name>
+			<Description>[Indexer] : Error : Release Sensor On Time out</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>785</Name>
+			<Description>[Indexer] : Error : Release Sensor Off Time out</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>786</Name>
+			<Description>[Indexer] : Error : Fork 2 : Wafer Presence Confirm Time out</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>787</Name>
+			<Description>[Indexer] : Error : Fork 2 : Wafer Absence Confirm Time out</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>788</Name>
+			<Description>[Indexer] : Error : Fork 2 : Wafer Presence Confirm Time out 2</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>789</Name>
+			<Description>[Indexer] : Error : Fork 2 : Wafer Absence Confirm Time out 2</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>790</Name>
+			<Description>[Indexer] : Error : Lift up sensor on timeout</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>791</Name>
+			<Description>[Indexer] : Error : Lift up sensor off timeout</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>792</Name>
+			<Description>[Indexer] : Error : Lift down sensor on timeout</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>793</Name>
+			<Description>[Indexer] : Error : Lift down sensor off timeout</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>794</Name>
+			<Description>[Indexer] : Error : Plunger unoperation error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>795</Name>
+			<Description>[Indexer] : Error : Fork 1 : Wafer Absence Error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>796</Name>
+			<Description>[Indexer] : Error : Fork 1 : Sensor Logic Error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>797</Name>
+			<Description>[Indexer] : Error : Gripping sensor Status Error 1</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>798</Name>
+			<Description>[Indexer] : Error : Gripping sensor Status Error 2</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>799</Name>
+			<Description>[Indexer] : Error : Release sensor Status Error 1</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>800</Name>
+			<Description>[Indexer] : Error : Release sensor Status Error 2</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>801</Name>
+			<Description>[Indexer] : Error : Gripping sensor Logic Error 1</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>802</Name>
+			<Description>[Indexer] : Error : Lifter - Gripping sensor Status Inconsistent</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>803</Name>
+			<Description>[Indexer] : Error : Fork 2 : Wafer Absence Error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+		<Item>
+			<Name>804</Name>
+			<Description>[Indexer] : Error : Fork 2 : Sensor Logic Error</Description>
+			<ValueType>int</ValueType>
+			<Value>3</Value>
+			<!--0:E_UNKNOWN,1:E_HUMAN_SAFTY,2:E_EQUIP_SAFTY,3:W_CTRL,4:E_CTRL, 5:E_FATAL, 6:W_STATUS, 7:W_ATTENTION-->
+			<Access>22</Access>
+		</Item>
+	</ItemList>
+</Part>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Module>
+	<Name>General</Name>
+	<Description>This is an General Vision Module</Description>
+	<PartList>
+		<Part>
+			<Type>Info</Type>
+			<Name>General</Name>
+		</Part>
+		<Part>
+			<Type>Camera</Type>
+			<Name>AVT</Name>
+		</Part>
+		<Part>
+			<Type>Illuminator</Type>
+			<Name>PSC</Name>
+		</Part>
+		<Part>
+			<Type>Error</Type>
+			<Name>General</Name>
+		</Part>
+	</PartList>
+</Module>

@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>Info</Type>
+	<Name>General</Name>
+	<Description>This is a general info part.</Description>
+	<ItemList>
+		<Item>
+			<Name>bSimulation</Name>
+			<Description>This is a bSimulation Description</Description>
+			<ValueType>int</ValueType>
+			<Value>0</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>StagePosUpdateInterval</Name>
+			<Description>in ms.</Description>
+			<ValueType>int</ValueType>
+			<Value>100</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>PosUpdateInterval</Name>
+			<Description>This is a PosUpdateInterval Description</Description>
+			<ValueType>int</ValueType>
+			<Value>100</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>SaveWLILog</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>WLIRetryCount</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>SimulationFileName</Name>
+			<Description></Description>
+			<ValueType>string</ValueType>
+			<Value>c:\Temp\wli\data.dat</Value>
+			<Access>33</Access>
+		</Item></ItemList>
+</Part>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>Camera</Type>
+	<Name>XIMEA</Name>
+	<Description>This is a XIMEA_MX050MG-SY-X2G2 camera part.</Description>
+	<ItemList>
+		<Item>
+			<Name>Maker</Name>
+			<Description>Camera maker.</Description>
+			<ValueType>string</ValueType>
+			<Value>XIMEA</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>BufferQueueSize</Name>
+			<Description></Description>
+			<ValueType>int</ValueType>
+			<Value>4</Value>
+			<Access>33</Access>
+		</Item></ItemList>
+</Part>

@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<Part>
+	<Type>TurretStage</Type>
+	<Name>InHouse_Rev00</Name>
+	<Description>This is a turret stage.</Description>
+	<ItemList>
+		<Item>
+			<Name>MicronPerPulse</Name>
+			<Description>Moving distance with one motor pulse, in um.</Description>
+			<ValueType>double</ValueType>
+			<Value>0.625</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>MicronPerEncoderPulse</Name>
+			<Description>Encoder pulse to pulse width in um.</Description>
+			<ValueType>double</ValueType>
+			<Value>0.122</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>MaxSpeed</Name>
+			<Description>Max speed(um/s)</Description>
+			<ValueType>double</ValueType>
+			<Value>10000</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Accel</Name>
+			<Description>Motor acceleration in um/sec^2.</Description>
+			<ValueType>double</ValueType>
+			<Value>10000</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>Decel</Name>
+			<Description>Motor deceleration in um/sec^2.</Description>
+			<ValueType>double</ValueType>
+			<Value>10000</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>HomeSpeed</Name>
+			<Description>Speed used during homing in um/sec.</Description>
+			<ValueType>double</ValueType>
+			<Value>10000</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>PositionMin</Name>
+			<Description>Minimum stage position for move, in um.</Description>
+			<ValueType>double</ValueType>
+			<Value>-42000</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>PositionMax</Name>
+			<Description>Maximum stage position for move, in um.</Description>
+			<ValueType>double</ValueType>
+			<Value>-10</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>InitPosition</Name>
+			<Description>Position in micrometer after tool initialization.</Description>
+			<ValueType>double</ValueType>
+			<Value>-100</Value>
+			<Access>0</Access>
+		</Item>
+		<Item>
+			<Name>UseEncoder</Name>
+			<Description>1 if encoder feedback position need to be used. Else 0.</Description>
+			<ValueType>int</ValueType>
+			<Value>1</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>LensPosition1</Name>
+			<Description>Position in um.</Description>
+			<ValueType>double</ValueType>
+			<Value>-41009.9</Value>
+			<Access>33</Access>
+		</Item>
+		<Item>
+			<Name>LensPosition2</Name>
+			<Description>Position in um.</Description>
+			<ValueType>double</ValueType>
+			<Value>-3191.89</Value>
+			<Access>33</Access>
+		</Item>
+	</ItemList>
+</Part>

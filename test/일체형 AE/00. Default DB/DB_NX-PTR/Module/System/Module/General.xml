@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<Module>
+	<Name>General</Name>
+	<Description>This is a General System Module</Description>
+	<PartList>
+		<Part>
+			<Type>Info</Type>
+			<Name>General</Name>
+		</Part>
+		<Part>
+			<Type>Directory</Type>
+			<Name>General</Name>
+		</Part>
+		<Part>
+			<Type>Process</Type>
+			<Name>General</Name>
+		</Part>
+		<Part>
+			<Type>SampleAlign</Type>
+			<Name>General</Name>
+		</Part>
+		<Part>
+			<Type>Error</Type>
+			<Name>General</Name>
+		</Part>
+		<Part>
+			<Type>AutoFocus</Type>
+			<Name>General</Name>
+		</Part>
+		<Part>
+			<Type>SampleSurfaceMap</Type>
+			<Name>General</Name>
+		</Part>
+		<Part>
+			<Type>TipCharacterizer</Type>
+			<Name>General</Name>
+		</Part>
+		<Part>
+			<Type>TipPositioning</Type>
+			<Name>General</Name>
+		</Part>
+		<Part>
+			<Type>TipExchange</Type>
+			<Name>General</Name>
+		</Part>
+	</PartList>
+</Module>
