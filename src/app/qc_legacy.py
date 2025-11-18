@@ -174,20 +174,10 @@ def add_qc_check_functions_to_class(cls):
     DBManager 클래스에 QC 검수 기능을 추가합니다.
     """
     def create_qc_check_tab(self):
-        """QC 검수 탭 생성 - 향상된 기능 포함"""
-        # Enhanced QC 기능이 사용 가능한지 확인
-        try:
-            from app.enhanced_qc import add_enhanced_qc_functions_to_class
-            # Enhanced QC 기능을 클래스에 추가
-            add_enhanced_qc_functions_to_class(self.__class__)
-            # Enhanced QC 탭 생성
-            self.create_enhanced_qc_tab()
-            self.update_log("[QC] 향상된 QC 검수 탭이 생성되었습니다.")
-            return
-        except ImportError:
-            # Enhanced QC를 사용할 수 없는 경우 기본 QC 탭 생성
-            self.update_log("[QC] 기본 QC 검수 탭을 생성합니다.")
-        
+        """QC 검수 탭 생성 - 기본 기능"""
+        # 기본 QC 탭 생성
+        self.update_log("[QC] 기본 QC 검수 탭을 생성합니다.")
+
         # 기본 QC 탭 생성
         qc_tab = ttk.Frame(self.main_notebook)
         self.main_notebook.add(qc_tab, text="QC 검수")

@@ -7,7 +7,6 @@ from datetime import datetime
 from app.schema import DBSchema
 from app.loading import LoadingDialog
 from app.qc import add_qc_check_functions_to_class
-from app.enhanced_qc import add_enhanced_qc_functions_to_class
 # Default DB 기능 제거됨 - 리팩토링으로 중복 코드 정리
 from app.utils import create_treeview_with_scrollbar, create_label_entry_pair, format_num_value
 from app.data_utils import numeric_sort_key, calculate_string_similarity
@@ -73,9 +72,8 @@ class DBManager:
             import traceback
             traceback.print_exc()
             self.db_schema = None
-        
+
         add_qc_check_functions_to_class(DBManager)
-        add_enhanced_qc_functions_to_class(DBManager)
         # Default DB 기능 제거됨 - 리팩토링 완료
         
         # 서비스 레이어 초기화 (DB 스키마 초기화 후)
@@ -865,58 +863,20 @@ class DBManager:
         # 보고서, 간단 비교, 고급 분석은 QC 탭으로 이동
 
     def create_qc_tabs_with_advanced_features(self):
-        """QC 탭들을 고급 기능과 함께 생성"""
+        """QC 탭들을 고급 기능과 함께 생성 - Custom QC만 사용"""
         try:
-            # Enhanced QC 기능 사용 시도
-            from app.enhanced_qc import add_enhanced_qc_functions_to_class
-            add_enhanced_qc_functions_to_class(self.__class__)
-            
-            # QC 검수 탭 생성 (향상된 기능)
-            if not hasattr(self, 'qc_check_frame') or self.qc_check_frame is None:
-                self.create_enhanced_qc_tab()
-                self.qc_check_frame = True  # 플래그 설정
-                self.update_log("[QC] 향상된 QC 검수 탭이 생성되었습니다.")
-            
             # QC 보고서 탭 생성
             self.create_report_tab_in_qc()
-            
-            # 🆕 Custom QC Inspection 탭 생성 (CustomQCConfig 기반)
+
+            # Custom QC Inspection 탭 생성 (CustomQCConfig 기반)
             try:
                 self.create_custom_qc_inspection_tab()
                 self.update_log("[QC] Custom QC 검수 탭이 생성되었습니다.")
             except Exception as e:
                 self.update_log(f"⚠️ Custom QC 검수 탭 생성 중 오류: {str(e)}")
-            
-        except ImportError:
-            # Enhanced QC를 사용할 수 없는 경우 기본 QC 기능 사용
-            from app.qc import add_qc_check_functions_to_class
-            add_qc_check_functions_to_class(self.__class__)
-            
-            if not hasattr(self, 'qc_check_frame') or self.qc_check_frame is None:
-                self.create_qc_check_tab()
-                self.qc_check_frame = True
-                self.update_log("[QC] 기본 QC 검수 탭이 생성되었습니다.")
-            
-            self.create_report_tab_in_qc()
-            
-            # 🆕 Custom QC Inspection 탭 생성 (CustomQCConfig 기반)
-            try:
-                self.create_custom_qc_inspection_tab()
-                self.update_log("[QC] Custom QC 검수 탭이 생성되었습니다.")
-            except Exception as e:
-                self.update_log(f"⚠️ Custom QC 검수 탭 생성 중 오류: {str(e)}")
-        
+
         except Exception as e:
             self.update_log(f"❌ QC 탭 생성 중 오류: {str(e)}")
-            # 기본 QC 탭이라도 생성하려고 시도
-            try:
-                from app.qc import add_qc_check_functions_to_class
-                add_qc_check_functions_to_class(self.__class__)
-                if not hasattr(self, 'qc_check_frame') or self.qc_check_frame is None:
-                    self.create_qc_check_tab()
-                    self.qc_check_frame = True
-            except Exception as fallback_error:
-                self.update_log(f"❌ 기본 QC 탭 생성도 실패: {str(fallback_error)}")
 
     def goto_qc_check_tab(self):
         """QC 검수 탭으로 이동"""
