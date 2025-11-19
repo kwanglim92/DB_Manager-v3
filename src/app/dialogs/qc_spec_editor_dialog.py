@@ -106,20 +106,24 @@ class QCSpecEditorDialog:
         tree_frame = ttk.Frame(spec_frame)
         tree_frame.pack(fill=tk.BOTH, expand=True)
         
-        columns = ('item_name', 'min_spec', 'max_spec', 'unit', 'enabled')
+        columns = ('module', 'part', 'item_name', 'min_spec', 'max_spec', 'unit', 'enabled')
         self.spec_tree = ttk.Treeview(tree_frame, columns=columns,
                                       show='headings', height=15)
-        
+
         # 컬럼 설정
         headers = {
+            'module': 'Module',
+            'part': 'Part',
             'item_name': 'Item Name',
             'min_spec': 'Min Spec',
-            'max_spec': 'Max Spec', 
+            'max_spec': 'Max Spec',
             'unit': 'Unit',
             'enabled': 'Enabled'
         }
-        
+
         widths = {
+            'module': 100,
+            'part': 100,
             'item_name': 150,
             'min_spec': 80,
             'max_spec': 80,
@@ -204,11 +208,13 @@ class QCSpecEditorDialog:
         # 트리뷰 초기화
         for item in self.spec_tree.get_children():
             self.spec_tree.delete(item)
-            
+
         # 스펙 로드
         specs = self.custom_config.get_specs(equipment_type)
         for spec in specs:
             values = (
+                spec.get('module', ''),
+                spec.get('part', ''),
                 spec.get('item_name', ''),
                 spec.get('min_spec', ''),
                 spec.get('max_spec', ''),
@@ -294,17 +300,19 @@ class QCSpecEditorDialog:
                 return
             messagebox.showwarning("경고", "편집할 항목을 선택하세요.")
             return
-            
+
         item = self.spec_tree.item(selection[0])
         values = item['values']
-        
+
         # 현재 값으로 다이얼로그 초기화
         current_spec = {
-            'item_name': values[0],
-            'min_spec': values[1],
-            'max_spec': values[2],
-            'unit': values[3],
-            'enabled': values[4] == '✓'
+            'module': values[0],
+            'part': values[1],
+            'item_name': values[2],
+            'min_spec': values[3],
+            'max_spec': values[4],
+            'unit': values[5],
+            'enabled': values[6] == '✓'
         }
         
         dialog = SpecItemDialog(self.dialog, current_spec)
@@ -388,7 +396,7 @@ class SpecItemDialog:
         """다이얼로그 표시"""
         self.dialog = tk.Toplevel(self.parent)
         self.dialog.title("스펙 항목 편집")
-        self.dialog.geometry("400x250")
+        self.dialog.geometry("400x300")
         
         # 중앙 배치
         self.dialog.transient(self.parent)
@@ -405,9 +413,11 @@ class SpecItemDialog:
         """UI 생성"""
         frame = ttk.Frame(self.dialog, padding="20")
         frame.pack(fill=tk.BOTH, expand=True)
-        
+
         # 입력 필드
         fields = [
+            ("Module:", 'module', str),
+            ("Part:", 'part', str),
             ("Item Name:", 'item_name', str),
             ("Min Spec:", 'min_spec', float),
             ("Max Spec:", 'max_spec', float),
