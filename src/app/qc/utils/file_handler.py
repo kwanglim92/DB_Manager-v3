@@ -199,3 +199,34 @@ class FileHandler:
             return False, f"지원하지 않는 파일 형식: {ext}"
 
         return True, None
+
+    @staticmethod
+    def load_files(file_paths: list) -> Optional[Dict[str, Any]]:
+        """
+        여러 파일을 로드하고 하나의 파라미터 딕셔너리로 병합
+
+        Args:
+            file_paths: 파일 경로 리스트
+
+        Returns:
+            Dict: 병합된 파라미터 딕셔너리 (실패 시 None)
+        """
+        merged_params = {}
+
+        for file_path in file_paths:
+            # 파일 유효성 검증
+            valid, error = FileHandler.validate_file(file_path)
+            if not valid:
+                print(f"파일 유효성 검증 실패: {error}")
+                continue
+
+            # 파일 로드 및 파싱
+            params, error = FileHandler.load_and_parse(file_path)
+            if error:
+                print(f"파일 로드 실패: {error}")
+                continue
+
+            # 파라미터 병합
+            merged_params.update(params)
+
+        return merged_params if merged_params else None
