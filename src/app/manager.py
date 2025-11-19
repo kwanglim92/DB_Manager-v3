@@ -6,7 +6,6 @@ import sys, os
 from datetime import datetime
 from app.schema import DBSchema
 from app.loading import LoadingDialog
-from app.qc import add_qc_check_functions_to_class
 # Default DB 기능 제거됨 - 리팩토링으로 중복 코드 정리
 from app.utils import create_treeview_with_scrollbar, create_label_entry_pair, format_num_value
 from app.data_utils import numeric_sort_key, calculate_string_similarity
@@ -73,9 +72,6 @@ class DBManager:
             traceback.print_exc()
             self.db_schema = None
 
-        add_qc_check_functions_to_class(DBManager)
-        # Default DB 기능 제거됨 - 리팩토링 완료
-        
         # 서비스 레이어 초기화 (DB 스키마 초기화 후)
         self._setup_service_layer()
         
@@ -909,39 +905,6 @@ class DBManager:
             error_msg = f"QC 검수 탭 이동 중 오류: {str(e)}"
             self.update_log(f"❌ {error_msg}")
             messagebox.showerror("오류", error_msg)
-
-    def perform_qc_check(self):
-        """QC 검수 실행 - 통합 QC 시스템 사용"""
-        try:
-            from app.simplified_qc_system import perform_simplified_qc_check
-            
-            self.update_log("🚀 간소화된 QC 검수 시스템 시작...")
-            
-            # 검수 모드 결정
-            mode = "comprehensive"  # 기본값
-            
-            # QC 모드 변수가 있는 경우 확인
-            if hasattr(self, 'qc_mode_var'):
-                qc_mode = self.qc_mode_var.get()
-                if qc_mode == "performance":
-                    mode = "checklist_only"
-            
-            self.update_log(f"🔍 QC 검수 모드: {mode}")
-            
-            # 간소화된 QC 시스템 실행
-            perform_simplified_qc_check(self, mode)
-            
-        except ImportError as e:
-            error_msg = f"QC 시스템을 불러올 수 없습니다: {str(e)}"
-            self.update_log(f"❌ {error_msg}")
-            messagebox.showerror("시스템 오류", error_msg)
-            return False
-                
-        except Exception as e:
-            error_msg = f"QC 검수 실행 중 오류: {str(e)}"
-            self.update_log(f"❌ {error_msg}")
-            messagebox.showerror("오류", error_msg)
-            return False
 
     def create_report_tab_in_qc(self):
         """QC 노트북에 보고서 탭 생성"""
@@ -2597,82 +2560,6 @@ class DBManager:
             self.update_log("🎉 새로운 QC 탭 컨트롤러로 탭이 생성되었습니다!")
             self.update_log("   ✅ 리팩토링된 UI 적용됨")
             self.update_log("   ✅ 최종 보고서 기능 포함됨")
-            return  # 여기서 메서드 종료 (기존 코드 실행 방지)
-            
-            # 🆕 src/app/qc.py의 완전한 QC 탭 기능 사용
-            # 기존 기본 탭 대신 고급 QC 기능이 포함된 탭 생성
-            
-            # 상단 컨트롤 프레임
-            control_frame = ttk.Frame(self.qc_check_frame)
-            control_frame.pack(fill=tk.X, padx=5, pady=5)
-
-            # 장비 유형 선택 프레임
-            type_frame = ttk.LabelFrame(control_frame, text="장비 유형 선택", padding=10)
-            type_frame.pack(side=tk.LEFT, fill=tk.X, expand=True, padx=(0, 5))
-
-            # 장비 유형 콤보박스
-            ttk.Label(type_frame, text="장비 유형:").pack(side=tk.LEFT, padx=(0, 5))
-            self.qc_type_var = tk.StringVar()
-            self.qc_type_combobox = ttk.Combobox(type_frame, textvariable=self.qc_type_var, state="readonly", width=20)
-            self.qc_type_combobox.pack(side=tk.LEFT, padx=(0, 10))
-
-            # 🆕 새로고침 버튼 추가
-            refresh_btn = ttk.Button(type_frame, text="🔄 목록 새로고침", command=self.refresh_qc_equipment_types)
-            refresh_btn.pack(side=tk.LEFT, padx=(5, 10))
-
-            # QC 실행 버튼
-            qc_btn = ttk.Button(type_frame, text="QC 검수 실행", command=self.perform_qc_check)
-            qc_btn.pack(side=tk.LEFT, padx=(0, 5))
-
-            # 검수 결과 프레임
-            middle_frame = ttk.LabelFrame(self.qc_check_frame, text="검수 결과", padding=10)
-            middle_frame.pack(fill=tk.BOTH, expand=True, padx=5, pady=5)
-
-            # 검수 결과 트리뷰
-            from app.widgets import create_treeview_with_scrollbar
-            
-            columns = ("parameter", "issue_type", "description", "severity")
-            headings = {
-                "parameter": "파라미터", 
-                "issue_type": "문제 유형", 
-                "description": "설명", 
-                "severity": "심각도"
-            }
-            column_widths = {
-                "parameter": 200, 
-                "issue_type": 150, 
-                "description": 300, 
-                "severity": 100
-            }
-
-            qc_result_frame, self.qc_result_tree = create_treeview_with_scrollbar(
-                middle_frame, columns, headings, column_widths, height=15)
-            qc_result_frame.pack(fill=tk.BOTH, expand=True, padx=5, pady=5)
-
-            # 검수 통계 프레임
-            bottom_frame = ttk.LabelFrame(self.qc_check_frame, text="검수 통계", padding=10)
-            bottom_frame.pack(fill=tk.BOTH, expand=True, padx=5, pady=5)
-
-            self.stats_frame = ttk.Frame(bottom_frame)
-            self.stats_frame.pack(side=tk.LEFT, fill=tk.BOTH, expand=True, padx=5, pady=5)
-
-            self.chart_frame = ttk.Frame(bottom_frame)
-            self.chart_frame.pack(side=tk.RIGHT, fill=tk.BOTH, expand=True, padx=5, pady=5)
-
-            # 장비 유형 목록 로드
-            self.load_equipment_types_for_qc()
-            
-            # 생성된 탭으로 자동 이동
-            for tab_id in range(self.main_notebook.index('end')):
-                try:
-                    tab_text = self.main_notebook.tab(tab_id, 'text')
-                    if tab_text == "QC 검수":
-                        self.main_notebook.select(tab_id)
-                        break
-                except tk.TclError:
-                    continue
-            
-            self.update_log("✅ QC 검수 탭 생성 및 활성화 완료")
             
         except Exception as e:
             error_msg = f"QC 검수 탭 생성 중 오류: {str(e)}"
@@ -5132,35 +5019,6 @@ class DBManager:
         finally:
             if conn:
                 conn.close()
-
-    def perform_qc_check(self):
-        """통합 QC 검수 실행 - 중복 함수 제거됨"""
-        try:
-            from app.simplified_qc_system import perform_simplified_qc_check
-            
-            # 검수 모드 결정
-            mode = "comprehensive"  # 기본값
-            
-            # QC 모드 변수가 있는 경우 확인
-            if hasattr(self, 'qc_mode_var'):
-                qc_mode = self.qc_mode_var.get()
-                if qc_mode == "performance":
-                    mode = "checklist_only"
-            
-            self.update_log(f"🔍 간소화된 QC 검수 시작 - 모드: {mode}")
-            
-            # 간소화된 QC 시스템 실행
-            perform_simplified_qc_check(self, mode)
-            
-        except ImportError as e:
-            error_msg = f"QC 시스템을 불러올 수 없습니다: {str(e)}"
-            self.update_log(f"❌ {error_msg}")
-            messagebox.showerror("시스템 오류", error_msg)
-            
-        except Exception as e:
-            error_msg = f"QC 검수 실행 중 오류: {str(e)}"
-            self.update_log(f"❌ {error_msg}")
-            messagebox.showerror("오류", error_msg)
 
     def toggle_performance_status(self):
         """선택된 파라미터의 Performance 상태 토글"""
