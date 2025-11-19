@@ -20,11 +20,10 @@ class ResultTableWidget(QTableWidget):
 
     def setup_ui(self):
         """UI 설정"""
-        # 기본 컬럼 설정
-        self.setColumnCount(9)
+        # 기본 컬럼 설정 (간소화: 불필요한 컬럼 제거)
+        self.setColumnCount(4)
         self.setHorizontalHeaderLabels([
-            'Result', 'Display Name', 'Item Name', 'Module', 'Part',
-            'Value', 'Spec', 'Category', 'Description'
+            'Result', 'Display Name', 'Value', 'Spec'
         ])
 
         # 헤더 설정
@@ -65,26 +64,11 @@ class ResultTableWidget(QTableWidget):
             # Display Name
             self.setItem(row, 1, QTableWidgetItem(result.get('display_name', '')))
 
-            # Item Name
-            self.setItem(row, 2, QTableWidgetItem(result.get('item_name', '')))
-
-            # Module
-            self.setItem(row, 3, QTableWidgetItem(result.get('module', '')))
-
-            # Part
-            self.setItem(row, 4, QTableWidgetItem(result.get('part', '')))
-
             # Value
-            self.setItem(row, 5, QTableWidgetItem(str(result.get('file_value', ''))))
+            self.setItem(row, 2, QTableWidgetItem(str(result.get('file_value', ''))))
 
             # Spec
-            self.setItem(row, 6, QTableWidgetItem(result.get('spec', '')))
-
-            # Category
-            self.setItem(row, 7, QTableWidgetItem(result.get('category', '')))
-
-            # Description
-            self.setItem(row, 8, QTableWidgetItem(result.get('description', '')))
+            self.setItem(row, 3, QTableWidgetItem(result.get('spec', '')))
 
         self.setSortingEnabled(True)
         self.resizeColumnsToContents()
@@ -102,9 +86,8 @@ class ResultTableWidget(QTableWidget):
             if result_item and '❌' in result_item.text():
                 failed_results.append({
                     'display_name': self.item(row, 1).text() if self.item(row, 1) else '',
-                    'value': self.item(row, 5).text() if self.item(row, 5) else '',
-                    'spec': self.item(row, 6).text() if self.item(row, 6) else '',
-                    'category': self.item(row, 7).text() if self.item(row, 7) else ''
+                    'value': self.item(row, 2).text() if self.item(row, 2) else '',
+                    'spec': self.item(row, 3).text() if self.item(row, 3) else ''
                 })
         return failed_results
 
